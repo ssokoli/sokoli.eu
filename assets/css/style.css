@@ -244,6 +244,21 @@ p { margin: 0 0 var(--space-3); }
 .post-content p { overflow-wrap: anywhere; }
 
 /* ---------------------------------------------------------
+   Notes
+--------------------------------------------------------- */
+.note-list { list-style: none; margin: var(--space-2) 0 0; padding: 0; max-width: var(--measure); border-top: 1px solid var(--rule); }
+.note { padding: var(--space-3) 0; border-bottom: 1px solid var(--rule); content-visibility: auto; contain-intrinsic-size: auto 160px; }
+.note-meta { margin: 0 0 var(--space-1); font-family: var(--mono); font-size: 0.78rem; }
+.note-date { color: var(--accent); }
+.note-source { color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.05em; margin-left: 0.5rem; }
+.note-text p { margin: 0 0 0.5rem; overflow-wrap: anywhere; }
+.note-media { display: flex; flex-wrap: wrap; gap: var(--space-1); margin-top: var(--space-1); }
+.note-media a { display: block; }
+.note-media img, .note-media video { width: 160px; height: 160px; object-fit: cover; background: #000; }
+.note-media video[controls] { width: 100%; height: auto; max-width: 480px; object-fit: contain; }
+.note-doc { font-family: var(--mono); font-size: 0.85rem; }
+
+/* ---------------------------------------------------------
    Footer
 --------------------------------------------------------- */
 .site-footer {

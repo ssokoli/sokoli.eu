@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="page">
+  <header class="page-header">
+    {% if page.cue %}<span class="cue">{{ page.cue }}</span>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.dek %}<p class="dek">{{ page.dek }}</p>{% endif %}
+  </header>
+  {% if page.sub %}
+  <div class="sub"><p>{{ page.sub }}</p></div>
+  {% endif %}
+  <div class="page-content">{{ content }}</div>
+  {% assign years = site.data.notes | group_by_exp: "n", "n.date | slice: 0, 4" %}
+  {% for year in years %}
+  <h2 class="post-year" id="y{{ year.name }}">{{ year.name }}</h2>
+  <ol class="note-list">
+    {% for n in year.items %}
+    <li class="note" lang="{{ n.lang | downcase }}">
+      <p class="note-meta"><span class="note-date">{{ n.date | date: "%d.%m.%Y" }}</span> <span class="note-source">{{ n.source }}</span></p>
+      <div class="note-text">{{ n.html }}</div>
+      {% if n.link %}<p class="post-link"><a href="{{ n.link }}">{{ n.link_title }}</a></p>{% endif %}
+      {% if n.media.size > 0 %}
+      <div class="note-media">
+        {% for m in n.media %}
+          {% if m.type == "image" %}<a href="{{ m.src | relative_url }}"><img src="{{ m.src | relative_url }}" alt="" loading="lazy"></a>
+          {% elsif m.type == "gif" %}<video src="{{ m.src | relative_url }}" autoplay loop muted playsinline preload="none"></video>
+          {% elsif m.type == "video" %}<video src="{{ m.src | relative_url }}" controls preload="none" playsinline{% if m.poster %} poster="{{ m.poster | relative_url }}"{% endif %}></video>
+          {% elsif m.type == "pdf" %}<a class="note-doc" href="{{ m.src | relative_url }}">{{ m.title }} (PDF)</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% endfor %}
+</article>
