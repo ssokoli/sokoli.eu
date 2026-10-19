@@ -13,8 +13,11 @@ layout: default
   <div class="page-content">
     {{ content }}
   </div>
+  {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in years %}
+  <h2 class="post-year">{{ year.name }}</h2>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in year.items %}
     <li class="post-list-item">
       <a href="{{ post.url | relative_url }}">
         <span class="post-list-date">{{ post.date | date: "%d.%m.%Y" }}</span>
@@ -24,4 +27,5 @@ layout: default
     </li>
     {% endfor %}
   </ul>
+  {% endfor %}
 </article>

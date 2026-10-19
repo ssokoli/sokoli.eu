@@ -229,6 +229,19 @@ p { margin: 0 0 var(--space-3); }
   font-size: 0.85rem;
 }
 .post-footer a { text-decoration: none; }
+.post-year {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin: var(--space-4) 0 0;
+}
+.post-media { max-width: var(--measure); margin: var(--space-3) 0; }
+.post-media img, .post-media video { display: block; width: 100%; height: auto; background: #000; }
+.post-media-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-1); align-items: start; }
+@media (max-width: 600px) { .post-media-grid { grid-template-columns: 1fr; } }
+.post-doc a, .post-link a { font-family: var(--mono); font-size: 0.85rem; }
+.post-content p { overflow-wrap: anywhere; }
 
 /* ---------------------------------------------------------
    Footer
