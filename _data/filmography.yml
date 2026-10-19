@@ -17,33 +17,33 @@
   pair: "EN > EL"
 
 - title: "The Leopard"
-  year: 2025
+  year: "2025"
   type: series
   season: "S1"
   pair: "IT > EL"
 
 - title: "The Six Triple Eight"
-  year: 2024
+  year: "2024"
   type: film
   pair: "EN > EL"
 
 - title: "The Perfect Couple"
-  year: 2024
+  year: "2024"
   type: series
   pair: "EN > EL"
 
 - title: "Love is Blind: Habibi"
-  year: 2024
+  year: "2024"
   type: series
   pair: "EN > EL"
 
 - title: "Las Hermanas Guerra"
-  year: 2024
+  year: "2024"
   type: series
   pair: "ES > EL"
 
 - title: "Inganno"
-  year: 2024
+  year: "2024"
   type: series
   pair: "IT > EL"
 
@@ -53,232 +53,232 @@
   pair: "EN > EL"
 
 - title: "Pain Hustlers"
-  year: 2023
+  year: "2023"
   type: film
   pair: "EN > EL"
 
 - title: "No estás sola: La lucha contra La Manada"
-  year: 2024
+  year: "2024"
   type: film
   pair: "ES > EL"
 
 - title: "Totally Killer"
-  year: 2023
+  year: "2023"
   type: film
   pair: "EN > EL"
 
 - title: "The Fall of the House of Usher"
-  year: 2023
+  year: "2023"
   type: series
   season: "S1"
   pair: "EN > EL"
   role: "Subtitle QC"
 
 - title: "Beckham"
-  year: 2023
+  year: "2023"
   type: series
   pair: "EN > EL"
 
 - title: "Briganti"
-  year: 2023
+  year: "2023"
   type: series
   season: "S1"
   pair: "IT > EL"
 
 - title: "Chavorrucos"
-  year: 2023
+  year: "2023"
   type: series
   pair: "ES > EL"
 
 - title: "The Mighty Ducks: Game Changers"
-  year: 2021
+  year: "2021"
   type: series
   season: "S1"
   pair: "EN > EL"
   role: "Subtitle QC"
 
 - title: "Kate"
-  year: 2021
+  year: "2021"
   type: film
   pair: "EN > EL"
 
 - title: "The Fosters"
-  year: 2021
+  year: "2021"
   type: series
   season: "S5"
   pair: "EN > EL"
 
 - title: "Siren"
-  year: 2020
+  year: "2020"
   type: series
   season: "S3"
   pair: "EN > EL"
 
 - title: "Mank"
-  year: 2020
+  year: "2020"
   type: film
   pair: "EN > EL"
 
 - title: "Rebecca"
-  year: 2020
+  year: "2020"
   type: film
   pair: "EN > EL"
 
 - title: "Tales from the Loop"
-  year: 2020
+  year: "2020"
   type: series
   pair: "EN > EL"
 
 - title: "Mismatched"
-  year: 2020
+  year: "2020"
   type: series
   pair: "EN > EL"
 
 - title: "Goliath"
-  year: 2019
+  year: "2019"
   type: series
   season: "S3"
   pair: "EN > EL"
 
 - title: "Élite"
-  year: 2019
+  year: "2019"
   type: series
   season: "S2"
   pair: "ES > EL"
   role: "Subtitle QC"
 
 - title: "Sorry to Bother You"
-  year: 2019
+  year: "2019"
   type: film
   pair: "EN > EL"
 
 - title: "Daredevil"
-  year: 2018
+  year: "2018"
   type: series
   pair: "EN > EL"
 
 - title: "The Grinch"
-  year: 2018
+  year: "2018"
   type: film
   pair: "EN > EL"
 
 - title: "Truth or Dare"
-  year: 2018
+  year: "2018"
   type: film
   pair: "EN > EL"
 
 - title: "Las leyes de la termodinámica"
-  year: 2018
+  year: "2018"
   type: film
   pair: "ES > EL"
 
 - title: "Pokémon"
-  year: 2020
+  year: "2020"
   type: series
   pair: "EN > EL"
   role: "SDH authoring"
 
 - title: "Ocean's Thirteen"
-  year: 2007
+  year: "2007"
   type: film
   pair: "EN > EL"
 
 - title: "Marcelino pan y vino"
-  year: 1955          # film year; subtitled 2002
+  year: "1955"          # film year; subtitled 2002
   type: film
   pair: "ES > EL"
 
 - title: "Spy Game"
-  year: 2002
+  year: "2002"
   type: film
   pair: "EN > EL"
 
 - title: "A Beautiful Mind"
-  year: 2001
+  year: "2001"
   type: film
   pair: "EN > EL"
 
 - title: "Physical: 100 Italia"
-  year: 2026
+  year: "2026"
   type: series
   pair: "IT > EL"
 
 - title: "Shipwrecked: Nightmare at Sea"
-  year: 2026
+  year: "2026"
   type: film          # VERIFY: film or series?
   pair: "EN > EL"
 
 - title: "Fighting with My Family"
-  year: 2019
+  year: "2019"
   type: film
   pair: "EN > EL"
 
 - title: "Ram Dass, Going Home"
-  year: 2017
+  year: "2017"
   type: film
   pair: "EN > EL"     # doc short; she dates it 2018 (subtitled)
 
 - title: "Mr. Roosevelt"
-  year: 2017
+  year: "2017"
   type: film
   pair: "EN > EL"
 
 - title: "The Lodgers"
-  year: 2017          # subtitled 2018 (Epic Pictures)
+  year: "2017"          # subtitled 2018 (Epic Pictures)
   type: film
   pair: "EN > EL"
 
 - title: "2 Fast 2 Furious"
-  year: 2003
+  year: "2003"
   type: film
   pair: "EN > EL"
 
 - title: "Scooby-Doo! and the Monster of Mexico"
-  year: 2003
+  year: "2003"
   type: film
   pair: "EN > EL"
 
 - title: "Threshold"
-  year: 2003
+  year: "2003"
   type: film
   pair: "EN > EL"
 
 - title: "The Scorpion King"
-  year: 2002
+  year: "2002"
   type: film
   pair: "EN > EL"
 
 - title: "The Sweetest Thing"
-  year: 2002
+  year: "2002"
   type: film
   pair: "EN > EL"
 
 - title: "How High"
-  year: 2001          # subtitled 2002
+  year: "2001"          # subtitled 2002
   type: film
   pair: "EN > EL"
 
 - title: "Dante's Peak"
-  year: 1997          # subtitled 2002
+  year: "1997"          # subtitled 2002
   type: film
   pair: "EN > EL"
 
 - title: "Liar Liar"
-  year: 1997          # subtitled 2002
+  year: "1997"          # subtitled 2002
   type: film
   pair: "EN > EL"
 
 - title: "Young Guns II"
-  year: 1990          # subtitled 2003
+  year: "1990"          # subtitled 2003
   type: film
   pair: "EN > EL"
 
 - title: "Into the Night"
-  year: 1985          # VERIFY: assumed the 1985 John Landis film, subtitled 2002
+  year: "1985"          # VERIFY: assumed the 1985 John Landis film, subtitled 2002
   type: film
   pair: "EN > EL"
 
 - title: "Back to the Future"
-  year: 1985          # subtitled 2002
+  year: "1985"          # subtitled 2002
   type: film
   pair: "EN > EL"
