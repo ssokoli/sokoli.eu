@@ -1,0 +1,164 @@
+# Publications — one entry per item, from the CV.
+# DOIs included ONLY where stated in the CV or verified against Crossref.
+# Fields: authors, year, title, in (container: journal or book), detail
+# (publisher/pages/eds), doi (bare, no URL prefix), url (when no DOI exists).
+
+- authors: "Dore, M., Bolaños, A. & Sokoli, S."
+  year: "forthcoming"
+  title: "Audiovisual Translation and Media Accessibility in Language Education: Looking Back and Moving Forward"
+  in: "Audiovisual Translation and Media Accessibility in Education"
+  detail: "Peter Lang"
+
+- authors: "Sokoli, S., Laskari, I. & Mavrommati, I."
+  year: "forthcoming"
+  title: "Collaborative curation in distance education for design"
+  in: "EAI ArtsIT 2025 proceedings"
+  detail: "to be published in 2026"
+
+- authors: "Sokoli, S. & Aleksandrowicz, P."
+  year: 2026
+  title: "Subtitling for Translation and Accessibility"
+  in: "The Routledge Handbook of the Translation Industry"
+  detail: "Lambert, J. & Walker, C. (eds), Routledge"
+  doi: "10.4324/9781003381303-8"
+
+- authors: "Sokoli, S."
+  year: 2026
+  title: "El flujo profesional en la traducción audiovisual y la accesibilidad en los medios"
+  in: "Presente y futuro de la traducción audiovisual y accesibilidad en los medios"
+  detail: "Ávila Cabrera, J. et al. (eds), Editorial UNED"
+
+- authors: "Laskari, I., Sokoli, S. & Mavrommati, I."
+  year: 2026
+  title: "From Isolation to Community. Collaborative XR curation for distance education in design"
+  in: "International Conference for Open and Distance Education, 13(7)"
+  doi: "10.12681/icodl.8629"
+
+- authors: "Zotaki, M., Manias, D., Mavrommati, I., Laskari, I. & Sokoli, S."
+  year: 2025
+  title: "AI and universities: Critical thinking, personalised pathways, recognised skills"
+  in: "Engage, Adapt, Include. Proceedings of the Innovating Higher Education Conference 2025"
+  detail: "EADTU"
+  doi: "10.5281/zenodo.17813119"
+
+- authors: "Manias, D. & Sokoli, S."
+  year: 2025
+  title: "IdeasLand: Sculpting Creativity with Constraints in Human-AI Collaboration. An AI-first approach"
+  in: "International Conference for Open and Distance Education, 13(6)"
+  detail: "pp. 291–314"
+  doi: "10.12681/icodl.8564"
+
+- authors: "Agulló Garcia, B., Orrego-Carmona, D., Spiteri Miggiani, G., Menezes, R., Valdez, S., Sokoli, S. & Pięta, H."
+  year: 2024
+  title: "Indirect (pivot) audiovisual translation: a conversation"
+  in: "Perspectives, 32(5)"
+  detail: "pp. 849–866"
+  doi: "10.1080/0907676X.2024.2374643"
+
+- authors: "Sokoli, S. & Zabalbeascoa, P."
+  year: 2019
+  title: "Audiovisual Activities and Multimodal Resources for Foreign Language Learning"
+  in: "Using Film and Media in the Language Classroom"
+  detail: "Herrero, C. & Vanderschelden, I. (eds), Multilingual Matters, pp. 170–187"
+  doi: "10.21832/9781788924498-015"
+
+- authors: "Sokoli, S., Pujol, M. & Santamaría, L."
+  year: 2019
+  title: "Researching the Presence of Third Languages (L3) in AV Fiction"
+  in: "Translating Audiovisuals in a Kaleidoscope of Languages"
+  detail: "Corrius, M. et al. (eds), Peter Lang, pp. 69–87"
+
+- authors: "Sokoli, S."
+  year: 2018
+  title: "Exploring the possibilities of interactive audiovisual activities for language learning"
+  in: "Translation and Translanguaging in Multilingual Contexts, 4(1)"
+  detail: "pp. 78–101"
+  doi: "10.1075/ttmc.00005.sok"
+
+- authors: "Zabalbeascoa, P. & Sokoli, S."
+  year: 2018
+  title: "The Trafilm Guide: how the trafilm database works"
+  in: "Repositori UPF"
+  url: "http://hdl.handle.net/10230/28223"
+
+- authors: "Strani, K., Fountana, M., Sokoli, S. & Monteoliva, E."
+  year: 2016
+  title: "Attitudes to 'Race' in the Media: Evidence from Greece and the United Kingdom"
+  in: "Rivista VOCI, XIII"
+  detail: "pp. 148–170"
+
+- authors: "Sokoli, S."
+  year: 2015
+  title: "Foreign Language Learning through Interactive Revoicing and Captioning of Clips"
+  in: "Subtitles and Language Learning"
+  detail: "Gambier, Y., Caimi, A. & Mariotti, C. (eds), Peter Lang, pp. 127–147"
+
+- authors: "Baños, R. & Sokoli, S."
+  year: 2015
+  title: "Learning foreign languages with ClipFlair: Using captioning and revoicing activities to increase students' motivation and engagement"
+  in: "10 Years of the LLAS Elearning Symposium: Case Studies in Good Practice"
+  detail: "Research-publishing.net, pp. 203–213"
+  doi: "10.14705/rpnet.2015.000280"
+
+- authors: "Sokoli, S., Zabalbeascoa, P. & Fountana, M."
+  year: 2011
+  title: "Subtitling Activities for Foreign Language Learning: What Learners and Teachers Think"
+  in: "Audiovisual Translation. Subtitles and Subtitling: Theory and Practice"
+  detail: "Incalcaterra McLoughlin, L., Biscio, M. & Ní Mhainnín, M.Á. (eds), Peter Lang, pp. 219–242"
+
+- authors: "Romero, L., Torres-Hostench, O. & Sokoli, S."
+  year: 2011
+  title: "La subtitulación al servicio del aprendizaje de lenguas para traductores: el entorno LvS"
+  in: "Babel: Revue Internationale de la Traduction, 57(3)"
+  doi: "10.1075/babel.57.3.04rom"
+
+- authors: "Kostaras, N., Stavrinoudis, D., Sokoli, S. & Xenos, M."
+  year: 2010
+  title: "Combining Experimental and Inquiry Methods in Software Usability Evaluation: The paradigm of LvS Educational Software"
+  in: "Journal of Systems and Information Technology, 12(2)"
+  detail: "pp. 120–139"
+  doi: "10.1108/13287261011042921"
+
+- authors: "Sokoli, S."
+  year: 2009
+  title: "Subtitling Norms in Greece and Spain"
+  in: "Audiovisual Translation: Language Transfer on Screen"
+  detail: "Díaz Cintas, J. & Anderman, G. (eds), Palgrave Macmillan"
+  doi: "10.1057/9780230234581_3"
+
+- authors: "Sokoli, S."
+  year: 2006
+  title: "Learning via Subtitling (LvS): A tool for the creation of foreign language learning activities based on film subtitling"
+  in: "Audiovisual Translation Scenarios: Proceedings of the Marie Curie Euroconferences MuTra"
+  detail: "Carroll, M. & Gerzymisch-Arbogast, H. (eds)"
+  url: "http://www.euroconferences.info/proceedings/2006_Proceedings/2006_Sokoli_Stravoula.pdf"
+
+- authors: "Sokoli, S."
+  year: 2005
+  title: "Omisión y Distribución de Subtítulos en España y Grecia: Cómo y Por Qué"
+  in: "Trasvases Culturales 4: Literatura, Cine y Traducción"
+  detail: "Merino, R. et al. (eds), Universidad del País Vasco, pp. 271–283"
+
+- authors: "Sokoli, S."
+  year: 2005
+  title: "Temas de investigación en traducción audiovisual: La definición del texto audiovisual"
+  in: "La Traducción Audiovisual: Investigación, Enseñanza y Profesión"
+  detail: "Zabalbeascoa, P. et al. (eds), Editorial Comares, pp. 177–185"
+
+- authors: "Hadzilacos, T., Papadakis, S. & Sokoli, S."
+  year: 2004
+  title: "Learner's Version of a Professional Environment: Film Subtitling as an ICTE Tool for Foreign Language Learning"
+  in: "Proceedings of E-Learn 2004"
+  detail: "Richards, G. (ed.), AACE, pp. 680–685"
+
+- authors: "Sokoli, S."
+  year: 2002
+  title: "Catálogo de herramientas para la localización de software y páginas web"
+  in: "Revista Tradumàtica: Traducció i Tecnologies de la Informació i la Comunicació"
+  detail: "Universitat Autònoma de Barcelona"
+
+- authors: "Sokoli, S."
+  year: 2001
+  title: "El uso de cuestionarios como método para la búsqueda de normas de traducción"
+  in: "Últimas corrientes teóricas en los estudios de traducción y sus aplicaciones"
+  detail: "Barr, A., Martín Ruano, M.R. & Torres del Rey, J. (eds), Universidad de Salamanca, pp. 772–775"

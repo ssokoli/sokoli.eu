@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<article class="page">
+  <header class="page-header">
+    {% if page.cue %}<span class="cue">{{ page.cue }}</span>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.dek %}<p class="dek">{{ page.dek }}</p>{% endif %}
+  </header>
+  {% if page.sub %}
+  <div class="sub"><p>{{ page.sub }}</p></div>
+  {% endif %}
+  <div class="page-content">
+    {{ content }}
+  </div>
+
+  {% assign works = site.data.filmography | sort: "year" | reverse %}
+  <ul class="film-grid">
+    {% for work in works %}
+    {% assign auto = site.data.posters[work.title] %}
+    <li class="film-card">
+      {% if work.poster %}
+      <div class="film-poster">
+        <img src="{{ '/assets/posters/' | append: work.poster | relative_url }}" alt="Poster: {{ work.title }}" loading="lazy">
+      </div>
+      {% elsif auto %}
+      <div class="film-poster">
+        <img src="{{ '/assets/posters/' | append: auto | relative_url }}" alt="Poster: {{ work.title }}" loading="lazy">
+      </div>
+      {% else %}
+      <div class="film-poster film-poster-card">
+        <p class="film-card-title">{{ work.title }}</p>
+      </div>
+      {% endif %}
+      <div class="film-meta">
+        <span class="film-title">{{ work.title }}</span>
+        <span class="film-detail">
+          {{ work.type }}{% if work.season %} {{ work.season }}{% endif %}{% if work.year != "" %} &middot; {{ work.year }}{% endif %}
+        </span>
+        <span class="film-detail film-pair">
+          {{ work.pair }}{% if work.role %} &middot; {{ work.role }}{% endif %}
+        </span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="film-detail film-attribution">Poster images via <a href="https://www.themoviedb.org/">TMDB</a>. This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</p>
+</article>

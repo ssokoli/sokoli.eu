@@ -1,0 +1,27 @@
+title: "Stavroula Sokoli"
+description: "Subtitler, audiovisual translator, and researcher on subtitling, audiovisual translation, and AI in education."
+url: "https://sokoli.eu"
+baseurl: ""
+author: "Stavroula Sokoli"
+
+markdown: kramdown
+permalink: /journal/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - scripts
