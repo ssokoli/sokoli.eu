@@ -5,6 +5,7 @@
   role: "Scientific lead"
   funder: "National project, CTI \"Diophantus\""
   desc: "Frameworks, guidelines, and internal practices for the responsible use of AI in the operational systems of ΔιΠΕΚ: assessment of international and national research directions, integration of AI functions, and capacity-building so that AI serves as a support tool rather than a substitute for human judgement."
+  image: "plaisia.png"
 
 - name: "FOIL — Online Training for the Language Industries"
   years: "2021–2023"
@@ -19,18 +20,21 @@
   role: "Scientific lead for CTI (partner)"
   funder: "Erasmus+ Strategic Partnerships (2019-1-ES01-KA201-063967) — coordinated by Universidad de Málaga"
   desc: "A mobile app and teaching materials to encourage reading in school communities: team coordination, app specifications, and educational strategies for promoting reading across age groups."
+  image: "readcom.png"
 
 - name: "DigiVET"
   years: "2018–2020"
   role: "Scientific lead for CTI (partner)"
   funder: "Erasmus+ Strategic Partnerships for Youth — Centrum Edukacyjne EST, Poland"
   desc: "A digitally enriched curriculum bridging formal and non-formal vocational education and training: online learning materials for young people building career-relevant digital skills."
+  image: "digivet.png"
 
 - name: "3D-LAB — Making with Brain, Technology and Hands"
   years: "2017–2019"
   role: "Scientific lead for CTI (partner)"
   funder: "Erasmus+ Strategic Partnerships for Youth — Centrum Edukacyjne EST, Poland"
   desc: "Design and development of an online environment for designing three-dimensional objects; CTI team coordination and partner liaison."
+  image: "3d-lab.png"
 
 - name: "MOVE-ME — MOOCs for University Students on the Move in Europe"
   years: "2015–2017"
@@ -38,12 +42,14 @@
   funder: "Erasmus+ KA2 (2015-1-IT02-KA203-015330)"
   desc: "Design and development of the Massive Open Online Course \"English for Academic Purposes\" on FutureLearn; CTI team coordination."
   link: "http://movemeproject.eu"
+  image: "move-me.png"
 
 - name: "Αριστεία — Academic and Scientific Excellence"
   years: "2011–2015"
   role: "Project coordination, CTI"
   funder: "ΕΣΠΑ (Greek national funds)"
   desc: "A hub promoting academic and scientific excellence in Greek higher education: liaison with Greek research and academic institutions, promotional websites and mini-documentaries, and an annual conference."
+  image: "aristeia.png"
 
 - name: "ClipFlair — Foreign Language Learning through Interactive Captioning and Revoicing of Clips"
   years: "2011–2014"
@@ -51,6 +57,7 @@
   funder: "EACEA, European Commission — LLP Languages KA2"
   desc: "Proposal, coordination of nine university partners, Spanish-learning activities based on revoicing, partner meetings, and the final conference."
   link: "https://web.archive.org/web/20141229192721/http://clipflair.net/"
+  image: "clipflair.png"
 
 - name: "LeViS — Learning via Subtitling"
   years: "2006–2008"
@@ -58,3 +65,4 @@
   funder: "EU Socrates / Lingua II"
   desc: "A software tool and methodology for foreign language learning through film-clip subtitling. Proposal, coordination of all six partners, Spanish-learning activity design, partner meetings and final workshop."
   link: "https://web.archive.org/web/20090117234819/http://levis.cti.gr/"
+  image: "levis.png"
