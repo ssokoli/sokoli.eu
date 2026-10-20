@@ -27,3 +27,11 @@ bundle exec jekyll serve
 Then open http://localhost:4000.
 
 This site does not require paid hosting or a database.
+
+## Portrait and talk videos
+
+The homepage and About page share the optimised portrait `assets/portrait-stavroula.avif`. The source was provided by the site owner; the deployed image is 420 × 420 pixels and uses AVIF compression.
+
+The Talks page features two video embeds and a thumbnail gallery generated from video IDs already listed in `_data/talks.yml`, `_data/presentations.yml`, and `_data/recordings.yml`. To add another **confirmed** recording, add its YouTube video ID to the appropriate YAML item. Do not present conference videos featuring other speakers as the site owner's talks.
+
+Event photos on third-party sites are linked, not copied. Download and republish them only after confirming reuse permission.
