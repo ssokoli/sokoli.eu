@@ -2,16 +2,25 @@
 layout: page
 permalink: /
 title: Stavroula Sokoli
+page_class: home-page
 cue: "00:00:00,000"
 dek: "Audiovisual translator, researcher and educator."
 sub: "What a subtitle leaves out can matter as much as what it says."
 ---
 
-<p class="lead">I translate films and series into Greek. I also research audiovisual translation, how it can support learning, and what new technologies mean for the people who work with language.</p>
-
-<p>For more than two decades, I have moved between professional subtitling, research, university teaching and collaborative technology projects. The connections between them are where my most interesting questions begin.</p>
-
-<p>Much of my recent work concerns AI in education and creative work: what it makes possible, what it changes, and how we recognise expertise in the process.</p>
+<div class="home-hero">
+  <div class="home-hero-copy">
+    <p class="hero-eyebrow">SCREEN TRANSLATION · RESEARCH · EDUCATION</p>
+    <p class="hero-statement">Words on screen.<br><em>Questions off screen.</em></p>
+    <p class="lead">I translate films and series into Greek. I research audiovisual translation, learning and the changing relationship between people, language and technology.</p>
+    <p class="hero-secondary">For more than two decades, professional subtitling, research and teaching have informed one another in my work.</p>
+    <p class="hero-links"><a href="/about/">More about me →</a> <a href="/contact/">Get in touch →</a></p>
+  </div>
+  <figure class="home-portrait">
+    <img src="{{ '/assets/portrait-stavroula.avif' | relative_url }}" alt="Stavroula Sokoli smiling outdoors" width="480" height="480" fetchpriority="high" decoding="async">
+    <figcaption>Translation · Research · Teaching</figcaption>
+  </figure>
+</div>
 
 <h2>Explore my work</h2>
 
@@ -43,3 +52,22 @@ sub: "What a subtitle leaves out can matter as much as what it says."
 <p>I work as a senior researcher at the Computer Technology Institute in Greece, teach at the Hellenic Open University and remain active as an audiovisual translator. I serve as Vice President of the European Association for Studies in Screen Translation (ESIST).</p>
 
 <p><a href="/about/">Read more about my background</a> · <a href="/contact/">Get in touch</a></p>
+
+<section class="home-watch" aria-labelledby="home-watch-title">
+  <div class="home-section-heading">
+    <div><p class="section-kicker">ON STAGE / ON SCREEN</p><h2 id="home-watch-title">Watch a talk</h2></div>
+    <a href="/talks/">All talks and recordings →</a>
+  </div>
+  <div class="watch-teasers">
+    <a class="watch-teaser" href="https://www.youtube.com/watch?v=OkXnDoqHV_k" target="_blank" rel="noopener noreferrer">
+      <span class="watch-teaser-image"><img src="https://i.ytimg.com/vi/OkXnDoqHV_k/hqdefault.jpg" width="480" height="360" alt="" loading="lazy"><span class="play-glyph" aria-hidden="true">▶</span></span>
+      <span class="watch-teaser-title">Beyond Hallucinations: The Illusion of Quality</span>
+      <span class="watch-teaser-meta">Athens · 2026 · Keynote</span>
+    </a>
+    <a class="watch-teaser" href="https://www.youtube.com/watch?v=GGIYJdJI1x4" target="_blank" rel="noopener noreferrer">
+      <span class="watch-teaser-image"><img src="https://i.ytimg.com/vi/GGIYJdJI1x4/hqdefault.jpg" width="480" height="360" alt="" loading="lazy"><span class="play-glyph" aria-hidden="true">▶</span></span>
+      <span class="watch-teaser-title">Las múltiples caras del multilingüismo</span>
+      <span class="watch-teaser-meta">Buenos Aires · 2018 · Invited talk</span>
+    </a>
+  </div>
+</section>
