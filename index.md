@@ -17,7 +17,7 @@ sub: "What a subtitle leaves out can matter as much as what it says."
     <p class="hero-links"><a href="/about/">More about me →</a> <a href="/contact/">Get in touch →</a></p>
   </div>
   <figure class="home-portrait">
-    <img src="{{ '/assets/portrait-stavroula.avif' | relative_url }}" alt="Stavroula Sokoli smiling outdoors" width="480" height="480" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/portrait-stavroula.avif' | relative_url }}" alt="Stavroula Sokoli smiling outdoors" width="420" height="420" fetchpriority="high" decoding="async">
     <figcaption>Translation · Research · Teaching</figcaption>
   </figure>
 </div>
