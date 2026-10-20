@@ -10,7 +10,7 @@ sub: "The interesting work often happens between disciplines."
 
 <div class="about-intro">
   <figure class="about-portrait">
-    <img src="{{ '/assets/portrait-stavroula.avif' | relative_url }}" alt="Stavroula Sokoli smiling outdoors, wearing a patterned blue shirt" width="480" height="480" loading="eager" decoding="async">
+    <img src="{{ '/assets/portrait-stavroula.avif' | relative_url }}" alt="Stavroula Sokoli smiling outdoors, wearing a patterned blue shirt" width="420" height="420" loading="eager" decoding="async">
     <figcaption>Stavroula Sokoli</figcaption>
   </figure>
   <div class="about-intro-copy">
