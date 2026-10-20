@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks
 cue: "00:02:00,000"
 dek: Invited talks, keynotes, and a quarter-century of conference presentations.
-sub: Twenty-five years of saying it out loud.
+sub: "A talk is the start of a conversation, not its conclusion."
 ---
 
 ## Invited talks & keynotes
