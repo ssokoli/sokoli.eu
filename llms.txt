@@ -1,0 +1,52 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+{%- comment -%}
+  A plain-text guide to this site for AI tools (llms.txt format, see llmstxt.org).
+  Page descriptions come from each page's `dek`, publications from
+  _data/publications.yml, so this file updates itself when those change.
+  Keep the summary paragraph factual and in line with the About page.
+{%- endcomment -%}
+# {{ site.title }}
+
+> {{ site.description }}
+
+Stavroula Sokoli is a senior researcher at the Computer Technology Institute and Press "Diophantus" (CTI) in Greece, teaches at the Hellenic Open University and works as an audiovisual translator, subtitling films and series into Greek. Since 2025 she has been doing postdoctoral research at the Hellenic Open University on artificial intelligence in education and audiovisual creation. She is Vice President of the European Association for Studies in Screen Translation (ESIST). She writes in English, Spanish, Greek and Catalan.
+
+Everything in this file also appears on the pages it links to.
+
+## Main pages
+{% assign order = "/about/,/research/,/projects/,/subtitles/,/talks/,/teaching/,/writing/,/journal/,/contact/" | split: "," -%}
+{% for u in order -%}
+{%- assign p = site.pages | where: "url", u | first -%}
+{%- if p %}
+- [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.dek }}
+{%- endif -%}
+{%- endfor %}
+
+## Contact and profiles
+
+- Email: stavroula@sokoli.eu
+- [ORCID](https://orcid.org/0000-0002-2970-8729)
+- [Google Scholar](https://scholar.google.com/citations?user=Q5VrkMAAAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/sokoli/)
+
+## Publications
+{% for pub in site.data.publications -%}
+{%- if pub.doi -%}
+{%- assign link = 'https://doi.org/' | append: pub.doi -%}
+{%- elsif pub.url -%}
+{%- assign link = pub.url -%}
+{%- else -%}
+{%- assign link = nil -%}
+{%- endif %}
+- {% if link %}[{{ pub.title }}]({{ link }}){% else %}{{ pub.title }}{% endif %}: {{ pub.authors }} ({{ pub.year }}). {{ pub.in }}.
+{%- endfor %}
+
+## Optional
+{% assign notes = site.pages | where: "url", "/notes/" | first %}
+- [Notes]({{ '/notes/' | absolute_url }}): {{ notes.dek }}
+- [Journal RSS feed]({{ '/feed.xml' | absolute_url }})
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }})
