@@ -1,10 +1,17 @@
 <header class="site-header">
   <div class="site-header-inner">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Main navigation">
       {% for item in site.data.navigation %}
+      {% assign active = false %}
+      {% if page.url == item.url %}{% assign active = true %}{% endif %}
+      {% if item.title == "About" and page.url == "/" %}{% assign active = true %}{% endif %}
+      {% if item.title == "Writing" %}
+        {% if page.url contains '/journal/' or page.url contains '/notes/' %}{% assign active = true %}{% endif %}
+      {% endif %}
       <a href="{{ item.url | relative_url }}"
-         class="{% if page.url == item.url %}is-active{% endif %}">{{ item.title }}</a>
+         class="{% if active %}is-active{% endif %}"
+         {% if active %}aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
     </nav>
   </div>

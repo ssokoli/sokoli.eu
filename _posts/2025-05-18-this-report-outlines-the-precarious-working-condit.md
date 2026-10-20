@@ -1,9 +1,10 @@
 ---
-title: "This report outlines the precarious working conditions of Syrian refugees in…"
+title: "Unfair labour in the AI supply chain: a familiar pattern"
 date: 2025-05-18 11:56:09 +0300
 lang: EN
 excerpt: "…Lebanon who work as dataannotators that include: -low compensation paired with demands for high quality, -tight deadlines, -unpaid rework after end client rejection, -pressure to accept work despite lack of…"
 source: linkedin
+featured: true
 linkedin_id: "7329791897659457537"
 ---
 {% raw %}
