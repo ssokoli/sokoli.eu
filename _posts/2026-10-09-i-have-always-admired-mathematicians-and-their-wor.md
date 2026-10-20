@@ -1,9 +1,10 @@
 ---
-title: "I have always admired mathematicians and their work as perhaps the purest form…"
+title: "When AI leaves experts to explain the work"
 date: 2026-10-09 16:49:19 +0300
 lang: EN
 excerpt: "…of thinking. The fields are very different, but I read something I recognised: a new expectation that mathematicians need to \"digest and explain a messy AI proof - work that could easily be some combination of…"
 source: linkedin
+featured: true
 linkedin_id: "7514321101297205249"
 ---
 {% raw %}

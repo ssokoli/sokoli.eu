@@ -1,9 +1,10 @@
 ---
-title: "Subtitling from a language you don't speak through English is both painful and…"
+title: "Subtitling through a pivot language: the decisions you cannot see"
 date: 2026-03-02 10:45:09 +0300
 lang: EN
 excerpt: "…immensely exciting (anti-pivot colleagues, feel free to read something else). So, recently worked on a series about a Japanese-Korean friendship, with very simple, non-technical, everyday dialogue. Yay! But still so…"
 source: linkedin
+featured: true
 linkedin_id: "7434141737184497664"
 ---
 {% raw %}
