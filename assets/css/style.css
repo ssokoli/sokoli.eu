@@ -487,3 +487,61 @@ p { margin: 0 0 var(--space-3); }
   .feature-grid { grid-template-columns: 1fr; }
   .archive-controls { grid-template-columns: 1fr; max-width: 40rem; }
 }
+
+
+/* Editorial portraits and video gallery, October 2026 */
+body.home-page .page-header { margin-bottom: 1.4rem; }
+body.home-page .page-content, body.about-page .page-content, body.talks-page .page-content { max-width: 64rem; }
+.home-hero { display: grid; grid-template-columns: minmax(0,1.45fr) minmax(230px,.8fr); align-items: center; gap: clamp(2rem,5vw,5rem); margin: 1rem 0 3rem; }
+.hero-eyebrow, .section-kicker { display:block; color: var(--accent); font: .74rem var(--mono); letter-spacing: .09em; text-transform: uppercase; margin-bottom: .85rem; }
+.hero-statement { color: var(--ink); font: 400 clamp(2rem,4.2vw,3.65rem)/1.16 var(--serif); letter-spacing: -.025em; margin: 0 0 1.4rem; }
+.hero-statement em { font-weight: 300; }
+.home-hero .lead { font-size: clamp(1.12rem,1.85vw,1.4rem); }
+.hero-secondary { color: var(--ink-soft); }
+.hero-links { display:flex; flex-wrap:wrap; gap: 1.25rem; font: .78rem var(--mono); margin: 1.5rem 0 0; }
+.hero-links a { color: var(--accent); text-decoration: none; }
+.home-portrait, .about-portrait { margin: 0; }
+.home-portrait img, .about-portrait img { width: 100%; height: auto; display: block; aspect-ratio: 1 / 1; object-fit: cover; }
+.home-portrait { position: relative; box-shadow: 14px 14px 0 #111; margin-right: 14px; margin-bottom: 14px; }
+.home-portrait figcaption, .about-portrait figcaption { font: .69rem var(--mono); color: var(--ink-soft); text-transform: uppercase; letter-spacing: .04em; margin-top:.65rem; }
+.about-intro { display: grid; grid-template-columns: minmax(210px,.78fr) minmax(0,1.35fr); gap: clamp(1.75rem,5vw,5rem); margin: 1.25rem 0 3rem; align-items: start; }
+.about-portrait img { box-shadow: 12px 12px 0 #111; margin-bottom: 12px; }
+.about-intro-copy .lead { margin-bottom: 1.25rem; }
+.about-intro-copy p { font-size: .99rem; }
+.home-watch, .talks-featured, .talks-video-archive, .talk-event { margin: 3.2rem 0; }
+.home-section-heading { display:flex; justify-content:space-between; gap:1.4rem; align-items:baseline; flex-wrap:wrap; }
+.home-section-heading h2 { margin: 0 0 1.5rem; }
+.home-section-heading a { font: .8rem var(--mono); color:var(--accent); }
+.watch-teasers { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.4rem; }
+.watch-teaser { display:flex; flex-direction:column; text-decoration:none; gap: .45rem; }
+.watch-teaser-image { display:block; position:relative; aspect-ratio: 16 / 9; background:#111; overflow:hidden; }
+.watch-teaser-image img { width:100%; height:100%; display:block; object-fit:cover; transition: transform .22s ease; }
+.watch-teaser:hover .watch-teaser-image img { transform: scale(1.045); }
+.play-glyph { display:grid; place-items:center; position:absolute; left:50%; top:50%; transform: translate(-50%,-50%); width:3.5rem; height:2.6rem; border-radius:.65rem; background:rgba(13,13,13,.87); color:#fff; font-size:1.1rem; }
+.watch-teaser:hover .play-glyph { background:var(--accent); }
+.watch-teaser-title { font: 600 1.04rem/1.4 var(--serif); color: var(--ink); }
+.watch-teaser-meta { font: .72rem/1.5 var(--mono); color:var(--ink-soft); }
+.talks-lead { font: 1.22rem/1.65 var(--serif); max-width:43rem; }
+.talks-featured-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.5rem; }
+.talks-featured-item .video-embed { max-width:none; margin:0 0 1rem; }
+.talks-featured-item .video-embed iframe { border:0; }
+.talks-featured-item .section-kicker { margin-bottom:.5rem; }
+.talks-featured-item h3 { font-size:1.15rem; font-weight:600; font-style:normal; margin-bottom:.5rem; }
+.talks-featured-item p:last-child { font-size:.87rem; color:var(--ink-soft); }
+.talks-watch-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.talk-event { max-width:55rem; border-top:1px solid var(--rule); padding-top:1.75rem; }
+.event-links-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.event-links-grid a { display:flex; flex-direction:column; border:1px solid var(--rule); padding:1rem; gap:.5rem; text-decoration:none; }
+.event-links-grid a:hover { border-color:var(--accent); }
+.event-links-grid strong { font:600 1.08rem var(--serif); }
+.event-links-grid span { font:.72rem var(--mono); color:var(--ink-soft); }
+@media(max-width:54rem) { .home-hero { grid-template-columns:minmax(0,1fr) minmax(180px,.75fr); gap:1.6rem; } .talks-watch-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:41rem) {
+  .home-hero { display:flex; flex-direction:column-reverse; align-items:stretch; }
+  .home-portrait { width:min(72%,270px); align-self:center; }
+  .hero-statement { font-size: clamp(2rem,9vw,2.7rem); }
+  .about-intro { grid-template-columns:1fr; }
+  .about-portrait { width:min(80%,320px); }
+  .talks-featured-grid, .watch-teasers, .talks-watch-grid, .event-links-grid { grid-template-columns:1fr; }
+  .home-section-heading { align-items:flex-start; flex-direction:column; }
+}
