@@ -3,6 +3,7 @@ description: "Audiovisual translator, subtitler, researcher and educator. Resear
 url: "https://sokoli.eu"
 baseurl: ""
 author: "Stavroula Sokoli"
+image: "/assets/site-card.png"
 
 markdown: kramdown
 permalink: /journal/:year/:month/:day/:title/

@@ -7,7 +7,7 @@ dek: Subtitling, audiovisual translation, and AI in education.
 sub: "New tools change the task. What do they change about expertise?"
 ---
 
-My research connects professional audiovisual translation, language education and the uses of emerging technologies. Since 2025, the newer one is also the subject of my postdoctoral research at the Hellenic Open University: artificial intelligence in education and audiovisual creation (expected completion 2028).
+My research connects professional audiovisual translation, language education and emerging technologies. Since 2025, my postdoctoral research at the Hellenic Open University has focused on artificial intelligence in education and audiovisual creation (expected completion 2028).
 
 Find related work in [research projects](/projects/) and [conference talks](/talks/).
 
