@@ -1,0 +1,110 @@
+{%- comment -%}
+  schema.org JSON-LD for search engines and AI tools. Not visible on the page.
+
+  Every fact here must also appear somewhere on the site (About, Contact,
+  homepage, footer). If you change your role or affiliations on those pages,
+  change them here too.
+
+  - Person: on every page.
+  - ProfilePage: on the homepage and the About page.
+  - Publications: on the Research page, generated from _data/publications.yml.
+    Author lists are split from the "Surname, I. & Surname, I." format used there.
+{%- endcomment -%}
+{%- assign person_id = site.url | append: '/#person' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": "Stavroula Sokoli",
+      "givenName": "Stavroula",
+      "familyName": "Sokoli",
+      "url": {{ site.url | append: '/' | jsonify }},
+      "image": {{ '/assets/portrait-stavroula.avif' | absolute_url | jsonify }},
+      "email": "mailto:stavroula@sokoli.eu",
+      "description": {{ site.description | jsonify }},
+      "jobTitle": ["Senior Researcher", "Audiovisual Translator"],
+      "worksFor": {
+        "@type": "ResearchOrganization",
+        "name": "Computer Technology Institute and Press “Diophantus” (CTI)",
+        "address": { "@type": "PostalAddress", "addressCountry": "GR" }
+      },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Hellenic Open University"
+      },
+      "memberOf": {
+        "@type": "OrganizationRole",
+        "roleName": "Vice President",
+        "memberOf": {
+          "@type": "Organization",
+          "name": "European Association for Studies in Screen Translation (ESIST)"
+        }
+      },
+      "knowsAbout": [
+        "Audiovisual translation",
+        "Subtitling",
+        "Media accessibility",
+        "Language learning",
+        "Educational technology",
+        "Artificial intelligence in education"
+      ],
+      "knowsLanguage": ["en", "es", "el", "ca"],
+      "sameAs": [
+        "https://orcid.org/0000-0002-2970-8729",
+        "https://scholar.google.com/citations?user=Q5VrkMAAAAAJ",
+        "https://www.linkedin.com/in/sokoli/"
+      ]
+    }
+    {%- if page.url == '/' or page.url == '/about/' %},
+    {
+      "@type": "ProfilePage",
+      "@id": {{ page.url | absolute_url | append: '#profilepage' | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "name": {% if page.url == '/' %}{{ site.title | jsonify }}{% else %}{{ page.title | append: ' · ' | append: site.title | jsonify }}{% endif %},
+      "mainEntity": { "@id": {{ person_id | jsonify }} }
+    }
+    {%- endif -%}
+    {%- if page.url == '/research/' -%}
+    {%- for pub in site.data.publications -%}
+    {%- assign year = pub.year | append: '' -%}
+    {%- assign parts = pub.authors | replace: ' & ', ', ' | split: ', ' %},
+    {
+      "@type": "ScholarlyArticle",
+      "name": {{ pub.title | jsonify }},
+      "author": [
+        {%- for part in parts -%}
+        {%- assign odd = forloop.index0 | modulo: 2 -%}
+        {%- if odd == 0 -%}
+          {%- assign surname = part | strip -%}
+        {%- else -%}
+          {%- assign initials = part | strip -%}
+          {%- if forloop.index > 2 -%},{%- endif -%}
+          {%- if surname == 'Sokoli' %}
+        { "@id": {{ person_id | jsonify }} }
+          {%- else %}
+        { "@type": "Person", "name": {{ initials | append: ' ' | append: surname | jsonify }}, "familyName": {{ surname | jsonify }} }
+          {%- endif -%}
+        {%- endif -%}
+        {%- endfor %}
+      ],
+      {%- if year.size == 4 %}
+      "datePublished": {{ year | jsonify }},
+      {%- else %}
+      "creativeWorkStatus": "Forthcoming",
+      {%- endif %}
+      {%- if pub.doi %}
+      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": {{ pub.doi | jsonify }} },
+      "url": {{ 'https://doi.org/' | append: pub.doi | jsonify }},
+      {%- elsif pub.url %}
+      "url": {{ pub.url | jsonify }},
+      {%- endif %}
+      "isPartOf": { "@type": "CreativeWork", "name": {{ pub.in | jsonify }} }
+    }
+    {%- endfor -%}
+    {%- endif %}
+  ]
+}
+</script>
