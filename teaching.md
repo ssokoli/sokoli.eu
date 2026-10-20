@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 cue: "00:05:00,000"
 dek: Spanish, subtitling, and audiovisual translation — undergraduate to postgraduate, Greece to Argentina.
-sub: The classroom is where the research questions come from.
+sub: "A good classroom gives you new questions to take away."
 ---
 
 ## Current

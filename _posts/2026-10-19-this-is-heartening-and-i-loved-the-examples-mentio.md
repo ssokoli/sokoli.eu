@@ -1,9 +1,10 @@
 ---
-title: "This is heartening, and I loved the examples mentioned"
+title: "What Netflix says about professional subtitling"
 date: 2026-10-19 09:30:36 +0300
 lang: EN
 excerpt: "I worked hard to give Greek viewers the best possible experience of Physical 100: Italy, and I know my colleagues did the same for the other 31 subtitled versions. \"Netflix has reaffirmed its commitment to maintaining a…"
 source: linkedin
+featured: true
 linkedin_id: "7517834573498753024"
 ---
 {% raw %}

@@ -1,9 +1,10 @@
 ---
-title: "Dear subtitlers,"
+title: "Translation should be invisible, not translators"
 date: 2026-04-13 18:24:22 +0300
 lang: EN
 excerpt: "Sign your work, fill in that translator credit box, do not waive this right - it's not a given. Use your real name and maintain a public presence. Talk about your work (without breaking NDAs of course). It has always…"
 source: linkedin
+featured: true
 linkedin_id: "7449477593487069184"
 ---
 {% raw %}

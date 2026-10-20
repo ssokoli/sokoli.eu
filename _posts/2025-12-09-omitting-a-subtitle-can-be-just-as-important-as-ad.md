@@ -4,6 +4,7 @@ date: 2025-12-09 14:26:59 +0300
 lang: EN
 excerpt: "In this scene, a girl is waiting outside a flower shop for her loved one. The music gets emotionally intense as she realises she’s alone. You might think: “What’s the harm in adding a subtitle to explain the sign in the…"
 source: linkedin
+featured: true
 linkedin_id: "7404119370815332352"
 ---
 {% raw %}

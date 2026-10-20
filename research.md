@@ -4,10 +4,12 @@ permalink: /research/
 title: Research
 cue: "00:01:00,000"
 dek: Subtitling, audiovisual translation, and AI in education.
-sub: What changes when students design with AI, and what doesn't.
+sub: "New tools change the task. What do they change about expertise?"
 ---
 
-My work has two long-running strands and one newer one. Since 2025, the newer one is also the subject of my postdoctoral research at the Hellenic Open University: artificial intelligence in education and audiovisual creation (expected completion 2028).
+My research connects professional audiovisual translation, language education and emerging technologies. Since 2025, my postdoctoral research at the Hellenic Open University has focused on artificial intelligence in education and audiovisual creation (expected completion 2028).
+
+Find related work in [research projects](/projects/) and [conference talks](/talks/).
 
 ## Subtitling and audiovisual translation
 
