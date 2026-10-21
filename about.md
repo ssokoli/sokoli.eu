@@ -16,7 +16,7 @@ sub: "The interesting work often happens between disciplines."
   <div class="about-intro-copy">
     <p class="section-kicker">A LITTLE BACKGROUND</p>
     <p class="lead">Translator, researcher, educator and perennial learner.</p>
-    <p>I began translating in 1995, worked as an interpreter from 1998 to 2008, and have been subtitling since 2001. Professional translation has remained a constant alongside my research and teaching. Since 2017 I have been Greek Language Lead for subtitling at Deluxe Media.</p>
+    <p>I began translating in 1995, worked as an interpreter from 1998 to 2008, and have been subtitling since 2001. Professional translation has remained a constant alongside my research and teaching. Since 2016 I have been Greek Language Lead for subtitling at Deluxe Media.</p>
     <p>I am interested in what happens when different disciplines and ways of working meet, especially around language and technology.</p>
   </div>
 </div>
