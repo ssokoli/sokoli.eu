@@ -1,4 +1,19 @@
 # Invited talks, keynotes, and chairing roles — newest first.
+# Optional fields: video (YouTube ID, only when the recording is her own talk),
+# event_url (link to the organisers' page; event_label sets the link text, default "Event"),
+# read_url (published version of the talk, shown as "Read ↗").
+
+- year: 2026
+  title: "¿Dónde está mi subtítulo? El subtítulo cero y las expectativas del espectador"
+  venue: "IV Congreso Hispanoamericano de Traducción Audiovisual (HispaTAV)"
+  place: "Buenos Aires"
+  date: "28–29 August 2026"
+
+- year: 2026
+  title: "Round table on the market, AI and new opportunities for subtitlers, with Guillermo Parra López and Rafael López Sánchez"
+  venue: "IV Congreso Hispanoamericano de Traducción Audiovisual (HispaTAV)"
+  place: "Buenos Aires"
+  date: "28–29 August 2026"
 
 - year: 2026
   title: "Beyond Hallucinations: The Illusion of Quality and the Role of Professional Translators"
@@ -26,6 +41,12 @@
   date: "15 November 2025"
 
 - year: 2025
+  title: "Mapping the Research Landscape in Subtitling: Current Trends and Future Directions"
+  venue: "APTIS seminar"
+  place: "online"
+  date: "25 June 2025"
+
+- year: 2025
   title: "AI Workflows in Audiovisual Translation"
   venue: "Audiovisual Translation: at the Junction of Language and Technology, Women in Localization Greece"
   place: "Athens"
@@ -36,19 +57,21 @@
   venue: "+RAIN Film Festival, Universitat Pompeu Fabra"
   place: "Barcelona"
   date: "10 June 2025"
-
-- year: 2025
-  title: "Mapping the Research Landscape in Subtitling: Current Trends and Future Directions"
-  venue: "APTIS seminar"
-  place: "online"
-  date: "25 June 2025"
-
+  event_url: "https://www.upf.edu/en/web/rainfilmfest/participants-2025"
+  event_label: "Speakers"
 
 - year: 2024
-  title: "Οι υπότιτλοι μεταγλώττισης: Χρήσεις και ροή εργασιών"
-  venue: "3r Congreso Hispanoamericano de Traducción Audiovisual (HispaTAV)"
-  place: "Madrid"
-  date: "7–8 November 2024"   # VERIFY: CV numbers this 2023 but dates it Nov 2024
+  title: "Chair, panel on modern workflows"
+  venue: "Languages & The Media 2024"
+  place: "Budapest"
+  date: "November 2024"
+
+- year: 2024
+  title: "Subtítulos de doblaje en Netflix: usos y flujos de trabajo (plenary)"
+  venue: "III Congreso Hispanoamericano de Traducción Audiovisual (HispaTAV)"
+  place: "Collado Villalba, Madrid"
+  date: "7 November 2024"
+  read_url: "https://www.ooona.net/onstage-publications/subtitulos-de-doblaje-en-netflix-usos-y-flujos-de-trabajo/"
 
 - year: 2022
   title: "Industry Insights: People, Data and Quality"
@@ -56,6 +79,12 @@
   place: "Brussels"
   date: "9–11 November 2022"
   video: "9KJ-wIPMZk4"
+
+- year: 2022
+  title: "Session chair"
+  venue: "Languages & The Media 2022"
+  place: "Berlin"
+  date: "November 2022"
 
 - year: 2022
   title: "Round table: Μεταφράζοντας το χιούμορ"
@@ -87,7 +116,7 @@
   venue: "1r Congreso Hispanoamericano de Traducción Audiovisual"
   place: "Buenos Aires"
   date: "18–19 May 2018"
-  video: "GGIYJdJI1x4"
+  # No video: the HispaTAV 2018 recording (GGIYJdJI1x4) shows Stavroula, but it is not her talk.
 
 - year: 2017
   title: "The Greek Subtitler's Position in a Global Market: Current Status and Perspectives"

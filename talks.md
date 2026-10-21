@@ -21,10 +21,10 @@ sub: "A talk is the start of a conversation, not its conclusion."
       <p>Panhellenic Association of Translators · AI in Translation</p>
     </article>
     <article class="talks-featured-item">
-      <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/GGIYJdJI1x4" title="Las múltiples caras del multilingüismo en Traducción Audiovisual" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-      <p class="section-kicker">BUENOS AIRES / 2018</p>
-      <h3>Las múltiples caras del multilingüismo en Traducción Audiovisual</h3>
-      <p>First Congreso Hispanoamericano de Traducción Audiovisual</p>
+      <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/gVhV15zez-8" title="Χάρτινο Σπίτι ή Τέλεια Ληστεία; Ο υποτιτλισμός της ισπανικής σειράς Casa de Papel" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <p class="section-kicker">THESSALONIKI / 2019</p>
+      <h3>Χάρτινο Σπίτι ή Τέλεια Ληστεία; Ο υποτιτλισμός της ισπανικής σειράς Casa de Papel</h3>
+      <p>Panhellenic Association of Translators (ΠΕΜ) · Thessaloniki International Fair</p>
     </article>
   </div>
 </section>
@@ -34,7 +34,7 @@ sub: "A talk is the start of a conversation, not its conclusion."
   <h2 id="more-videos">Watch more</h2>
   <div class="watch-teasers talks-watch-grid">
     {% for t in site.data.talks %}
-      {% if t.video and t.video != 'OkXnDoqHV_k' and t.video != 'GGIYJdJI1x4' %}
+      {% if t.video and t.video != 'OkXnDoqHV_k' and t.video != 'gVhV15zez-8' %}
       <a class="watch-teaser" href="https://www.youtube.com/watch?v={{ t.video }}" target="_blank" rel="noopener noreferrer">
         <span class="watch-teaser-image"><img src="https://i.ytimg.com/vi/{{ t.video }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy"><span class="play-glyph" aria-hidden="true">▶</span></span>
         <span class="watch-teaser-title">{{ t.title | escape }}</span>
@@ -78,7 +78,8 @@ sub: "A talk is the start of a conversation, not its conclusion."
       <span class="pub-title">{{ t.title | escape }}</span>.
       <em class="pub-in">{{ t.venue | escape }}</em>, <span class="pub-detail">{{ t.place | escape }}, {{ t.date | escape }}</span>.
       {% if t.video %}<a class="pub-doi" href="https://www.youtube.com/watch?v={{ t.video }}" target="_blank" rel="noopener noreferrer">Watch ↗</a>{% endif %}
-      {% if t.event_url %}<a class="pub-doi" href="{{ t.event_url }}">Event ↗</a>{% endif %}
+      {% if t.event_url %}<a class="pub-doi" href="{{ t.event_url }}" target="_blank" rel="noopener noreferrer">{{ t.event_label | default: 'Event' }} ↗</a>{% endif %}
+      {% if t.read_url %}<a class="pub-doi" href="{{ t.read_url }}" target="_blank" rel="noopener noreferrer">Read ↗</a>{% endif %}
     </li>
   {% endfor %}
   </ul>
@@ -98,11 +99,11 @@ sub: "A talk is the start of a conversation, not its conclusion."
 </section>
 
 <section class="talk-event" aria-labelledby="event-links-heading">
-  <p class="section-kicker">EVENT PHOTOGRAPHY / EXTERNAL GALLERIES</p>
+  <p class="section-kicker">EVENT PAGES</p>
   <h2 id="event-links-heading">From the conferences</h2>
-  <p>Event pages and photo galleries offer a glimpse of the setting and the people involved. I link to the organisers rather than republishing photographs whose reuse terms have not been confirmed.</p>
+  <p>The organisers' pages for two recent events.</p>
   <div class="event-links-grid">
-    <a href="https://elia-association.org/event/focus-pm-2025/" target="_blank" rel="noopener noreferrer"><strong>ELIA Focus on Project Management</strong><span>2025 · Athens · Opening and closing keynotes ↗</span></a>
-    <a href="https://www.upf.edu/en/web/rainfilmfest/participants-2025" target="_blank" rel="noopener noreferrer"><strong>+RAIN Film Festival</strong><span>2025 · Barcelona · Festival participants ↗</span></a>
+    <a href="https://elia-association.org/event/focus-pm-2025/" target="_blank" rel="noopener noreferrer"><strong>ELIA Focus on Project Management</strong><span>2025 · Athens · Event page ↗</span></a>
+    <a href="https://www.upf.edu/en/web/rainfilmfest/participants-2025" target="_blank" rel="noopener noreferrer"><strong>+RAIN Film Festival</strong><span>2025 · Barcelona · Speakers ↗</span></a>
   </div>
 </section>

@@ -9,7 +9,7 @@ sub: "A good classroom gives you new questions to take away."
 
 ## Current
 
-Since 2012 I teach **Spanish Language (ΙΣΠ10, Level I)** in the undergraduate programme "Spanish Language and Culture" of the **Hellenic Open University (ΕΑΠ)**, where I also taught Levels I and II in 2006–2008.
+Since 2012 I have taught **Spanish Language (ΙΣΠ10, Level I)** in the undergraduate programme "Spanish Language and Culture" of the **Hellenic Open University (ΕΑΠ)**, where I also taught Levels I and II in 2006–2008.
 
 In December 2025 I taught at the **Universidad Nacional de Rosario**, Argentina, in the Diplomatura de estudios avanzados en herramientas teóricas y técnicas aplicadas a la traducción audiovisual.
 
@@ -26,6 +26,8 @@ Distance teaching within UNED teaching-innovation projects: **Audiosub** (audio 
 ## Professional training
 
 Distance and in-person subtitling courses (English–Greek) at the **meta|φραση School of Translation Studies**, Athens: 2005–2008 and 2015–2021.
+
+I have also developed self-paced online subtitling courses for local and international audiences.
 
 ## Research in the classroom
 
