@@ -1,0 +1,77 @@
+# Career timeline, shown on the About page as a subtitle file (career.srt)
+# and published as a downloadable /career.srt.
+#
+# One second of subtitle time = one year, starting in 1995 (00:00:00,000).
+# Fields:
+#   start: year the cue starts (required)
+#   end:   year it ends; "now" for ongoing roles; leave out for a single event
+#          (the cue then lasts one second)
+#   text:  the subtitle; keep it short, like a real subtitle (about 80 characters)
+# Keep the list sorted by start year: SRT cues are numbered in order.
+
+- start: 1995
+  end: now
+  text: "I start translating."
+
+- start: 1998
+  end: 2008
+  text: "I work as an interpreter."
+
+- start: 2000
+  end: 2016
+  text: "I teach translation technology at the Universitat Autònoma de Barcelona."
+
+- start: 2001
+  end: now
+  text: "I start subtitling."
+
+- start: 2003
+  end: 2008
+  text: "I manage EU-funded projects at a Hellenic Open University lab."
+
+- start: 2006
+  end: 2008
+  text: "I coordinate LeViS: language learning through film subtitling."
+
+- start: 2006
+  end: 2008
+  text: "I teach Spanish at the Hellenic Open University."
+
+- start: 2011
+  text: "PhD, Universitat Autònoma de Barcelona: subtitling norms in Greece and Spain."
+
+- start: 2011
+  end: now
+  text: "I start coordinating research projects at CTI."
+
+- start: 2011
+  end: 2014
+  text: "I lead ClipFlair: language learning through captioning and revoicing."
+
+- start: 2012
+  end: 2022
+  text: "I teach subtitling at Universitat Pompeu Fabra."
+
+- start: 2012
+  end: now
+  text: "I return to teaching Spanish at the Hellenic Open University."
+
+- start: 2016
+  end: now
+  text: "Greek Language Lead for subtitling at Deluxe Media."
+
+- start: 2020
+  end: 2022
+  text: "Founding member of Women in Localization Greece."
+
+- start: 2022
+  end: 2023
+  text: "Board member of the Hellenic Society for Translation Studies."
+
+- start: 2025
+  end: now
+  text: "Postdoctoral research on AI in education and audiovisual creation."
+
+- start: 2026
+  end: 2030
+  text: "I lead ΠΛΑΙΣΙΑ, a project on the responsible use of AI."

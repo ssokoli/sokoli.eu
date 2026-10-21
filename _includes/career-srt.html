@@ -1,0 +1,21 @@
+{%- comment -%}
+  The About page career timeline, written as a subtitle file.
+  Edit the content in _data/career.yml. Cues appear one by one on scroll
+  (assets/js/motion.js); without JavaScript, or with motion off, all are visible.
+{%- endcomment -%}
+{%- include srt-cues.html -%}
+<section class="career-srt" aria-labelledby="career-srt-title">
+  <p class="section-kicker">CAREER.SRT</p>
+  <h2 id="career-srt-title">My career as a subtitle file</h2>
+  <p class="career-srt-note">One second per year, starting in 1995. <a href="{{ '/career.srt' | relative_url }}" download>Download career.srt</a></p>
+  <ol class="srt" data-srt>
+  {%- for row in srt_cues -%}
+    {%- assign f = row | split: '|' %}
+    <li class="srt-cue" data-srt-cue>
+      <span class="srt-index">{{ f[0] }}</span>
+      <span class="srt-time">{{ f[1] }} --&gt; {{ f[2] }}</span>
+      <span class="srt-text">{{ f[3] | escape }}</span>
+    </li>
+  {%- endfor %}
+  </ol>
+</section>

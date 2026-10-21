@@ -12,6 +12,8 @@ Personal research and professional website, built with **Jekyll** and **GitHub P
 - The homepage boxes are controlled by `assets/css/style.css`.
 - Optional black subtitle-style statements are stored as `sub:` in page front matter. To **show** them, change `show_subtitles: false` to `true` in `_config.yml`. They are **off by default**.
 - Journal and annual Notes page filters are enhanced by `assets/js/archive.js` and do not need a server.
+- Motion features (`assets/js/motion.js`, styles at the end of `assets/css/style.css`): a red progress bar at the top of every page and a timecode that counts up from the page's `cue` as you scroll (the end of the page = the cue plus an estimated reading time). A "Motion" button in the footer turns motion off; it is off by default for visitors whose system asks for reduced motion. Without JavaScript, pages are unchanged.
+- The About page timeline is a subtitle file: edit `_data/career.yml` (one second = one year from 1995). The same data generates the downloadable `/career.srt`.
 - Machine-readable information for search engines and AI tools, not visible on the pages:
   - `_includes/structured-data.html` adds schema.org JSON-LD (Person on every page, ProfilePage on the homepage and About page, publications on the Research page from `_data/publications.yml`). The role, affiliations and profile links are written into that file: update them there when they change on the About or Contact page.
   - `llms.txt` generates `/llms.txt`, a plain-text guide to the site. Page descriptions come from each page's `dek` and publications from `_data/publications.yml`; the summary paragraph is written in the file.

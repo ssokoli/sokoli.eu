@@ -545,3 +545,49 @@ body.home-page .page-content, body.about-page .page-content, body.talks-page .pa
   .talks-featured-grid, .watch-teasers, .talks-watch-grid, .event-links-grid { grid-template-columns:1fr; }
   .home-section-heading { align-items:flex-start; flex-direction:column; }
 }
+
+
+/* ---------------------------------------------------------
+   Playhead and career.srt (assets/js/motion.js), October 2026
+--------------------------------------------------------- */
+.playhead { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 5; pointer-events: none; }
+.playhead-bar { display: block; height: 100%; background: var(--accent); transform: scaleX(0); transform-origin: 0 50%; }
+.playhead.is-idle { display: none; }
+.playhead-time {
+  position: fixed; right: 1rem; bottom: 1rem; z-index: 5; pointer-events: none;
+  font: 500 .72rem/1 var(--mono); letter-spacing: .03em; color: var(--sub-text);
+  background: var(--black); padding: .45rem .6rem;
+  opacity: 0; transform: translateY(.4rem); transition: opacity .2s ease, transform .2s ease;
+}
+.playhead-time.is-visible { opacity: .92; transform: none; }
+.motion-off .playhead, .motion-off .playhead-time { display: none; }
+.motion-toggle {
+  font: inherit; color: #9A9A9A; background: none; border: 0; padding: 0; margin-left: .35rem;
+  text-decoration: underline; text-decoration-color: #444444; text-underline-offset: 3px; cursor: pointer;
+}
+.motion-toggle:hover { color: var(--sub-text); }
+
+.career-srt { margin: 3.2rem 0; max-width: 40rem; }
+.career-srt h2 { border-top: 0; padding-top: 0; margin-top: 0; }
+.career-srt-note { font: .78rem var(--mono); color: var(--ink-soft); }
+.career-srt-note a { color: var(--accent); margin-left: .5rem; }
+.srt {
+  list-style: none; margin: 1.5rem 0 0; padding: clamp(1.25rem,4vw,2.25rem);
+  background: var(--black); color: var(--sub-text);
+}
+.page-content .srt li { margin: 0 0 1.4rem; }
+.page-content .srt li:last-child { margin-bottom: 0; }
+.srt-cue { display: flex; flex-direction: column; gap: .15rem; }
+.srt-index { font: .74rem var(--mono); color: #8A8A8A; }
+.srt-time { font: .78rem var(--mono); color: #FF4A5E; letter-spacing: .02em; }
+.srt-text { font: 500 clamp(1rem,2.1vw,1.15rem)/1.45 var(--sans); max-width: 42ch; }
+.srt.is-animated .srt-cue { opacity: 0; transform: translateY(.6rem); transition: opacity .5s ease, transform .5s ease; }
+.srt.is-animated .srt-cue.is-shown { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .srt.is-animated .srt-cue, .playhead-time { transition: none; }
+}
+@media (max-width: 41rem) {
+  .srt { margin-left: calc(-1 * var(--space-3)); margin-right: calc(-1 * var(--space-3)); }
+  .playhead-time { right: .6rem; bottom: .6rem; }
+}
+@media print { .playhead, .playhead-time, .motion-toggle { display: none; } }

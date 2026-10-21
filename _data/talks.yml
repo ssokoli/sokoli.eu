@@ -85,7 +85,7 @@
   venue: "GALA webinar hosted by OOONA, with Yota Georgakopoulou and Alex Yoffe"
   place: "online"
   date: "25 January 2023"
-  video: "NmjvzEPOySk"
+  # The recording linked in 2023 (YouTube NmjvzEPOySk) has been removed from YouTube.
   event_url: "https://www.gala-global.org/events/events-calendar/video-localization-era-cloud"
 
 - year: 2022
@@ -115,7 +115,7 @@
 
 - year: 2019
   title: "Χάρτινο Σπίτι ή Τέλεια Ληστεία; Ο υποτιτλισμός της ισπανικής σειράς Casa de Papel"
-  venue: "Διεθνής Έκθεση Θεσσαλονίκης, Panhellenic Association of Translators (ΠΕΜ)"
+  venue: "Διεθνής Έκθεση Βιβλίου Θεσσαλονίκης, Panhellenic Association of Translators (ΠΕΜ)"
   place: "Thessaloniki"
   date: "2019"
   video: "gVhV15zez-8"
