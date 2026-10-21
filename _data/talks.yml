@@ -73,6 +73,21 @@
   date: "7 November 2024"
   read_url: "https://www.ooona.net/onstage-publications/subtitulos-de-doblaje-en-netflix-usos-y-flujos-de-trabajo/"
 
+- year: 2024
+  title: "AI workflows for video localization"
+  venue: "ELIA webinar, with Yota Georgakopoulou and Alex Yoffe"
+  place: "online"
+  date: "5 March 2024"
+  event_url: "https://elia-association.org/2023/12/ai-workflows-for-video-localization/"
+
+- year: 2023
+  title: "Video Localization in the Era of the Cloud"
+  venue: "GALA webinar hosted by OOONA, with Yota Georgakopoulou and Alex Yoffe"
+  place: "online"
+  date: "25 January 2023"
+  video: "NmjvzEPOySk"
+  event_url: "https://www.gala-global.org/events/events-calendar/video-localization-era-cloud"
+
 - year: 2022
   title: "Industry Insights: People, Data and Quality"
   venue: "Translating Europe Forum 2022, European Commission"
