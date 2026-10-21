@@ -13,6 +13,8 @@ Find related work in [research projects](/projects/) and [conference talks](/tal
 
 ## Subtitling and audiovisual translation
 
+My doctoral thesis, *Subtitling Norms in Greece and Spain* (Universitat Autònoma de Barcelona, 2011), is a comparative descriptive study of subtitle omission and distribution in films.
+
 Subtitling norms, quality, and reception; language learning through subtitling. This includes the EU-funded projects **ClipFlair** and **Learning via Subtitling**, both concerned with subtitling as a pedagogical tool rather than only a professional output.
 
 ## AI in design and translation education

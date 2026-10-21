@@ -49,7 +49,7 @@ sub: "What a subtitle leaves out can matter as much as what it says."
 
 <h2>A little more about me</h2>
 
-<p>I work as a senior researcher at the Computer Technology Institute in Greece, teach at the Hellenic Open University and remain active as an audiovisual translator. I serve as Vice President of the European Association for Studies in Screen Translation (ESIST).</p>
+<p>I hold a PhD in Translation and Interpretation from the Universitat Autònoma de Barcelona. I work as a senior researcher at the Computer Technology Institute in Greece, teach at the Hellenic Open University and remain active as an audiovisual translator. I serve as Vice President of the European Association for Studies in Screen Translation (ESIST).</p>
 
 <p><a href="/about/">Read more about my background</a> · <a href="/contact/">Get in touch</a></p>
 
@@ -64,10 +64,10 @@ sub: "What a subtitle leaves out can matter as much as what it says."
       <span class="watch-teaser-title">Beyond Hallucinations: The Illusion of Quality</span>
       <span class="watch-teaser-meta">Athens · 2026 · Keynote</span>
     </a>
-    <a class="watch-teaser" href="https://www.youtube.com/watch?v=GGIYJdJI1x4" target="_blank" rel="noopener noreferrer">
-      <span class="watch-teaser-image"><img src="https://i.ytimg.com/vi/GGIYJdJI1x4/hqdefault.jpg" width="480" height="360" alt="" loading="lazy"><span class="play-glyph" aria-hidden="true">▶</span></span>
-      <span class="watch-teaser-title">Las múltiples caras del multilingüismo</span>
-      <span class="watch-teaser-meta">Buenos Aires · 2018 · Invited talk</span>
+    <a class="watch-teaser" href="https://www.youtube.com/watch?v=gVhV15zez-8" target="_blank" rel="noopener noreferrer">
+      <span class="watch-teaser-image"><img src="https://i.ytimg.com/vi/gVhV15zez-8/hqdefault.jpg" width="480" height="360" alt="" loading="lazy"><span class="play-glyph" aria-hidden="true">▶</span></span>
+      <span class="watch-teaser-title">Χάρτινο Σπίτι ή Τέλεια Ληστεία; Ο υποτιτλισμός του Casa de Papel</span>
+      <span class="watch-teaser-meta">Thessaloniki · 2019 · Invited talk</span>
     </a>
   </div>
 </section>

@@ -7,7 +7,7 @@ dek: Twenty EU-funded and national research projects, led or joined, 2006 to tod
 sub: "Most interesting ideas need more than one discipline."
 ---
 
-Between 2003 and 2008 I was Project Manager at the Educational Content, Methodology and Technology Laboratory of the Hellenic Open University, working on EU-funded projects. Since 2011 I coordinate research projects at the Computer Technology Institute & Press "Diophantus" (CTI).
+Between 2003 and 2008 I was Project Manager at the Educational Content, Methodology and Technology Laboratory of the Hellenic Open University, working on EU-funded projects. Since 2011 I have coordinated research projects at the Computer Technology Institute & Press "Diophantus" (CTI).
 
 ## Coordination
 
