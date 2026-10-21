@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: /career.srt
+sitemap: false
+---
+{%- include srt-cues.html -%}
+{%- for row in srt_cues -%}
+{%- assign f = row | split: '|' %}
+{{ f[0] }}
+{{ f[1] }} --> {{ f[2] }}
+{{ f[3] }}
+{% endfor -%}

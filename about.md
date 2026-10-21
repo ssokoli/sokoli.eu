@@ -31,6 +31,8 @@ I serve as **Vice President of the European Association for Studies in Screen Tr
 
 Since 2025 I have been carrying out postdoctoral research at the Hellenic Open University's School of Applied Arts and Sustainable Design, on AI in education and audiovisual creation. I am interested in what technologies enable, what they may displace, and the ways professional judgement and creative agency are valued.
 
+{% include career-srt.html %}
+
 There is more detail in my [research and publications](/research/), [projects](/projects/), [conference talks](/talks/), [teaching](/teaching/) and [filmography](/subtitles/).
 
 [Contact me](/contact/).

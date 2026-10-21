@@ -24,7 +24,7 @@ sub: "A talk is the start of a conversation, not its conclusion."
       <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/gVhV15zez-8" title="Χάρτινο Σπίτι ή Τέλεια Ληστεία; Ο υποτιτλισμός της ισπανικής σειράς Casa de Papel" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
       <p class="section-kicker">THESSALONIKI / 2019</p>
       <h3>Χάρτινο Σπίτι ή Τέλεια Ληστεία; Ο υποτιτλισμός της ισπανικής σειράς Casa de Papel</h3>
-      <p>Panhellenic Association of Translators (ΠΕΜ) · Thessaloniki International Fair</p>
+      <p>Panhellenic Association of Translators (ΠΕΜ) · Thessaloniki International Book Fair</p>
     </article>
   </div>
 </section>

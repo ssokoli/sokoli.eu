@@ -1,0 +1,29 @@
+{%- comment -%}
+  Computes SRT timings for _data/career.yml.
+  One second = one year from 1995. Outputs nothing; sets `srt_cues`,
+  an array of "index|start timecode|end timecode|text" strings.
+{%- endcomment -%}
+{%- assign srt_origin = 1995 -%}
+{%- assign srt_now = site.time | date: '%Y' | plus: 0 -%}
+{%- assign srt_cues = '' | split: '' -%}
+{%- for cue in site.data.career -%}
+  {%- assign s0 = cue.start | minus: srt_origin -%}
+  {%- if cue.end == 'now' -%}
+    {%- assign s1 = srt_now | minus: srt_origin -%}
+  {%- elsif cue.end -%}
+    {%- assign s1 = cue.end | minus: srt_origin -%}
+  {%- else -%}
+    {%- assign s1 = s0 | plus: 1 -%}
+  {%- endif -%}
+  {%- if s1 <= s0 -%}{%- assign s1 = s0 | plus: 1 -%}{%- endif -%}
+  {%- assign tc = '' -%}
+  {%- for s in (0..1) -%}
+    {%- if s == 0 -%}{%- assign secs = s0 -%}{%- else -%}{%- assign secs = s1 -%}{%- endif -%}
+    {%- assign mm = secs | divided_by: 60 | prepend: '0' | slice: -2, 2 -%}
+    {%- assign ss = secs | modulo: 60 | prepend: '0' | slice: -2, 2 -%}
+    {%- capture one -%}00:{{ mm }}:{{ ss }},000{%- endcapture -%}
+    {%- if s == 0 -%}{%- assign tc = one -%}{%- else -%}{%- assign tc = tc | append: '|' | append: one -%}{%- endif -%}
+  {%- endfor -%}
+  {%- capture row -%}{{ forloop.index }}|{{ tc }}|{{ cue.text }}{%- endcapture -%}
+  {%- assign srt_cues = srt_cues | push: row -%}
+{%- endfor -%}
