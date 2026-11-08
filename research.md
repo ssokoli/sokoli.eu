@@ -2,6 +2,8 @@
 layout: page
 permalink: /research/
 title: Research
+page_class: research-page
+publication_gallery: true
 cue: "00:01:00,000"
 dek: Subtitling, audiovisual translation, and AI in education.
 sub: "New tools change the task. What do they change about expertise?"
@@ -28,36 +30,7 @@ Two papers come out of this study:
 
 <!-- EDIT: add exact paper titles, co-authors, and links once accepted/published. -->
 
-## Edited volumes
-
-<ul class="pub-list">
-  <li class="pub-item">
-    <span class="pub-authors">Dore, M., Bolaños, A. & Sokoli, S. (eds)</span>
-    <span class="pub-year">(2026, forthcoming)</span>
-    <span class="pub-title">"Audiovisual Translation and Media Accessibility in Education."</span>
-    <em class="pub-in">Peter Lang</em>.
-  </li>
-  <li class="pub-item">
-    <span class="pub-authors">Pięta, H., Valdez, S., Menezes, R. & Sokoli, S. (eds)</span>
-    <span class="pub-year">(2023)</span>
-    <span class="pub-title">"Pivot Audiovisual Translation: A Burning Issue for Research and Training" (special issue).</span>
-    <em class="pub-in">Perspectives: Studies in Translation Theory and Practice</em>.
-  </li>
-</ul>
-
-## Publications
-
-<ul class="pub-list">
-{% for pub in site.data.publications %}
-  <li class="pub-item">
-    <span class="pub-authors">{{ pub.authors }}</span>
-    <span class="pub-year">({{ pub.year }})</span>
-    <span class="pub-title">"{{ pub.title }}."</span>
-    <em class="pub-in">{{ pub.in }}</em>{% if pub.detail %}, <span class="pub-detail">{{ pub.detail }}</span>{% endif %}.
-    {% if pub.doi %}<a class="pub-doi" href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% elsif pub.url %}<a class="pub-doi" href="{{ pub.url }}">link</a>{% endif %}
-  </li>
-{% endfor %}
-</ul>
+{% include publication-gallery.html %}
 
 
 [Google Scholar](https://scholar.google.com/citations?user=Q5VrkMAAAAAJ&hl=en) &middot; [ORCID](https://orcid.org/0000-0002-2970-8729)
