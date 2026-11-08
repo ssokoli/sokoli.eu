@@ -1,0 +1,84 @@
+<section class="publications-showcase" id="publications" aria-labelledby="publications-heading">
+  <header class="publication-section-heading">
+    <span class="section-kicker">PUBLICATION ARCHIVE</span>
+    <h2 id="publications-heading">Publications and edited volumes</h2>
+    <p class="publication-intro">Browse the work in a visual format. Book covers identify the <em>volume</em> in which a chapter appears. Other visuals are editorial representations, not scans of the original publications.</p>
+  </header>
+
+  <div class="publication-controls" role="search" aria-label="Filter publications">
+    <label for="publication-search">Find a publication
+      <input id="publication-search" data-publication-search type="search" autocomplete="off" placeholder="Search title, author, journal…">
+    </label>
+    <label for="publication-format">Publication type
+      <select id="publication-format" data-publication-kind>
+        <option value="">All formats</option>
+        <option value="Edited volume">Edited volumes</option>
+        <option value="Special issue">Special issues</option>
+        <option value="Book chapter">Book chapters</option>
+        <option value="Journal article">Journal articles</option>
+        <option value="Conference paper">Conference papers</option>
+        <option value="Research guide">Research guides</option>
+      </select>
+    </label>
+  </div>
+  <p class="publication-count" data-publication-count role="status" aria-live="polite"></p>
+
+  <div class="publication-gallery" data-publication-grid>
+    {% for v in site.data.edited_volumes %}
+      {% assign tint = forloop.index0 | modulo: 5 %}
+      <article class="publication-card" data-publication-card data-kind="{{ v.kind | escape }}" data-search="{{ v.title | append: ' ' | append: v.authors | append: ' ' | append: v.in | downcase | escape }}">
+        <div class="publication-visual publication-visual--{{ tint }}">
+          <div class="publication-visual-copy" aria-hidden="true">
+            <span class="publication-visual-type">{{ v.kind | upcase }}</span>
+            <span class="publication-visual-name">{{ v.title | escape }}</span>
+            <span class="publication-visual-footer">{{ v.year }} · EDITED WORK</span>
+          </div>
+          {% if v.cover %}
+          <img src="{{ v.cover }}" alt="Cover of {{ v.title | escape }}" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="300" height="430">
+          {% endif %}
+        </div>
+        <div class="publication-card-body">
+          <p class="publication-meta">{{ v.year }} <span aria-hidden="true">/</span> {{ v.kind }}</p>
+          <h3 class="publication-card-title">{{ v.title | escape }}</h3>
+          <p class="publication-authors">{{ v.authors | escape }}</p>
+          <p class="publication-venue">{{ v.in | escape }}</p>
+          {% if v.note %}<p class="publication-note">{{ v.note | escape }}</p>{% endif %}
+          {% if v.url %}<a class="publication-action" href="{{ v.url }}" target="_blank" rel="noopener noreferrer">Publisher details <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+
+    {% for p in site.data.publications %}
+      {% assign tint = forloop.index0 | plus: 2 | modulo: 5 %}
+      <article class="publication-card" data-publication-card data-kind="{{ p.kind | default: 'Other' | escape }}" data-search="{{ p.title | append: ' ' | append: p.authors | append: ' ' | append: p.in | append: ' ' | append: p.year | downcase | escape }}">
+        <div class="publication-visual publication-visual--{{ tint }}">
+          <div class="publication-visual-copy" aria-hidden="true">
+            <span class="publication-visual-type">{{ p.kind | default: 'Publication' | upcase }}</span>
+            <span class="publication-visual-name">{{ p.title | escape }}</span>
+            <span class="publication-visual-footer">{{ p.year }} · {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          </div>
+          {% if p.cover %}
+          <img src="{{ p.cover }}" alt="Cover of {{ p.in | escape }}, the volume containing this chapter" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="300" height="430">
+          {% endif %}
+        </div>
+        <div class="publication-card-body">
+          <p class="publication-meta">{{ p.year }} <span aria-hidden="true">/</span> {{ p.kind | default: 'Publication' }}</p>
+          <h3 class="publication-card-title">{{ p.title | escape }}</h3>
+          <p class="publication-authors">{{ p.authors | escape }}</p>
+          <p class="publication-venue">In: <em>{{ p.in | escape }}</em></p>
+          <details class="publication-citation">
+            <summary>Full citation</summary>
+            <p>{{ p.authors | escape }} ({{ p.year }}). {{ p.title | escape }}. <em>{{ p.in | escape }}</em>{% if p.detail %}, {{ p.detail | escape }}{% endif %}.</p>
+          </details>
+          <div class="publication-links">
+            {% if p.doi %}<a class="publication-action" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">Open DOI <span aria-hidden="true">↗</span></a>
+            {% elsif p.url %}<a class="publication-action" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">Read publication <span aria-hidden="true">↗</span></a>
+            {% elsif p.volume_url %}<a class="publication-action" href="{{ p.volume_url }}" target="_blank" rel="noopener noreferrer">View volume <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if p.cover_source %}<a class="publication-cover-credit" href="{{ p.cover_source }}" target="_blank" rel="noopener noreferrer">Cover source</a>{% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="publication-endnote">The graphical previews are designed for this site. The identified book cover images are displayed from external publishers or booksellers and may occasionally be unavailable.</p>
+</section>
