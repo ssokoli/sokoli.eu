@@ -1,42 +1,21 @@
 # sokoli.eu
 
-Personal research and professional website, built with **Jekyll** and **GitHub Pages**.
+Jekyll website hosted on GitHub Pages.
 
-## Editing the site
+## Content
 
-- Pages such as `index.md`, `about.md`, `research.md` and `teaching.md` are Markdown.
-- The top menu is in `_data/navigation.yml`.
-- Publication, project, filmography and talk listings are in `_data/*.yml`.
-- Journal posts are in `_posts/`. Use `featured: true` in a post's front matter to feature it on the Writing page.
-- Short observations are imported into `_data/notes.json` and displayed on separate annual pages under `/notes/YYYY/`.
-- The homepage boxes are controlled by `assets/css/style.css`.
-- Optional black subtitle-style statements are stored as `sub:` in page front matter. To **show** them, change `show_subtitles: false` to `true` in `_config.yml`. They are **off by default**.
-- Journal and annual Notes page filters are enhanced by `assets/js/archive.js` and do not need a server.
-- Motion features (`assets/js/motion.js`, styles at the end of `assets/css/style.css`): a red progress bar at the top of every page and a timecode that counts up from the page's `cue` as you scroll (the end of the page = the cue plus an estimated reading time). A "Motion" button in the footer turns motion off; it is off by default for visitors whose system asks for reduced motion. Without JavaScript, pages are unchanged.
-- The About page timeline is a subtitle file: edit `_data/career.yml` (one second = one year from 1995). The same data generates the downloadable `/career.srt`.
-- Machine-readable information for search engines and AI tools, not visible on the pages:
-  - `_includes/structured-data.html` adds schema.org JSON-LD (Person on every page, ProfilePage on the homepage and About page, publications on the Research page from `_data/publications.yml`). The role, affiliations and profile links are written into that file: update them there when they change on the About or Contact page.
-  - `llms.txt` generates `/llms.txt`, a plain-text guide to the site. Page descriptions come from each page's `dek` and publications from `_data/publications.yml`; the summary paragraph is written in the file.
+- Pages: `*.md`
+- Journal: `_posts/`
+- Data: `_data/`
+- Images: `assets/`
+- Visual asset index: `_data/visual_assets.csv` (category, title, file, year)
+- Style: `assets/css/style.css`
 
-Any commit to `main` triggers a GitHub Pages rebuild automatically if Pages is configured.
+Images already referenced in pages retain their original file paths. New publication covers are stored in `assets/visuals/publications/` and linked from `_data/publications.yml`. Other curated visuals are under `assets/visuals/conferences/` and `assets/visuals/people/`.
 
-## Local preview
+## Preview
 
-If Jekyll is installed:
-
-```bash
+```sh
 bundle install
 bundle exec jekyll serve
 ```
-
-Then open http://localhost:4000.
-
-This site does not require paid hosting or a database.
-
-## Portrait and talk videos
-
-The homepage and About page share the optimised portrait `assets/portrait-stavroula.avif`. The source was provided by the site owner; the deployed image is 420 × 420 pixels and uses AVIF compression.
-
-The Talks page features two video embeds and a thumbnail gallery generated from video IDs already listed in `_data/talks.yml`, `_data/presentations.yml`, and `_data/recordings.yml`. To add another **confirmed** recording, add its YouTube video ID to the appropriate YAML item. Do not present conference videos featuring other speakers as the site owner's talks.
-
-Event photos on third-party sites are linked, not copied. Download and republish them only after confirming reuse permission.
