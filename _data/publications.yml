@@ -1,8 +1,3 @@
-# Publications — one entry per item, from the CV.
-# DOIs included ONLY where stated in the CV or verified against Crossref.
-# Fields: authors, year, title, in (container: journal or book), detail
-# (publisher/pages/eds), doi (bare, no URL prefix), url (when no DOI exists).
-
 - authors: "Dore, M., Bolaños, A. & Sokoli, S."
   year: "forthcoming"
   title: "Audiovisual Translation and Media Accessibility in Language Education: Looking Back and Moving Forward"
