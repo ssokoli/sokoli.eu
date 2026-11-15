@@ -205,7 +205,7 @@
 
 - title: "Marcelino pan y vino"
   poster: "/assets/posters/marcelino-pan-y-vino.jpg"
-  year: "1955"          # film year; subtitled 2002
+  year: "1955"
   type: film
   pair: "ES > EL"
 
@@ -243,7 +243,7 @@
   poster: "/assets/posters/ram-dass-going-home.jpg"
   year: "2017"
   type: film
-  pair: "EN > EL"     # doc short; she dates it 2018 (subtitled)
+  pair: "EN > EL"
 
 - title: "Mr. Roosevelt"
   poster: "/assets/posters/mr-roosevelt.jpg"
@@ -253,7 +253,7 @@
 
 - title: "The Lodgers"
   poster: "/assets/posters/the-lodgers.jpg"
-  year: "2017"          # subtitled 2018 (Epic Pictures)
+  year: "2017"
   type: film
   pair: "EN > EL"
 
@@ -289,25 +289,25 @@
 
 - title: "How High"
   poster: "/assets/posters/how-high.jpg"
-  year: "2001"          # subtitled 2002
+  year: "2001"
   type: film
   pair: "EN > EL"
 
 - title: "Dante's Peak"
   poster: "/assets/posters/dante-s-peak.jpg"
-  year: "1997"          # subtitled 2002
+  year: "1997"
   type: film
   pair: "EN > EL"
 
 - title: "Liar Liar"
   poster: "/assets/posters/liar-liar.jpg"
-  year: "1997"          # subtitled 2002
+  year: "1997"
   type: film
   pair: "EN > EL"
 
 - title: "Young Guns II"
   poster: "/assets/posters/young-guns-ii.jpg"
-  year: "1990"          # subtitled 2003
+  year: "1990"
   type: film
   pair: "EN > EL"
 
@@ -319,6 +319,6 @@
 
 - title: "Back to the Future"
   poster: "/assets/posters/back-to-the-future.jpg"
-  year: "1985"          # subtitled 2002
+  year: "1985"
   type: film
   pair: "EN > EL"
