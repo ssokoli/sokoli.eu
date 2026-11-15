@@ -2,7 +2,7 @@
   <header class="publication-section-heading">
     <span class="section-kicker">PUBLICATION ARCHIVE</span>
     <h2 id="publications-heading">Publications and edited volumes</h2>
-    <p class="publication-intro">Browse the work in a visual format. Book covers identify the <em>volume</em> in which a chapter appears. Other visuals are editorial representations, not scans of the original publications.</p>
+    <p class="publication-intro">Browse publications and edited volumes.</p>
   </header>
 
   <div class="publication-controls" role="search" aria-label="Filter publications">
@@ -74,7 +74,6 @@
             {% if p.doi %}<a class="publication-action" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">Open DOI <span aria-hidden="true">↗</span></a>
             {% elsif p.url %}<a class="publication-action" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">Read publication <span aria-hidden="true">↗</span></a>
             {% elsif p.volume_url %}<a class="publication-action" href="{{ p.volume_url }}" target="_blank" rel="noopener noreferrer">View volume <span aria-hidden="true">↗</span></a>{% endif %}
-            {% if p.cover_source %}<a class="publication-cover-credit" href="{{ p.cover_source }}" target="_blank" rel="noopener noreferrer">Cover source</a>{% endif %}
           </div>
         </div>
       </article>
