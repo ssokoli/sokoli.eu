@@ -25,8 +25,7 @@
   detail: "Lambert, J. & Walker, C. (eds), Routledge"
   doi: "10.4324/9781003381303-8"
   kind: "Book chapter"
-  cover: "https://image.ebooks.com/cover/345964303.jpg?height=1575&quality=85&width=1050"
-  cover_source: "https://www.routledge.com/The-Routledge-Handbook-of-the-Translation-Industry/Walker-Lambert/p/book/9781003381303"
+  cover: "/assets/visuals/publications/routledge-handbook-translation-industry-2026.webp"
 
 - authors: "Sokoli, S."
   year: 2026
@@ -74,8 +73,7 @@
   detail: "Herrero, C. & Vanderschelden, I. (eds), Multilingual Matters, pp. 170–187"
   doi: "10.21832/9781788924498-015"
   kind: "Book chapter"
-  cover: "https://www.degruyterbrill.com/document/cover/isbn/9781788924498/product_pages"
-  cover_source: "https://www.degruyterbrill.com/document/doi/10.21832/9781788924498/html"
+  cover: "/assets/visuals/publications/using-film-and-media-language-classroom-2019.webp"
 
 - authors: "Sokoli, S., Pujol, M. & Santamaría, L."
   year: 2019
@@ -128,8 +126,7 @@
   in: "Audiovisual Translation. Subtitles and Subtitling: Theory and Practice"
   detail: "Incalcaterra McLoughlin, L., Biscio, M. & Ní Mhainnín, M.Á. (eds), Peter Lang, pp. 219–242"
   kind: "Book chapter"
-  cover: "https://media.s-bol.com/xBnn9gQy01LP/9VQyvY/805x1200.jpg"
-  cover_source: "https://www.peterlang.com/document/1052085"
+  cover: "/assets/visuals/publications/subtitles-and-subtitling-theory-practice-2011.webp"
 
 - authors: "Romero, L., Torres-Hostench, O. & Sokoli, S."
   year: 2011
@@ -153,8 +150,7 @@
   detail: "Díaz Cintas, J. & Anderman, G. (eds), Palgrave Macmillan"
   doi: "10.1057/9780230234581_3"
   kind: "Book chapter"
-  cover: "https://target.scene7.com/is/image/Target/GUEST_e5d740ad-9f2c-48e5-8251-b1298f9d3e98"
-  cover_source: "https://doi.org/10.1057/9780230234581"
+  cover: "/assets/visuals/publications/audiovisual-translation-language-transfer-on-screen-2009.webp"
 
 - authors: "Sokoli, S."
   year: 2006
