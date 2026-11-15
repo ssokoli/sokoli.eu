@@ -1,61 +1,73 @@
 - title: "Medusa"
+  poster: "/assets/posters/medusa.jpg"
   year: "2025–26"
   type: series
   season: "S1–S2"
   pair: "EN > EL"
 
 - title: "The Leopard"
+  poster: "/assets/posters/the-leopard.jpg"
   year: "2025"
   type: series
   season: "S1"
   pair: "IT > EL"
 
 - title: "The Six Triple Eight"
+  poster: "/assets/posters/the-six-triple-eight.jpg"
   year: "2024"
   type: film
   pair: "EN > EL"
 
 - title: "The Perfect Couple"
+  poster: "/assets/posters/the-perfect-couple.jpg"
   year: "2024"
   type: series
   pair: "EN > EL"
 
 - title: "Love is Blind: Habibi"
+  poster: "/assets/posters/love-is-blind-habibi.jpg"
   year: "2024"
   type: series
   pair: "EN > EL"
 
 - title: "Las Hermanas Guerra"
+  poster: "/assets/posters/las-hermanas-guerra.jpg"
   year: "2024"
   type: series
   pair: "ES > EL"
 
 - title: "Inganno"
+  poster: "/assets/posters/inganno.jpg"
   year: "2024"
   type: series
   pair: "IT > EL"
 
 - title: "Rebel Moon — Part One & Two"
+  poster: "/assets/posters/rebel-moon-part-one-two.jpg"
   year: "2023–24"
   type: film
   pair: "EN > EL"
 
 - title: "Pain Hustlers"
+  poster: "/assets/posters/pain-hustlers.jpg"
   year: "2023"
   type: film
   pair: "EN > EL"
 
 - title: "No estás sola: La lucha contra La Manada"
+  poster: "/assets/posters/no-estas-sola-la-lucha-contra-la-manada.jpg"
   year: "2024"
   type: film
   pair: "ES > EL"
 
 - title: "Totally Killer"
+  poster: "/assets/posters/totally-killer.jpg"
   year: "2023"
   type: film
   pair: "EN > EL"
 
 - title: "The Fall of the House of Usher"
+  poster: "/assets/posters/the-fall-of-the-house-of-usher.jpg"
   year: "2023"
   type: series
   season: "S1"
@@ -63,22 +75,26 @@
   role: "Subtitle QC"
 
 - title: "Beckham"
+  poster: "/assets/posters/beckham.jpg"
   year: "2023"
   type: series
   pair: "EN > EL"
 
 - title: "Briganti"
+  poster: "/assets/posters/briganti.jpg"
   year: "2023"
   type: series
   season: "S1"
   pair: "IT > EL"
 
 - title: "Chavorrucos"
+  poster: "/assets/posters/chavorrucos.jpg"
   year: "2023"
   type: series
   pair: "ES > EL"
 
 - title: "The Mighty Ducks: Game Changers"
+  poster: "/assets/posters/the-mighty-ducks-game-changers.jpg"
   year: "2021"
   type: series
   season: "S1"
@@ -86,49 +102,58 @@
   role: "Subtitle QC"
 
 - title: "Kate"
+  poster: "/assets/posters/kate.jpg"
   year: "2021"
   type: film
   pair: "EN > EL"
 
 - title: "The Fosters"
+  poster: "/assets/posters/the-fosters.jpg"
   year: "2021"
   type: series
   season: "S5"
   pair: "EN > EL"
 
 - title: "Siren"
+  poster: "/assets/posters/siren.jpg"
   year: "2020"
   type: series
   season: "S3"
   pair: "EN > EL"
 
 - title: "Mank"
+  poster: "/assets/posters/mank.jpg"
   year: "2020"
   type: film
   pair: "EN > EL"
 
 - title: "Rebecca"
+  poster: "/assets/posters/rebecca.jpg"
   year: "2020"
   type: film
   pair: "EN > EL"
 
 - title: "Tales from the Loop"
+  poster: "/assets/posters/tales-from-the-loop.jpg"
   year: "2020"
   type: series
   pair: "EN > EL"
 
 - title: "Mismatched"
+  poster: "/assets/posters/mismatched.jpg"
   year: "2020"
   type: series
   pair: "EN > EL"
 
 - title: "Goliath"
+  poster: "/assets/posters/goliath.jpg"
   year: "2019"
   type: series
   season: "S3"
   pair: "EN > EL"
 
 - title: "Élite"
+  poster: "/assets/posters/elite.jpg"
   year: "2019"
   type: series
   season: "S2"
@@ -136,137 +161,164 @@
   role: "Subtitle QC"
 
 - title: "Sorry to Bother You"
+  poster: "/assets/posters/sorry-to-bother-you.jpg"
   year: "2019"
   type: film
   pair: "EN > EL"
 
 - title: "Daredevil"
+  poster: "/assets/posters/daredevil.jpg"
   year: "2018"
   type: series
   pair: "EN > EL"
 
 - title: "The Grinch"
+  poster: "/assets/posters/the-grinch.jpg"
   year: "2018"
   type: film
   pair: "EN > EL"
 
 - title: "Truth or Dare"
+  poster: "/assets/posters/truth-or-dare.jpg"
   year: "2018"
   type: film
   pair: "EN > EL"
 
 - title: "Las leyes de la termodinámica"
+  poster: "/assets/posters/las-leyes-de-la-termodinamica.jpg"
   year: "2018"
   type: film
   pair: "ES > EL"
 
 - title: "Pokémon"
+  poster: "/assets/posters/pokemon.jpg"
   year: "2020"
   type: series
   pair: "EN > EL"
   role: "SDH authoring"
 
 - title: "Ocean's Thirteen"
+  poster: "/assets/posters/ocean-s-thirteen.jpg"
   year: "2007"
   type: film
   pair: "EN > EL"
 
 - title: "Marcelino pan y vino"
+  poster: "/assets/posters/marcelino-pan-y-vino.jpg"
   year: "1955"          # film year; subtitled 2002
   type: film
   pair: "ES > EL"
 
 - title: "Spy Game"
+  poster: "/assets/posters/spy-game.jpg"
   year: "2002"
   type: film
   pair: "EN > EL"
 
 - title: "A Beautiful Mind"
+  poster: "/assets/posters/a-beautiful-mind.jpg"
   year: "2001"
   type: film
   pair: "EN > EL"
 
 - title: "Physical: 100 Italia"
+  poster: "/assets/posters/physical-100-italia.jpg"
   year: "2026"
   type: series
   pair: "IT > EL"
 
 - title: "Shipwrecked: Nightmare at Sea"
+  poster: "/assets/posters/shipwrecked-nightmare-at-sea.jpg"
   year: "2026"
   type: film
   pair: "EN > EL"
 
 - title: "Fighting with My Family"
+  poster: "/assets/posters/fighting-with-my-family.jpg"
   year: "2019"
   type: film
   pair: "EN > EL"
 
 - title: "Ram Dass, Going Home"
+  poster: "/assets/posters/ram-dass-going-home.jpg"
   year: "2017"
   type: film
   pair: "EN > EL"     # doc short; she dates it 2018 (subtitled)
 
 - title: "Mr. Roosevelt"
+  poster: "/assets/posters/mr-roosevelt.jpg"
   year: "2017"
   type: film
   pair: "EN > EL"
 
 - title: "The Lodgers"
+  poster: "/assets/posters/the-lodgers.jpg"
   year: "2017"          # subtitled 2018 (Epic Pictures)
   type: film
   pair: "EN > EL"
 
 - title: "2 Fast 2 Furious"
+  poster: "/assets/posters/2-fast-2-furious.jpg"
   year: "2003"
   type: film
   pair: "EN > EL"
 
 - title: "Scooby-Doo! and the Monster of Mexico"
+  poster: "/assets/posters/scooby-doo-and-the-monster-of-mexico.jpg"
   year: "2003"
   type: film
   pair: "EN > EL"
 
 - title: "Threshold"
+  poster: "/assets/posters/threshold.jpg"
   year: "2003"
   type: film
   pair: "EN > EL"
 
 - title: "The Scorpion King"
+  poster: "/assets/posters/the-scorpion-king.jpg"
   year: "2002"
   type: film
   pair: "EN > EL"
 
 - title: "The Sweetest Thing"
+  poster: "/assets/posters/the-sweetest-thing.jpg"
   year: "2002"
   type: film
   pair: "EN > EL"
 
 - title: "How High"
+  poster: "/assets/posters/how-high.jpg"
   year: "2001"          # subtitled 2002
   type: film
   pair: "EN > EL"
 
 - title: "Dante's Peak"
+  poster: "/assets/posters/dante-s-peak.jpg"
   year: "1997"          # subtitled 2002
   type: film
   pair: "EN > EL"
 
 - title: "Liar Liar"
+  poster: "/assets/posters/liar-liar.jpg"
   year: "1997"          # subtitled 2002
   type: film
   pair: "EN > EL"
 
 - title: "Young Guns II"
+  poster: "/assets/posters/young-guns-ii.jpg"
   year: "1990"          # subtitled 2003
   type: film
   pair: "EN > EL"
 
 - title: "Into the Night"
+  poster: "/assets/posters/into-the-night.jpg"
   year: "1985"
   type: film
   pair: "EN > EL"
 
 - title: "Back to the Future"
+  poster: "/assets/posters/back-to-the-future.jpg"
   year: "1985"          # subtitled 2002
   type: film
   pair: "EN > EL"

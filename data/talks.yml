@@ -28,6 +28,7 @@
   venue: "Opening and Closing Keynote, ELIA Focus on Project Management 2025"
   place: "Athens"
   date: "4–5 December 2025"
+  image: "/assets/visuals/conferences/elia-focus-pm-2025-logo.webp"
 
 - year: 2025
   title: "Chair, session \"Translation Today\"; round table on the position of translation bodies on AI"
@@ -54,6 +55,7 @@
   date: "10 June 2025"
   event_url: "https://www.upf.edu/en/web/rainfilmfest/participants-2025"
   event_label: "Speakers"
+  image: "/assets/visuals/people/rain-film-festival-2025-stavroula-sokoli.webp"
 
 - year: 2024
   title: "Chair, panel on modern workflows"
@@ -119,6 +121,7 @@
   venue: "Media for All 8"
   place: "Stockholm"
   date: "17–19 June 2019"
+  image: "/assets/visuals/conferences/media-for-all-8-2019.webp"
 
 - year: 2018
   title: "Las múltiples caras del multilingüismo en Traducción Audiovisual"
