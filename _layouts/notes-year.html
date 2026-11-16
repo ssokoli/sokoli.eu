@@ -3,10 +3,8 @@ layout: default
 ---
 <article class="page">
   <header class="page-header">
-    <span class="cue">ARCHIVE / {{ page.note_year }}</span>
-    <h1>Notes · {{ page.note_year }}</h1>
-    <p class="dek">Short posts from LinkedIn and X.</p>
-    <p><a href="{{ '/notes/' | relative_url }}">← All years</a></p>
+    <p class="cue"><a href="{{ '/notes/' | relative_url }}">All years</a></p>
+    <h1>Notes {{ page.note_year }}</h1>
   </header>
   <div class="archive-controls" data-archive-controls>
     <label>Search this year
@@ -29,7 +27,7 @@ layout: default
     {% assign current_year = n.date | slice: 0, 4 %}
     {% if current_year == target_year %}
     <li class="note" lang="{{ n.lang | default: 'EN' | downcase }}" data-archive-item data-year="{{ current_year }}" data-search="{{ n.html | strip_html | downcase | escape }}">
-      <p class="note-meta"><span class="note-date">{{ n.date | date: "%d.%m.%Y" }}</span> <span class="note-source">{{ n.source | escape }}</span></p>
+      <p class="note-meta"><span class="note-date">{{ n.date | date: "%-d %B %Y" }}</span> <span class="note-source">{{ n.source | escape }}</span></p>
       <div class="note-text">{{ n.html }}</div>
       {% if n.link %}<p class="post-link"><a href="{{ n.link }}">{{ n.link_title | default: 'Original post' }}</a></p>{% endif %}
       {% if n.media.size > 0 %}
@@ -47,5 +45,5 @@ layout: default
     {% endfor %}
   </ol>
   <button class="archive-more" data-archive-more type="button" hidden>Show more notes</button>
-  <p class="archive-back"><a href="{{ '/notes/' | relative_url }}">← Browse other years</a></p>
+  <p class="archive-back"><a href="{{ '/notes/' | relative_url }}">All years</a></p>
 </article>

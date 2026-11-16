@@ -1,0 +1,7 @@
+{%- assign w = include.w -%}
+<div class="tile tile-poster">
+  {% if w.poster %}<img src="{{ w.poster | relative_url }}" alt="Poster of {{ w.title | escape }}" loading="lazy" width="500" height="750">
+  {% else %}<span class="tile-blank">{{ w.title | escape }}</span>{% endif %}
+  {% if include.name %}<span class="tile-name">{{ w.title | escape }}</span>{% endif %}
+  <span class="tile-meta">{{ w.year }}{% if w.season %} · {{ w.season }}{% endif %}{% if w.pair %} · {{ w.pair | replace: '>', '›' }}{% endif %}{% if w.role %} · {{ w.role | escape }}{% endif %}</span>
+</div>

@@ -1,14 +1,15 @@
-- title: About
-  url: /about/
 - title: Research
   url: /research/
-- title: Subtitling
-  url: /subtitles/
 - title: Talks
   url: /talks/
-- title: Teaching
-  url: /teaching/
-- title: Writing
-  url: /writing/
+- title: Subtitles
+  url: /subtitles/
+- title: Journal
+  url: /journal/
+- title: Notes
+  url: /notes/
+- title: About
+  url: /about/
 - title: Contact
   url: /contact/
+  button: true

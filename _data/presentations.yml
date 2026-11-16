@@ -1,10 +1,22 @@
-# Conference presentations, 2000–2022 — newest first.
+- year: 2026
+  authors: "Sokoli, S."
+  title: "Thirty Years of Languages and the Media: How the Conference Discourse Has Evolved (1996–2026)"
+  venue: "Languages & The Media, 16th International Conference"
+  place: "London, 4–6 November 2026"
+
+- year: 2026
+  authors: "Sokoli, S. & Mavrommati, E."
+  title: "Universities as Anchor Institutions in Times of Fragmentation: Participatory SDG Co-Creation and Institutional Inclusion in the Greek Context"
+  venue: "IAIE & HOU International Conference: Migration, the Global Quest for Educational Equity and Intercultural Education"
+  place: "Athens, 19–21 June 2026"
+  slide: "/assets/visuals/slides/2026-iaie.webp"
 
 - year: 2022
   authors: "Sokoli, S. & Arnaiz, V."
   title: "Online Training for the Language Industries"
   venue: "I-HE Conference: Digital Reset"
   place: "Athens, 19–21 October 2022"
+  slide: "/assets/visuals/slides/2022-i-he.webp"
 
 - year: 2021
   authors: "Zabalbeascoa, P. & Sokoli, S."
@@ -18,49 +30,56 @@
   title: "How May Amateur Audiovisual Translation Practices Influence Professional Practices and Vice Versa?"
   venue: "Media for All 8"
   place: "Stockholm, 17–19 June 2019"
+  image: "/assets/visuals/conferences/media-for-all-8-2019.webp"
+  slide: "/assets/visuals/slides/2019-media-for-all-8.webp"
 
 - year: 2018
   authors: "Sokoli, S."
   title: "Translating Multilingualism in Films and Series: Trends and Practices"
   venue: "Languages & The Media, 12th International Conference"
   place: "Berlin, 3–5 October 2018"
+  slide: "/assets/visuals/slides/2018-languages-and-the-media.webp"
 
 - year: 2018
   authors: "Sokoli, S. & Espasa, E."
   title: "Multilingualism in Film Translation: Findings from the TRAFILM Project"
   venue: "6th IATIS International Conference, Hong Kong Baptist University"
   place: "Hong Kong, 3–6 July 2018"
+  slide: "/assets/visuals/slides/2018-iatis.webp"
 
 - year: 2017
   authors: "Sokoli, S."
   title: "Research in the Translation of Multilingual Audiovisual Texts: the TRAFILM Database"
   venue: "6th Meeting of Greek Translation Scholars"
   place: "Thessaloniki, 25–27 May 2017"
+  slide: "/assets/visuals/slides/2017-thessaloniki.webp"
 
 - year: 2017
   authors: "Sokoli, S."
   title: "Researching the Translation of Multilingual Films in Spain: the TRAFILM Project"
   venue: "MultiMeDialecTranslation 7"
   place: "Odense, 17–20 May 2017"
+  slide: "/assets/visuals/slides/2017-odense.webp"
 
 - year: 2016
   authors: "Sokoli, S. & Espasa, E."
   title: "Researching the Translation of Multilingual Films in Spain: the TRAFILM Project"
   venue: "Languages and the Media, 11th International Conference"
   place: "Berlin, 2–4 November 2016"
+  slide: "/assets/visuals/slides/2016-languages-and-the-media.webp"
 
 - year: 2016
   authors: "Klein, G., Fountana, M. & Sokoli, S."
   title: "Discursive and Visual Construction of Internal Borders: Advertisement Samples from Italy, Greece and the UK (RADAR)"
   venue: "Europe in Discourse: Identity, Diversity, Borders"
   place: "Athens, 23–25 September 2016"
+  slide: "/assets/visuals/slides/2016-europe-in-discourse.webp"
 
 - year: 2016
   authors: "Sokoli, S."
   title: "The Translation of Multilingual Films: An Overview of the Trafilm Research Project"
   venue: "6th International Workshop in Higher Education"
   place: "Vic, 29 July 2016"
-  video: "A_YaVTRHbUI"   # VERIFY: "Panel 1A: Research Projects", UVic channel — is this the right session?
 
 - year: 2015
   authors: "Sokoli, S."
@@ -97,6 +116,7 @@
   title: "ClipFlair: Video for Foreign Language Learning"
   venue: "LINQ Conference: Learning Innovations and Quality"
   place: "Rome, 16–17 May 2013"
+  slide: "/assets/visuals/slides/2013-linq.webp"
 
 - year: 2013
   authors: "Navarrete, M. & Sokoli, S."
@@ -120,13 +140,15 @@
   authors: "Sokoli, S."
   title: "Subtitling as an Activity for Language Learning"
   venue: "Media for All 2: Text on Screen, Text on Air, Polytechnic Institute of Leiria"
-  place: "8–9 November 2007"
+  place: "7–9 November 2007"
+  slide: "/assets/visuals/slides/2007-media-for-all-2.webp"
 
 - year: 2006
   authors: "Σοκόλη, Σ."
   title: "Υποτιτλιστικές Νόρμες στην Ελλάδα και στην Ισπανία"
   venue: "1η Συνάντηση Μεταφρασεολόγων: Μεταφρασεολογικές Σπουδές και Έρευνα στην Ελλάδα"
   place: "Thessaloniki, 1–3 November 2006"
+  slide: "/assets/visuals/slides/2006-thessaloniki.webp"
 
 - year: 2004
   authors: "Hadzilacos, T., Papadakis, S. & Sokoli, S."
@@ -139,6 +161,7 @@
   title: "Omisión y Distribución de Subtítulos en España y Grecia: Cómo y Por Qué"
   venue: "IV Congreso Internacional de Trasvases Culturales, Universidad del País Vasco"
   place: "Vitoria-Gasteiz, 27–29 May 2004"
+  slide: "/assets/visuals/slides/2004-trasvases.webp"
 
 - year: 2004
   authors: "Sokoli, S. & Papadakis, S."
@@ -151,6 +174,7 @@
   title: "Subtitling Norms in Greece and Spain"
   venue: "In So Many Words: Language Transfer on the Screen, University of Surrey Roehampton"
   place: "London, 6–7 February 2004"
+  slide: "/assets/visuals/slides/2004-london.webp"
 
 - year: 2001
   authors: "Sokoli, S."
@@ -169,6 +193,7 @@
   title: "Temas de Investigación en la Traducción Audiovisual: La Definición del Texto Audiovisual"
   venue: "I Congreso SETAM, Universitat Pompeu Fabra"
   place: "Barcelona, 27–28 April 2001"
+  slide: "/assets/visuals/slides/2001-setam.webp"
 
 - year: 2000
   authors: "Sokoli, S."

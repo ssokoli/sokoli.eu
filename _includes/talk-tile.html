@@ -1,0 +1,15 @@
+{%- assign t = include.t -%}
+{%- assign href = '' -%}
+{%- if t.video -%}{%- assign href = 'https://www.youtube.com/watch?v=' | append: t.video -%}
+{%- elsif t.read_url -%}{%- assign href = t.read_url -%}
+{%- elsif t.event_url -%}{%- assign href = t.event_url -%}{%- endif -%}
+{% if href != '' %}<a class="tile tile-wide" href="{{ href }}">{% else %}<div class="tile tile-wide">{% endif %}
+  <span class="tile-frame">
+    {% if t.slide %}<img src="{{ t.slide | relative_url }}" alt="" loading="lazy">
+    {% elsif t.video %}<img src="https://i.ytimg.com/vi/{{ t.video }}/hqdefault.jpg" alt="" loading="lazy">
+    {% else %}<span class="tile-city">{{ t.place | default: t.year | split: ',' | first | escape }}</span>{% endif %}
+    {% if t.video %}<span class="tile-play" aria-hidden="true"></span>{% endif %}
+  </span>
+  <span class="tile-title">{{ t.title | escape }}</span>
+  <span class="tile-meta">{% if t.authors %}{{ t.authors | escape }}. {% endif %}{{ t.venue | escape }}{% if t.place %}, {{ t.place | escape }}{% endif %}{% if t.date %}, {{ t.date | escape }}{% endif %}</span>
+{% if href != '' %}</a>{% else %}</div>{% endif %}

@@ -1,0 +1,12 @@
+{%- assign p = include.p -%}
+{%- assign href = '/research/' | relative_url -%}
+{%- if p.doi -%}{%- assign href = 'https://doi.org/' | append: p.doi -%}
+{%- elsif p.url -%}{%- assign href = p.url -%}
+{%- elsif p.volume_url -%}{%- assign href = p.volume_url -%}{%- endif -%}
+<a class="tile tile-box" href="{{ href }}">
+  <span class="tile-top">
+    <span class="tile-label">{{ p.kind | default: 'Publication' | escape }} · {{ p.year }}</span>
+    <span class="tile-title">{{ p.title | escape }}</span>
+  </span>
+  <span class="tile-meta">{{ p.in | escape }}</span>
+</a>

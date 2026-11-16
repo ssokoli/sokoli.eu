@@ -1,0 +1,44 @@
+name: "Stavroula Sokoli"
+email: "stavroula@sokoli.eu"
+website: "https://sokoli.eu"
+institution: "Computer Technology Institute and Press Diophantus (CTI)"
+roles:
+  - "Senior Researcher, CTI"
+  - "Greek Language Lead for subtitling, Deluxe Media (since 2016)"
+  - "Vice President, European Association for Studies in Screen Translation (ESIST)"
+  - "Postdoctoral researcher, Hellenic Open University, School of Applied Arts and Sustainable Design (since 2025)"
+  - "Tutor of Spanish Language, Hellenic Open University (2006–2008, since 2012)"
+education:
+  - degree: "PhD in Translation and Interpretation"
+    institution: "Universitat Autònoma de Barcelona"
+    year: 2011
+    thesis: "Subtitling Norms in Greece and Spain: A Comparative Descriptive Study on Film Subtitle Omission and Distribution"
+  - degree: "MA in Translation and Interpretation"
+    institution: "Universitat Autònoma de Barcelona"
+  - degree: "BA in English Language and Literature"
+    institution: "Aristotle University of Thessaloniki"
+profiles:
+  orcid: "https://orcid.org/0000-0002-2970-8729"
+  scholar: "https://scholar.google.com/citations?user=Q5VrkMAAAAAJ"
+  linkedin: "https://www.linkedin.com/in/sokoli/"
+portrait: "/assets/portrait-stavroula-1600.jpg"
+memberships:
+  - organisation: "European Association for Studies in Screen Translation (ESIST)"
+    role: "Vice President"
+    current: true
+  - organisation: "AI Localization Think Tank"
+    role: "Member"
+    current: true
+  - organisation: "Women in Localization, Greece Chapter"
+    role: "Founding member"
+    years: "2020–2022"
+  - organisation: "Hellenic Society for Translation Studies"
+    role: "Board member"
+    years: "2022–2023"
+  - organisation: "Panhellenic Association of Translators (ΠΕΜ)"
+    role: "Vice President of the Disciplinary Board"
+working_languages:
+  target: "Greek"
+  source: ["English", "Spanish", "Italian", "Catalan", "German"]
+subtitling_roles: ["Subtitle authoring", "SDH authoring", "Subtitle QC"]
+subtle_profile: "https://subtle-subtitlers.org.uk/author/Stavroula/"

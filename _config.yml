@@ -1,5 +1,5 @@
 title: "Stavroula Sokoli"
-description: "Audiovisual translator, subtitler, researcher and educator. Research on screen translation, language learning and AI."
+description: "Stavroula Sokoli researches audiovisual translation and subtitles films and series into Greek. She is Vice President of ESIST."
 url: "https://sokoli.eu"
 baseurl: ""
 author: "Stavroula Sokoli"
@@ -27,5 +27,3 @@ exclude:
   - vendor
   - scripts
 
-# Set to true to display the optional black subtitle-style statements on pages.
-show_subtitles: false

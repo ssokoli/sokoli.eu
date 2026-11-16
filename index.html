@@ -1,0 +1,69 @@
+---
+layout: default
+permalink: /
+title: Stavroula Sokoli
+description: "Stavroula Sokoli researches audiovisual translation and subtitles films and series into Greek. She is Vice President of ESIST."
+---
+{%- assign latest = '' -%}
+{%- for t in site.data.talks -%}{%- if t.video -%}{%- assign latest = t.video -%}{%- break -%}{%- endif -%}{%- endfor -%}
+<section class="hero">
+  <div class="hero-copy">
+    <p class="cue" aria-hidden="true">1<br>00:00:00,000 --&gt; <b data-timecode data-start="00:00:00,000">00:00:00,000</b></p>
+    <h1>Words on screen. <span>Questions off screen.</span></h1>
+    <p class="hero-intro">I research audiovisual translation, learning and the changing relationship between people, language and technology. I translate films and series into Greek.</p>
+    <div class="hero-actions">
+      {% if latest != '' %}<a class="btn btn-primary" href="https://www.youtube.com/watch?v={{ latest }}">Watch the latest talk</a>{% endif %}
+      <a class="btn" href="{{ '/about/' | relative_url }}">About me</a>
+    </div>
+  </div>
+  <img class="hero-portrait" src="{{ '/assets/portrait-stavroula.jpg' | relative_url }}" alt="Stavroula Sokoli smiling outdoors" width="920" height="920">
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>Films and series</h2><a href="{{ '/subtitles/' | relative_url }}">All titles</a></div>
+  <div class="rail">
+    {% assign works = site.data.filmography | sort: "year" | reverse %}
+    {% for w in works limit: 14 %}{% include film-tile.html w=w %}{% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>Research</h2><a href="{{ '/research/' | relative_url }}">All publications</a></div>
+  <div class="rail">
+    {% for v in site.data.edited_volumes %}{% include pub-tile.html p=v %}{% endfor %}
+    {% for p in site.data.publications limit: 8 %}{% include pub-tile.html p=p %}{% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>Talks</h2><a href="{{ '/talks/' | relative_url }}">All talks</a></div>
+  <div class="rail">
+    {% for t in site.data.talks limit: 12 %}{% include talk-tile.html t=t %}{% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>Journal</h2><a href="{{ '/journal/' | relative_url }}">All posts</a></div>
+  <div class="rail">
+    {% assign english = site.posts | where: "lang", "EN" %}
+    {% for post in english limit: 8 %}
+    <a class="tile tile-post" href="{{ post.url | relative_url }}">
+      <span class="tile-label">{{ post.date | date: "%-d %B %Y" }}</span>
+      <span class="tile-title">{{ post.title | escape }}</span>
+      <span class="tile-text">{{ post.excerpt | strip_html | truncate: 220 }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>Notes</h2><a href="{{ '/notes/' | relative_url }}">All notes</a></div>
+  <div class="rail">
+    {% for n in site.data.notes limit: 8 %}
+    <a class="tile tile-box tile-note" href="{{ '/notes/' | relative_url }}">
+      <span class="tile-text">{{ n.html | strip_html | truncate: 300 }}</span>
+      <span class="tile-meta">{{ n.date | date: "%-d %B %Y" }} · {{ n.source | escape }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

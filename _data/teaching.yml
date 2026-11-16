@@ -1,0 +1,64 @@
+- title: "Spanish Language (ΙΣΠ10, Level I)"
+  institution: "Hellenic Open University"
+  years: "2012–present"
+  level: "Undergraduate"
+
+- title: "Spanish Language, Levels I and II"
+  institution: "Hellenic Open University"
+  years: "2006–2008"
+  level: "Undergraduate"
+
+- title: "Diplomatura de estudios avanzados en herramientas teóricas y técnicas aplicadas a la traducción audiovisual"
+  institution: "Universidad Nacional de Rosario"
+  years: "2025"
+  level: "Postgraduate"
+
+- title: "Audiovisual Translation and Media Accessibility: Theories and Methodologies"
+  institution: "Università degli Studi di Macerata"
+  years: "2023"
+  slide: "/assets/visuals/slides/2023-macerata-course.webp"
+
+- title: "La subtitulación según los medios de comunicación"
+  institution: "Universitat Pompeu Fabra"
+  programme: "Master en Traducción Literaria y Audiovisual"
+  years: "2012–2022"
+  level: "Postgraduate"
+
+- title: "Tradumática: Traducción y Nuevas Tecnologías"
+  institution: "Universitat Autònoma de Barcelona"
+  subjects:
+    - "El entorno de trabajo del traductor"
+    - "Internet para traductores"
+    - "Herramientas de subtitulación"
+  years: "2000–2016"
+  level: "Postgraduate"
+
+- title: "Subtitling (English–Greek)"
+  institution: "meta|φραση School of Translation Studies"
+  years: "2005–2008, 2015–2021"
+  level: "Professional training"
+
+- title: "Audiosub"
+  institution: "UNED"
+  years: "2019–2021"
+  level: "Teaching innovation"
+
+- title: "Doblaje y subtitulación creativa"
+  institution: "UNED"
+  years: "2017–2018"
+  level: "Teaching innovation"
+
+- title: "Sub-Lite"
+  institution: "UNED"
+  years: "2015–2016"
+  level: "Teaching innovation"
+
+- title: "iDub"
+  institution: "UNED"
+  years: "2014–2015"
+  level: "Teaching innovation"
+
+- title: "La Traducción Audiovisual y el Aprendizaje de Idiomas"
+  institution: "UNED"
+  years: "2015"
+  level: "Summer course"

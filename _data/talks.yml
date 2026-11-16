@@ -1,7 +1,8 @@
-# Invited talks, keynotes, and chairing roles — newest first.
-# Optional fields: video (YouTube ID, only when the recording is her own talk),
-# event_url (link to the organisers' page; event_label sets the link text, default "Event"),
-# read_url (published version of the talk, shown as "Read ↗").
+- year: 2026
+  title: "Presentation of the Jan Ivarsson Award, as Vice President of ESIST"
+  venue: "Languages & The Media 2026"
+  place: "London"
+  date: "4–6 November 2026"
 
 - year: 2026
   title: "¿Dónde está mi subtítulo? El subtítulo cero y las expectativas del espectador"
@@ -28,11 +29,20 @@
   place: "online"
   date: "April 2026"
 
+- year: 2026
+  title: "La traducción en la era de la IA: ¿quién juzga el output?"
+  venue: "Traduversia"
+  place: "online"
+  date: "18 March 2026"
+  slide: "/assets/visuals/slides/2026-traduversia.webp"
+
 - year: 2025
   title: "Atrophy is Not a Trophy: Sharpening Skills, Finding Human Value"
   venue: "Opening and Closing Keynote, ELIA Focus on Project Management 2025"
   place: "Athens"
   date: "4–5 December 2025"
+  image: "/assets/visuals/conferences/elia-focus-pm-2025-logo.webp"
+  slide: "/assets/visuals/slides/2025-elia-focus-pm.webp"
 
 - year: 2025
   title: "Chair, session \"Translation Today\"; round table on the position of translation bodies on AI"
@@ -45,12 +55,14 @@
   venue: "APTIS seminar"
   place: "online"
   date: "25 June 2025"
+  slide: "/assets/visuals/slides/2025-aptis.webp"
 
 - year: 2025
   title: "AI Workflows in Audiovisual Translation"
   venue: "Audiovisual Translation: at the Junction of Language and Technology, Women in Localization Greece"
   place: "Athens"
   date: "13 June 2025"
+  slide: "/assets/visuals/slides/2025-women-in-localization.webp"
 
 - year: 2025
   title: "AI in Film Translation and Accessibility"
@@ -59,6 +71,15 @@
   date: "10 June 2025"
   event_url: "https://www.upf.edu/en/web/rainfilmfest/participants-2025"
   event_label: "Speakers"
+  image: "/assets/visuals/people/rain-film-festival-2025-stavroula-sokoli.webp"
+  slide: "/assets/visuals/slides/2025-rain.webp"
+
+- year: 2025
+  title: "Υπολογισμός αμοιβής στην οπτικοακουστική μετάφραση"
+  venue: "Guest lecture, Aristotle University of Thessaloniki"
+  place: "Thessaloniki"
+  date: "23 December 2025"
+  slide: "/assets/visuals/slides/2025-auth-fair-pay.webp"
 
 - year: 2024
   title: "Chair, panel on modern workflows"
@@ -72,6 +93,7 @@
   place: "Collado Villalba, Madrid"
   date: "7 November 2024"
   read_url: "https://www.ooona.net/onstage-publications/subtitulos-de-doblaje-en-netflix-usos-y-flujos-de-trabajo/"
+  slide: "/assets/visuals/slides/2024-hispatav.webp"
 
 - year: 2024
   title: "AI workflows for video localization"
@@ -79,14 +101,36 @@
   place: "online"
   date: "5 March 2024"
   event_url: "https://elia-association.org/2023/12/ai-workflows-for-video-localization/"
+  slide: "/assets/visuals/slides/2024-elia-webinar.webp"
+
+- year: 2024
+  title: "Εφαρμογές τεχνητής νοημοσύνης στην οπτικοακουστική μετάφραση"
+  venue: "Language Tech Patras"
+  place: "Patras"
+  date: "17 November 2024"
+  slide: "/assets/visuals/slides/2024-language-tech-patras.webp"
 
 - year: 2023
   title: "Video Localization in the Era of the Cloud"
   venue: "GALA webinar hosted by OOONA, with Yota Georgakopoulou and Alex Yoffe"
   place: "online"
   date: "25 January 2023"
-  # The recording linked in 2023 (YouTube NmjvzEPOySk) has been removed from YouTube.
   event_url: "https://www.gala-global.org/events/events-calendar/video-localization-era-cloud"
+  slide: "/assets/visuals/slides/2023-gala-webinar.webp"
+
+- year: 2023
+  title: "Οπτικοακουστική μετάφραση και προσβασιμότητα"
+  venue: "Language Tech Patras"
+  place: "Patras"
+  date: "November 2023"
+  slide: "/assets/visuals/slides/2023-language-tech-patras.webp"
+
+- year: 2023
+  title: "Παρόν και μέλλον εφαρμογών τεχνητής νοημοσύνης στην οπτικοακουστική μετάφραση"
+  venue: "2ο Συνέδριο Επαγγελματιών Μετάφρασης και Διερμηνείας, Panhellenic Association of Translators (ΠΕΜ), ΕΣΗΕΑ"
+  place: "Athens"
+  date: "20 October 2023"
+  slide: "/assets/visuals/slides/2023-pem-conference.webp"
 
 - year: 2022
   title: "Industry Insights: People, Data and Quality"
@@ -106,12 +150,35 @@
   venue: "Παγκόσμια Ημέρα Μετάφρασης, Panhellenic Association of Translators (ΠΕΜ)"
   place: "Athens"
   date: "28 September 2022"
+  slide: "/assets/visuals/slides/2022-translation-day-pem.webp"
 
 - year: 2022
   title: "Οπτικοακουστική μετάφραση στον καιρό της πανδημίας: τάσεις, εργαλεία και πρακτικές"
   venue: "Ημερίδα Ελληνικής Εταιρείας Μεταφρασεολογίας: Με το βλέμμα στο αύριο"
   place: "Athens"
   date: "13 May 2022"
+  slide: "/assets/visuals/slides/2022-eem.webp"
+
+- year: 2022
+  title: "Film Translation for Streaming Services: Subtitling Working Conditions and Challenges"
+  venue: "International Translation Day, Ferdowsi University of Mashhad"
+  place: "online"
+  date: "1 October 2022"
+  slide: "/assets/visuals/slides/2022-ferdowsi.webp"
+
+- year: 2021
+  title: "Τεχνολογικές λύσεις για την αύξηση της παραγωγικότητας στον υποτιτλισμό"
+  venue: "Webinar, Panhellenic Association of Translators (ΠΕΜ)"
+  place: "online"
+  date: "6 October 2021"
+  slide: "/assets/visuals/slides/2021-pem-webinar.webp"
+
+- year: 2020
+  title: "Υποτιτλισμός"
+  venue: "Webinar, Panhellenic Association of Translators (ΠΕΜ)"
+  place: "online"
+  date: "29 April 2020"
+  slide: "/assets/visuals/slides/2020-pem-webinar.webp"
 
 - year: 2019
   title: "Χάρτινο Σπίτι ή Τέλεια Ληστεία; Ο υποτιτλισμός της ισπανικής σειράς Casa de Papel"
@@ -119,38 +186,65 @@
   place: "Thessaloniki"
   date: "2019"
   video: "gVhV15zez-8"
+  slide: "/assets/visuals/slides/2019-pem-thessaloniki-book-fair.webp"
 
 - year: 2019
   title: "Round Table on AVT Localization"
   venue: "Media for All 8"
   place: "Stockholm"
   date: "17–19 June 2019"
+  image: "/assets/visuals/conferences/media-for-all-8-2019.webp"
+  slide: "/assets/visuals/slides/2019-media-for-all-8-round-table.webp"
+
+- year: 2019
+  title: "Η οπτικοακουστική μετάφραση στα μανταλάκια (When Audiovisual Translation Hits the Headlines)"
+  venue: "Aristotle University of Thessaloniki, with the Panhellenic Association of Translators (ΠΕΜ)"
+  place: "Thessaloniki"
+  date: "May 2019"
+  slide: "/assets/visuals/slides/2019-pem-auth.webp"
 
 - year: 2018
   title: "Las múltiples caras del multilingüismo en Traducción Audiovisual"
   venue: "1r Congreso Hispanoamericano de Traducción Audiovisual"
   place: "Buenos Aires"
   date: "18–19 May 2018"
-  # No video: the HispaTAV 2018 recording (GGIYJdJI1x4) shows Stavroula, but it is not her talk.
+  slide: "/assets/visuals/slides/2018-hispatav.webp"
+
+- year: 2018
+  title: "Ο υποτιτλισμός και η ακουστική περιγραφή στη διδασκαλία γλωσσών"
+  venue: "Metropolitan College"
+  place: "Athens"
+  date: "24 November 2018"
+  slide: "/assets/visuals/slides/2018-metropolitan.webp"
+
+- year: 2018
+  title: "Οι δέκα εντολές του υποτιτλισμού"
+  venue: "Webinar, Panhellenic Association of Translators (ΠΕΜ)"
+  place: "online"
+  date: "2018"
+  slide: "/assets/visuals/slides/2018-pem-webinar.webp"
 
 - year: 2017
   title: "The Greek Subtitler's Position in a Global Market: Current Status and Perspectives"
   venue: "1st Professional Translators and Interpreters Conference"
   place: "Athens"
   date: "30 September – 1 October 2017"
+  slide: "/assets/visuals/slides/2017-pem-conference.webp"
 
 - year: 2015
   title: "Ανάπτυξη γλωσσικών δεξιοτήτων μέσω της οπτικοακουστικής μετάφρασης: εννοιολογικό μοντέλο και εφαρμογές"
   venue: "Aspects of Foreign Language Education — Translation and Evaluation, European Commission DG Translation"
   place: "University of Piraeus"
   date: "3 October 2015"
+  slide: "/assets/visuals/slides/2015-dgt-athens.webp"
 
 - year: 2014
   title: "Η οπτικοακουστική μετάφραση στη διδασκαλία ξένων γλωσσών"
   venue: "Translation Day"
   place: "Athens"
-  date: "30 September 2014"
+  date: "27 September 2014"
   video: "bFP9BaXs7Bw"
+  slide: "/assets/visuals/slides/2014-translation-day.webp"
 
 - year: 2014
   title: "Audiovisual Translation for Foreign Language Learning: New Multimodal Resources"
@@ -158,6 +252,7 @@
   place: "Ávila"
   date: "7–9 May 2014"
   video: "x04etYpFu0o"
+  slide: "/assets/visuals/slides/2014-tislid.webp"
 
 - year: 2012
   title: "The ClipFlair Project"
@@ -170,9 +265,11 @@
   venue: "Multidimensional Translation: Audiovisual Translation Scenarios, University of Copenhagen"
   place: "Copenhagen"
   date: "1–5 May 2006"
+  slide: "/assets/visuals/slides/2006-copenhagen.webp"
 
 - year: 2005
   title: "Una herramienta para la creación de actividades de E/LE basadas en la subtitulación de películas"
   venue: "XIV Jornadas de didáctica de E/LE, ASPE"
   place: "Athens & Thessaloniki"
   date: "3–4 December 2005"
+  slide: "/assets/visuals/slides/2005-aspe.webp"

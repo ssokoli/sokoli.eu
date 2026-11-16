@@ -2,15 +2,10 @@
 layout: default
 ---
 <article class="page">
-  <header class="page-header">
-    {% if page.cue %}<span class="cue">{{ page.cue }}</span>{% endif %}
-    <h1>{{ page.title }}</h1>
-    {% if page.dek %}<p class="dek">{{ page.dek }}</p>{% endif %}
-  </header>
-  {% if site.show_subtitles and page.sub %}<div class="sub"><p>{{ page.sub | escape }}</p></div>{% endif %}
+  {% include page-header.html %}
   <div class="page-content">{{ content }}</div>
 
-  <h2>Browse the archive</h2>
+  
   <div class="archive-controls" data-archive-controls>
     <label>Search titles and summaries
       <input type="search" data-archive-search placeholder="Try: subtitling, AI, teaching…" autocomplete="off">
@@ -37,7 +32,7 @@ layout: default
     {% for post in site.posts %}
     <li class="post-list-item" data-archive-item data-year="{{ post.date | date: '%Y' }}" data-search="{{ post.title | append: ' ' | append: post.excerpt | strip_html | downcase | escape }}">
       <a href="{{ post.url | relative_url }}">
-        <span class="post-list-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <span class="post-list-date">{{ post.date | date: "%-d %B %Y" }}</span>
         <span class="post-list-title">{{ post.title }}</span>
       </a>
       {% if post.excerpt %}<p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>{% endif %}

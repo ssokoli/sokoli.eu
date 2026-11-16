@@ -1,21 +1,25 @@
 ---
-layout: page
+layout: wide
 permalink: /projects/
 title: Projects
 cue: "00:04:00,000"
-dek: Twenty EU-funded and national research projects, led or joined, 2006 to today.
-sub: "Most interesting ideas need more than one discipline."
+description: "Research projects coordinated by Stavroula Sokoli, among them ClipFlair and Learning via Subtitling."
 ---
+<div class="page-content" markdown="1">
 
-Between 2003 and 2008 I was Project Manager at the Educational Content, Methodology and Technology Laboratory of the Hellenic Open University, working on EU-funded projects. Since 2011 I have coordinated research projects at the Computer Technology Institute & Press "Diophantus" (CTI).
+Research projects I have coordinated or taken part in since 2003. Most of them were funded by the European Union.
 
-## Coordination
+From 2003 to 2008 I managed projects at the Hellenic Open University. Since 2011 I have coordinated projects at the Computer Technology Institute and Press "Diophantus" (CTI).
+
+</div>
+
+## Projects I coordinated
 
 <ul class="project-list">
 {% for pr in site.data.projects %}
   <li class="project-item">
     {% if pr.image %}
-    <div class="project-image"><img src="{{ '/assets/projects/' | append: pr.image | relative_url }}" alt="{{ pr.name }}" loading="lazy"></div>
+    <div class="project-image"><img src="{{ pr.image | relative_url }}" alt="{{ pr.name }}" loading="lazy"></div>
     {% else %}
     <div class="project-image project-image-card"><p>{{ pr.name | split: " — " | first }}</p></div>
     {% endif %}
@@ -28,7 +32,7 @@ Between 2003 and 2008 I was Project Manager at the Educational Content, Methodol
 {% endfor %}
 </ul>
 
-## Participation
+## Projects I took part in
 
 <ul class="pub-list">
 {% for pr in site.data.participation %}

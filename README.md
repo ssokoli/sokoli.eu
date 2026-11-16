@@ -1,3 +1,5 @@
+> **November 2026 redesign.** The site uses a dark, streaming-style theme: `assets/css/style.css`, tile includes in `_includes/*-tile.html`, and a running timecode in `assets/js/site.js`. Data in `_data/` and images in `assets/visuals/` are copied from the content collection `ssokoli/sokoli.eu-content`, which is the master copy. Notes below about `show_subtitles` and `motion.js` describe the previous design and no longer apply.
+
 # sokoli.eu
 
 Personal research and professional website, built with **Jekyll** and **GitHub Pages**.
