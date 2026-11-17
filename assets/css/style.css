@@ -117,7 +117,7 @@ a.tile:hover,a.tile:focus-visible{transform:translateY(-6px);outline-color:var(-
 .record-meta{display:block;font-size:16px}
 
 /* journal and notes */
-.archive-controls,.publication-controls{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 16px}
+.archive-controls,.publication-controls{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;margin:0 0 16px}
 label{display:flex;flex-direction:column;gap:6px;font-size:15px;font-weight:600;color:var(--muted)}
 input,select,button{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--line);padding:10px 12px;min-height:44px}
 button{cursor:pointer;font-weight:700}
