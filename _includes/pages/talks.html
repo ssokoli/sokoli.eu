@@ -1,0 +1,19 @@
+{%- include i18n.html -%}
+<div class="page-content">{{ T.pages.talks | markdownify }}</div>
+
+<h2 id="invited">{{ U.invited }}</h2>
+<div class="grid">
+  {% for tk in site.data.talks %}{% include talk-tile.html t=tk %}{% endfor %}
+</div>
+
+<h2 id="presentations">{{ U.presentations }}</h2>
+<div class="grid">
+  {% for tk in site.data.presentations %}{% include talk-tile.html t=tk %}{% endfor %}
+</div>
+
+{% if site.data.recordings.size > 0 %}
+<h2 id="recordings">{{ U.recordings }}</h2>
+<div class="grid">
+  {% for tk in site.data.recordings %}{% include talk-tile.html t=tk %}{% endfor %}
+</div>
+{% endif %}

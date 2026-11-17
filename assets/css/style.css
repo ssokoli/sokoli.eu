@@ -33,6 +33,11 @@ em{font-style:italic}
 .site-nav a.nav-contact:hover{color:var(--bg);background:#f04f52}
 
 /* footer */
+.lang-switch{display:flex;flex-wrap:wrap;gap:0 4px;flex-basis:100%;justify-content:flex-end;margin-top:-6px}
+.lang-switch a{font-size:14px;font-weight:700;letter-spacing:.06em;color:var(--muted);text-decoration:none;padding:8px 8px}
+.lang-switch a:hover{color:var(--text)}
+.lang-switch a[aria-current]{color:var(--text);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:6px}
+.page-links{display:flex;flex-wrap:wrap;gap:4px 24px}
 .site-footer-inner{display:flex;flex-wrap:wrap;gap:8px 32px;padding:40px var(--pad) 48px;margin-top:40px;border-top:1px solid var(--line)}
 .site-footer a{font-size:16px;font-weight:600;padding-block:12px;text-decoration:none}
 

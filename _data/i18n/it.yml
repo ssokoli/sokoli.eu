@@ -1,0 +1,111 @@
+name: Italiano
+site_name: Stavroula Sokoli
+datefmt: "%-d/%-m/%Y"
+nav: {research: Ricerca, talks: Interventi, subtitles: Sottotitoli, journal: Diario, notes: Note, about: Chi sono, contact: Contatti, teaching: Didattica, projects: Progetti}
+ui:
+  films: Film e serie
+  all_titles: Tutti i titoli
+  all_pubs: Tutte le pubblicazioni
+  all_talks: Tutti gli interventi
+  all_posts: Tutti i post
+  all_notes: Tutte le note
+  watch: Guarda l'intervento più recente
+  about_me: Chi sono
+  invited: Relazioni su invito
+  presentations: Comunicazioni a convegni
+  recordings: Altre registrazioni
+  publications: Pubblicazioni
+  coordinated: Progetti che ho coordinato
+  took_part: Progetti a cui ho partecipato
+  institution: Istituzione
+  elsewhere: Altrove
+  by_year: Per anno
+  newest: Note più recenti
+  notes_word: note
+  search: Cerca nei titoli e nei riassunti
+  year: Anno
+  all_years: Tutti gli anni
+  theme: Tema
+  all_themes: Tutti i temi
+  th_screen: Traduzione audiovisiva
+  th_ai: IA e tecnologia
+  th_edu: Insegnamento e apprendimento
+  th_work: Vita professionale
+  more: Mostra altri post
+  find_pub: Cerca una pubblicazione
+  pub_type: Tipo di pubblicazione
+  all_formats: Tutti i tipi
+  citation: Citazione completa
+  attribution: "Locandine da TMDB. Questo sito utilizza TMDB e le API di TMDB, ma non è approvato né certificato da TMDB."
+  alt_portrait: Stavroula Sokoli sorride all'aperto
+  lang_label: Lingua
+h1a: Parole sullo schermo.
+h1b: Domande fuori campo.
+intro: "Studio la traduzione audiovisiva, l'apprendimento e il rapporto, in continuo cambiamento, tra le persone, il linguaggio e la tecnologia. Traduco film e serie in greco."
+pages:
+  about: |
+    Sono ricercatrice, sottotitolatrice e docente. Vivo a Patrasso, in Grecia.
+
+    Lavoro come ricercatrice senior al Computer Technology Institute and Press «Diophantus» (CTI), dove dal 2011 coordino progetti di ricerca. Dal 2025 svolgo anche una ricerca post-dottorato alla Hellenic Open University sull'intelligenza artificiale nell'istruzione e nella creazione audiovisiva. Voglio capire che cosa rendono possibile questi strumenti, che cosa sostituiscono e che cosa succede al giudizio professionale quando li si usa.
+
+    La mia prima domanda di ricerca viene dalla sottotitolazione. Chi sottotitola omette parole di continuo, e io volevo sapere quali e perché. La risposta è diventata la mia tesi di dottorato alla Universitat Autònoma de Barcelona (2011), che confronta ciò che i sottotitoli dei film omettono in Grecia e in Spagna. Da allora continua a interessarmi quello che i sottotitoli lasciano fuori.
+
+    Negli stessi anni ho studiato la sottotitolazione come modo per imparare le lingue. Ho coordinato due progetti europei, Learning via Subtitling e ClipFlair, in cui gli studenti si esercitano in una lingua straniera sottotitolando e doppiando brevi video. Più tardi ho studiato come si traducono i film in cui si parla più di una lingua.
+
+    Ho cominciato a tradurre nel 1995 e ho lavorato come interprete dal 1998 al 2008. Dal 2001 sottotitolo film e serie in greco, dall'inglese, dallo spagnolo, dall'italiano, dal catalano e dal tedesco. Dal 2016 sono anche Greek Language Lead per la sottotitolazione presso Deluxe. Continuo a sottotitolare, e in questo lavoro continuo a trovare domande di ricerca.
+
+    Insegno spagnolo alla Hellenic Open University. Ho insegnato sottotitolazione e tecnologie per la traduzione alla Universitat Pompeu Fabra, alla Universitat Autònoma de Barcelona, all'Università di Macerata e in altre università. Ho studiato psicologia negli anni Novanta, e oggi leggo la ricerca attuale su cognizione, apprendimento e attenzione.
+
+    Ho un dottorato e un master in Traduzione e Interpretazione della Universitat Autònoma de Barcelona e una laurea in Lingua e Letteratura inglese dell'Università Aristotele di Salonicco. Sono vicepresidente della European Association for Studies in Screen Translation (ESIST) e faccio parte dell'AI Localization Think Tank.
+
+    Al cinema resto fino alla fine dei titoli di coda, per leggere il nome di chi ha fatto i sottotitoli.
+  subtitles: |
+    Una selezione dei film e delle serie che ho sottotitolato o revisionato in greco dal 2001. L'elenco non è completo: aggiungo i titoli man mano che li ritrovo nei miei archivi.
+
+    Lavoro dall'inglese, dallo spagnolo, dall'italiano, dal catalano e dal tedesco verso il greco. Scrivo sottotitoli, anche per spettatori sordi (SDH), e controllo il lavoro di altri sottotitolatori.
+
+    Quando sullo schermo qualcuno canta, cerco di scrivere sottotitoli che si possano cantare. Non so se il pubblico canti in greco. Io sì.
+
+    L'anno accanto a ogni titolo è di solito quello del film o della serie, spesso precedente all'anno in cui l'ho sottotitolato.
+  talks: |
+    Relazioni su invito, keynote, tavole rotonde e comunicazioni a convegni dal 2000, in inglese, greco e spagnolo.
+
+    Negli ultimi anni quasi tutti gli inviti riguardano l'intelligenza artificiale nella sottotitolazione e nella traduzione. Gli interventi precedenti riguardano le norme della sottotitolazione, i film multilingui e la sottotitolazione nella didattica delle lingue.
+
+    Dove esiste una registrazione, si può guardare qui. Per gli altri interventi si vede la prima diapositiva della mia presentazione.
+  research: |
+    Le mie pubblicazioni, dalla più recente. Riguardano quattro temi:
+
+    - come si scrivono i sottotitoli e che cosa omettono
+    - come si traducono i film in cui si parla più di una lingua
+    - la sottotitolazione e il doppiaggio come attività per imparare una lingua
+    - dal 2025, l'intelligenza artificiale nell'istruzione e nella creazione audiovisiva
+
+    La mia tesi di dottorato, *Subtitling Norms in Greece and Spain* (Universitat Autònoma de Barcelona, 2011), confronta i due paesi su due punti: che cosa omettono i sottotitoli dei film e come il dialogo viene distribuito nei sottotitoli.
+
+    Ogni titolo rimanda alla pagina dell'editore o al testo completo, quando è ad accesso libero.
+  journal: |
+    Testi più lunghi, in gran parte pubblicati prima su LinkedIn. Li conservo qui perché chiunque possa trovarli e leggerli senza un account.
+  notes: |
+    Brevi post da X e LinkedIn, dal 2012 a oggi, a partire dai più recenti. Ognuno registra quello che pensavo in un certo giorno. Alcuni oggi li scriverei in modo diverso.
+  teaching: |
+    Insegno dal 2000. Alla Hellenic Open University insegno spagnolo. In corsi post-laurea e corsi professionali in Grecia, Spagna, Italia e Argentina ho insegnato sottotitolazione, traduzione audiovisiva e tecnologie per la traduzione.
+
+    Con colleghi della UNED di Madrid ho partecipato anche a progetti di innovazione didattica in cui gli studenti imparano una lingua sottotitolando, doppiando e audiodescrivendo video.
+  projects: |
+    Progetti di ricerca che ho coordinato o a cui ho partecipato dal 2003. La maggior parte è stata finanziata dall'Unione europea.
+
+    Dal 2003 al 2008 ho gestito progetti alla Hellenic Open University. Dal 2011 coordino progetti al CTI «Diophantus».
+  contact: |
+    Scrivimi a [stavroula@sokoli.eu](mailto:stavroula@sokoli.eu) per parlare di sottotitolazione, interventi, ricerca o didattica.
+
+    Puoi scrivermi in inglese, greco o spagnolo.
+x:
+  "publisher": "Pagina dell'editore"
+  "doi": "Apri il DOI"
+  "read": "Leggi la pubblicazione"
+  "volume": "Vedi il volume"
+  "in": "In:"
+  "skip": "Vai al contenuto"
+  "poster": "Locandina di"
+  "post_lang": "EN"

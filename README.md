@@ -42,3 +42,12 @@ The homepage and About page share the optimised portrait `assets/portrait-stavro
 The Talks page features two video embeds and a thumbnail gallery generated from video IDs already listed in `_data/talks.yml`, `_data/presentations.yml`, and `_data/recordings.yml`. To add another **confirmed** recording, add its YouTube video ID to the appropriate YAML item. Do not present conference videos featuring other speakers as the site owner's talks.
 
 Event photos on third-party sites are linked, not copied. Download and republish them only after confirming reuse permission.
+
+## Languages
+
+The site is in English (at `/`) and in Greek, Spanish, Catalan, German and Italian (at `/el/`, `/es/`, `/ca/`, `/de/`, `/it/`).
+
+- All page texts, menu words and labels are in `_data/i18n/<language>.yml`. Edit the text there and commit; the page changes.
+- The page bodies shared by all languages are in `_includes/pages/`.
+- The small page files (`about.html`, `el/about.html`, …) are written by `python3 scripts/make_language_pages.py`. Run it only after changing a menu word or the first sentence of a page text (it is used as the search description).
+- Journal posts, notes, publication and talk titles stay in the language they were written in.

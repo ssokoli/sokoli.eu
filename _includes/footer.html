@@ -1,8 +1,9 @@
+{%- include i18n.html -%}
 <footer class="site-footer">
   <div class="site-footer-inner">
-    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-    <a href="{{ '/projects/' | relative_url }}">Projects</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    <a href="{{ P | append: '/teaching/' | relative_url }}">{{ T.nav.teaching }}</a>
+    <a href="{{ P | append: '/projects/' | relative_url }}">{{ T.nav.projects }}</a>
+    <a href="{{ P | append: '/contact/' | relative_url }}">{{ T.nav.contact }}</a>
     <a href="https://www.linkedin.com/in/sokoli/">LinkedIn</a>
     <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
   </div>

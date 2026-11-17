@@ -1,0 +1,111 @@
+name: Català
+site_name: Stavroula Sokoli
+datefmt: "%-d/%-m/%Y"
+nav: {research: Recerca, talks: Xerrades, subtitles: Subtítols, journal: Diari, notes: Notes, about: Sobre mi, contact: Contacte, teaching: Docència, projects: Projectes}
+ui:
+  films: Pel·lícules i sèries
+  all_titles: Tots els títols
+  all_pubs: Totes les publicacions
+  all_talks: Totes les xerrades
+  all_posts: Totes les entrades
+  all_notes: Totes les notes
+  watch: Mira la xerrada més recent
+  about_me: Sobre mi
+  invited: Xerrades convidades
+  presentations: Comunicacions en congressos
+  recordings: Més enregistraments
+  publications: Publicacions
+  coordinated: Projectes que vaig coordinar
+  took_part: Projectes en què vaig participar
+  institution: Institució
+  elsewhere: En altres llocs
+  by_year: Per any
+  newest: Notes més recents
+  notes_word: notes
+  search: Cerca en títols i resums
+  year: Any
+  all_years: Tots els anys
+  theme: Tema
+  all_themes: Tots els temes
+  th_screen: Traducció audiovisual
+  th_ai: IA i tecnologia
+  th_edu: Ensenyament i aprenentatge
+  th_work: Vida professional
+  more: Mostra més entrades
+  find_pub: Cerca una publicació
+  pub_type: Tipus de publicació
+  all_formats: Tots els tipus
+  citation: Citació completa
+  attribution: "Cartells procedents de TMDB. Aquest lloc fa servir TMDB i les API de TMDB, però no té l'aval ni la certificació de TMDB."
+  alt_portrait: Stavroula Sokoli somriu a l'aire lliure
+  lang_label: Llengua
+h1a: Paraules en pantalla.
+h1b: Preguntes fora de camp.
+intro: "Investigo la traducció audiovisual, l'aprenentatge i la relació, sempre canviant, entre les persones, el llenguatge i la tecnologia. Tradueixo pel·lícules i sèries al grec."
+pages:
+  about: |
+    Soc investigadora, subtituladora i docent. Visc a Patres, Grècia.
+
+    Treballo com a investigadora sènior al Computer Technology Institute and Press «Diophantus» (CTI), on coordino projectes de recerca des del 2011. Des del 2025 faig també una recerca postdoctoral a la Universitat Oberta de Grècia sobre la intel·ligència artificial en l'educació i en la creació audiovisual. Vull saber què permeten fer aquestes eines, què substitueixen i què passa amb el criteri professional quan es fan servir.
+
+    La meva primera pregunta de recerca va sorgir de la subtitulació. Els qui subtitulem ometem paraules contínuament, i jo volia saber quines i per què. La resposta va ser la meva tesi doctoral a la Universitat Autònoma de Barcelona (2011), que compara el que ometen els subtítols de les pel·lícules a Grècia i a Espanya. Des d'aleshores m'interessa el que els subtítols deixen fora.
+
+    Durant aquells mateixos anys vaig estudiar la subtitulació com a manera d'aprendre llengües. Vaig coordinar dos projectes europeus, Learning via Subtitling i ClipFlair, en què els estudiants practiquen una llengua estrangera subtitulant i doblant vídeos. Més endavant vaig estudiar com es tradueixen les pel·lícules en què es parla més d'una llengua.
+
+    Vaig començar a traduir el 1995 i vaig treballar d'intèrpret del 1998 al 2008. Des del 2001 subtitulo pel·lícules i sèries al grec, de l'anglès, el castellà, l'italià, el català i l'alemany. Des del 2016 soc també responsable de llengua grega (Greek Language Lead) de subtitulació a Deluxe. Continuo subtitulant, i en aquesta feina continuo trobant preguntes de recerca.
+
+    Ensenyo castellà a la Universitat Oberta de Grècia. He impartit subtitulació i tecnologies de la traducció a la Universitat Pompeu Fabra, a la Universitat Autònoma de Barcelona i a altres universitats. Vaig estudiar psicologia als anys noranta, i ara llegeixo la recerca actual sobre cognició, aprenentatge i atenció.
+
+    Soc doctora i màster en Traducció i Interpretació per la Universitat Autònoma de Barcelona i llicenciada en Filologia Anglesa per la Universitat Aristòtil de Tessalònica. Soc vicepresidenta de l'Associació Europea d'Estudis de Traducció Audiovisual (ESIST) i membre de l'AI Localization Think Tank.
+
+    Al cinema em quedo fins al final dels crèdits per llegir el nom de qui ha subtitulat la pel·lícula.
+  subtitles: |
+    Una selecció de les pel·lícules i sèries que he subtitulat o revisat en grec des del 2001. La llista no és completa: hi afegeixo títols a mesura que els trobo als meus arxius.
+
+    Treballo de l'anglès, el castellà, l'italià, el català i l'alemany al grec. Escric subtítols, escric subtítols per a persones sordes (SPS) i reviso la feina d'altres subtituladors.
+
+    Quan algú canta en pantalla, miro que els subtítols es puguin cantar. No sé si el públic canta en grec. Jo sí.
+
+    L'any que acompanya cada títol sol ser el de la pel·lícula o la sèrie, que sovint és anterior a l'any en què la vaig subtitular.
+  talks: |
+    Conferències convidades, ponències plenàries, taules rodones i comunicacions en congressos des del 2000, en anglès, grec i castellà.
+
+    Els darrers anys gairebé totes les invitacions tracten de la intel·ligència artificial en la subtitulació i la traducció. Les xerrades anteriors tracten de les normes de subtitulació, les pel·lícules multilingües i la subtitulació en l'ensenyament de llengües.
+
+    Quan hi ha un enregistrament, es pot veure aquí. A la resta de xerrades hi apareix la primera diapositiva de la meva presentació.
+  research: |
+    Les meves publicacions, de la més recent a la més antiga. Tracten quatre temes:
+
+    - com s'escriuen els subtítols i què ometen
+    - com es tradueixen les pel·lícules en què es parla més d'una llengua
+    - la subtitulació i el doblatge com a activitats per aprendre llengües
+    - des del 2025, la intel·ligència artificial en l'educació i en la creació audiovisual
+
+    La meva tesi doctoral, *Subtitling Norms in Greece and Spain* (Universitat Autònoma de Barcelona, 2011), compara els dos països en dos aspectes: què ometen els subtítols de les pel·lícules i com es reparteix el diàleg en subtítols.
+
+    Cada títol enllaça amb la pàgina de l'editorial o amb el text complet, quan és d'accés lliure.
+  journal: |
+    Textos més llargs, la majoria publicats primer a LinkedIn. Els guardo aquí perquè tothom els pugui trobar i llegir sense tenir-hi compte.
+  notes: |
+    Publicacions breus d'X i LinkedIn, des del 2012 fins avui, de la més recent a la més antiga. Cadascuna recull el que pensava un dia concret. Algunes avui les escriuria d'una altra manera.
+  teaching: |
+    Faig classes des del 2000. A la Universitat Oberta de Grècia ensenyo castellà. En programes de postgrau i cursos professionals de Grècia, Espanya, Itàlia i l'Argentina he impartit subtitulació, traducció audiovisual i tecnologies de la traducció.
+
+    Amb col·legues de la UNED, a Madrid, he participat també en projectes d'innovació docent en què els estudiants aprenen una llengua subtitulant, doblant i audiodescrivint vídeos.
+  projects: |
+    Projectes de recerca que he coordinat o en què he participat des del 2003. La majoria van rebre finançament de la Unió Europea.
+
+    Del 2003 al 2008 vaig gestionar projectes a la Universitat Oberta de Grècia. Des del 2011 coordino projectes al CTI «Diophantus».
+  contact: |
+    Escriu-me a [stavroula@sokoli.eu](mailto:stavroula@sokoli.eu) per parlar de subtitulació, xerrades, recerca o docència.
+
+    Em pots escriure en castellà, anglès o grec.
+x:
+  "publisher": "Pàgina de l'editorial"
+  "doi": "Obre el DOI"
+  "read": "Llegeix la publicació"
+  "volume": "Mostra el volum"
+  "in": "A:"
+  "skip": "Vés al contingut"
+  "poster": "Cartell de"
+  "post_lang": "EN"

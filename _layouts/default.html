@@ -1,5 +1,6 @@
+{%- include i18n.html -%}
 <!doctype html>
-<html lang="{{ page.lang | default: 'en' | downcase }}">
+<html lang="{{ page.ui | default: page.lang | default: 'en' | downcase }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,13 +12,16 @@
   <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
   <meta name="theme-color" content="#0B0D10">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% if page.i18n %}{% assign codes = "en,el,es,ca,de,it" | split: "," %}{% for code in codes %}{% if code == 'en' %}{% assign alt = page.base %}{% else %}{% assign alt = '/' | append: code | append: page.base %}{% endif %}
+  <link rel="alternate" hreflang="{{ code }}" href="{{ alt | absolute_url }}">{% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ page.base | absolute_url }}">{% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Sofia+Sans+Condensed:wght@800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=3">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=4">
 </head>
 <body class="{{ page.page_class | default: '' | escape }}">
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#main-content">{{ X.skip }}</a>
   {% include header.html %}
   <main id="main-content" class="site-main">
     {{ content }}

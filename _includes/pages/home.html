@@ -1,0 +1,64 @@
+{%- include i18n.html -%}
+{%- assign latest = '' -%}
+{%- for tk in site.data.talks -%}{%- if tk.video -%}{%- assign latest = tk.video -%}{%- break -%}{%- endif -%}{%- endfor -%}
+<section class="hero">
+  <div class="hero-copy">
+    <p class="cue" aria-hidden="true">1<br>00:00:00,000 --&gt; <b data-timecode data-start="00:00:00,000">00:00:00,000</b></p>
+    <h1>{{ T.h1a }} <span>{{ T.h1b }}</span></h1>
+    <p class="hero-intro">{{ T.intro }}</p>
+    <div class="hero-actions">
+      {% if latest != '' %}<a class="btn btn-primary" href="https://www.youtube.com/watch?v={{ latest }}">{{ U.watch }}</a>{% endif %}
+      <a class="btn" href="{{ P | append: '/about/' | relative_url }}">{{ U.about_me }}</a>
+    </div>
+  </div>
+  <img class="hero-portrait" src="{{ '/assets/portrait-stavroula.jpg' | relative_url }}" alt="{{ U.alt_portrait }}" width="920" height="920">
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>{{ U.films }}</h2><a href="{{ P | append: '/subtitles/' | relative_url }}">{{ U.all_titles }}</a></div>
+  <div class="rail">
+    {% assign works = site.data.filmography | sort: "year" | reverse %}
+    {% for w in works limit: 14 %}{% include film-tile.html w=w %}{% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>{{ T.nav.research }}</h2><a href="{{ P | append: '/research/' | relative_url }}">{{ U.all_pubs }}</a></div>
+  <div class="rail">
+    {% for v in site.data.edited_volumes %}{% include pub-tile.html p=v %}{% endfor %}
+    {% for p in site.data.publications limit: 8 %}{% include pub-tile.html p=p %}{% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>{{ T.nav.talks }}</h2><a href="{{ P | append: '/talks/' | relative_url }}">{{ U.all_talks }}</a></div>
+  <div class="rail">
+    {% for tk in site.data.talks limit: 12 %}{% include talk-tile.html t=tk %}{% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>{{ T.nav.journal }}</h2><a href="{{ P | append: '/journal/' | relative_url }}">{{ U.all_posts }}</a></div>
+  <div class="rail">
+    {% assign chosen = site.posts | where: "lang", X.post_lang %}
+    {% for post in chosen limit: 8 %}
+    <a class="tile tile-post" href="{{ post.url | relative_url }}">
+      <span class="tile-label">{{ post.date | date: T.datefmt }}</span>
+      <span class="tile-title">{{ post.title | escape }}</span>
+      <span class="tile-text">{{ post.excerpt | strip_html | truncate: 220 }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="row">
+  <div class="row-head"><h2>{{ T.nav.notes }}</h2><a href="{{ P | append: '/notes/' | relative_url }}">{{ U.all_notes }}</a></div>
+  <div class="rail">
+    {% for n in site.data.notes limit: 8 %}
+    <a class="tile tile-box tile-note" href="{{ P | append: '/notes/' | relative_url }}">
+      <span class="tile-text">{{ n.html | strip_html | truncate: 300 }}</span>
+      <span class="tile-meta">{{ n.date | date: T.datefmt }} · {{ n.source | escape }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

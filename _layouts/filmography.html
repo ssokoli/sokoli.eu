@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{%- include i18n.html -%}
 <article class="page">
   {% include page-header.html %}
   <div class="page-content">
@@ -10,5 +11,5 @@ layout: default
   <div class="grid grid-posters" style="margin-top:40px">
     {% for w in works %}{% include film-tile.html w=w name=true %}{% endfor %}
   </div>
-  <p class="attribution">Poster images via <a href="https://www.themoviedb.org/">TMDB</a>. This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</p>
+  <p class="attribution">{{ U.attribution }} <a href="https://www.themoviedb.org/">themoviedb.org</a></p>
 </article>

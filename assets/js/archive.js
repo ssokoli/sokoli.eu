@@ -34,8 +34,8 @@
     const visible = new Set(found.slice(0, shown).map(x => x.item));
     items.forEach(item => { item.hidden = !visible.has(item); });
     if (status) status.textContent = found.length
-      ? `Showing ${Math.min(found.length, shown)} of ${found.length} matching entries`
-      : 'No entries match these filters.';
+      ? `${Math.min(found.length, shown)} / ${found.length}`
+      : '0';
     if (more) more.hidden = found.length <= shown;
   }
   [search, year, topic].forEach(control => {

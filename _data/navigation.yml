@@ -1,15 +1,15 @@
-- title: Research
+- key: research
   url: /research/
-- title: Talks
+- key: talks
   url: /talks/
-- title: Subtitles
+- key: subtitles
   url: /subtitles/
-- title: Journal
+- key: journal
   url: /journal/
-- title: Notes
+- key: notes
   url: /notes/
-- title: About
+- key: about
   url: /about/
-- title: Contact
+- key: contact
   url: /contact/
   button: true

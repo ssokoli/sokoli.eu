@@ -1,0 +1,5 @@
+{%- assign L = page.ui | default: 'en' -%}
+{%- assign T = site.data.i18n[L] -%}
+{%- assign U = T.ui -%}
+{%- assign X = T.x -%}
+{%- if L == 'en' -%}{%- assign P = '' -%}{%- else -%}{%- assign P = '/' | append: L -%}{%- endif -%}

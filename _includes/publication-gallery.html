@@ -1,15 +1,15 @@
 <section class="publications-showcase" id="publications" aria-labelledby="publications-heading">
   <header class="publication-section-heading">
-    <h2 id="publications-heading">Publications</h2>
+    <h2 id="publications-heading">{{ U.publications }}</h2>
   </header>
 
-  <div class="publication-controls" role="search" aria-label="Filter publications">
-    <label for="publication-search">Find a publication
-      <input id="publication-search" data-publication-search type="search" autocomplete="off" placeholder="Search title, author, journal…">
+  <div class="publication-controls" role="search" aria-label="{{ U.find_pub }}">
+    <label for="publication-search">{{ U.find_pub }}
+      <input id="publication-search" data-publication-search type="search" autocomplete="off">
     </label>
-    <label for="publication-format">Publication type
+    <label for="publication-format">{{ U.pub_type }}
       <select id="publication-format" data-publication-kind>
-        <option value="">All formats</option>
+        <option value="">{{ U.all_formats }}</option>
         <option value="Edited volume">Edited volumes</option>
         <option value="Special issue">Special issues</option>
         <option value="Book chapter">Book chapters</option>
@@ -29,7 +29,7 @@
           <div class="publication-visual-copy" aria-hidden="true">
             <span class="publication-visual-type">{{ v.kind | upcase }}</span>
             <span class="publication-visual-name">{{ v.title | escape }}</span>
-            <span class="publication-visual-footer">{{ v.year }} · EDITED WORK</span>
+            <span class="publication-visual-footer">{{ v.year }} </span>
           </div>
           {% if v.cover %}
           <img src="{{ v.cover }}" alt="Cover of {{ v.title | escape }}" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="300" height="430">
@@ -41,7 +41,7 @@
           <p class="publication-authors">{{ v.authors | escape }}</p>
           <p class="publication-venue">{{ v.in | escape }}</p>
           {% if v.note %}<p class="publication-note">{{ v.note | escape }}</p>{% endif %}
-          {% if v.url %}<a class="publication-action" href="{{ v.url }}" target="_blank" rel="noopener noreferrer">Publisher details <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if v.url %}<a class="publication-action" href="{{ v.url }}" target="_blank" rel="noopener noreferrer">{{ X.publisher }} <span aria-hidden="true">↗</span></a>{% endif %}
         </div>
       </article>
     {% endfor %}
@@ -63,15 +63,15 @@
           <p class="publication-meta">{{ p.year }} <span aria-hidden="true">/</span> {{ p.kind | default: 'Publication' }}</p>
           <h3 class="publication-card-title">{{ p.title | escape }}</h3>
           <p class="publication-authors">{{ p.authors | escape }}</p>
-          <p class="publication-venue">In: <em>{{ p.in | escape }}</em></p>
+          <p class="publication-venue">{{ X.in }} <em>{{ p.in | escape }}</em></p>
           <details class="publication-citation">
-            <summary>Full citation</summary>
+            <summary>{{ U.citation }}</summary>
             <p>{{ p.authors | escape }} ({{ p.year }}). {{ p.title | escape }}. <em>{{ p.in | escape }}</em>{% if p.detail %}, {{ p.detail | escape }}{% endif %}.</p>
           </details>
           <div class="publication-links">
-            {% if p.doi %}<a class="publication-action" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">Open DOI <span aria-hidden="true">↗</span></a>
-            {% elsif p.url %}<a class="publication-action" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">Read publication <span aria-hidden="true">↗</span></a>
-            {% elsif p.volume_url %}<a class="publication-action" href="{{ p.volume_url }}" target="_blank" rel="noopener noreferrer">View volume <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if p.doi %}<a class="publication-action" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">{{ X.doi }} <span aria-hidden="true">↗</span></a>
+            {% elsif p.url %}<a class="publication-action" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ X.read }} <span aria-hidden="true">↗</span></a>
+            {% elsif p.volume_url %}<a class="publication-action" href="{{ p.volume_url }}" target="_blank" rel="noopener noreferrer">{{ X.volume }} <span aria-hidden="true">↗</span></a>{% endif %}
             
           </div>
         </div>

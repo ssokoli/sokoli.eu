@@ -1,29 +1,12 @@
 ---
-layout: wide
-permalink: /talks/
-title: Talks
-cue: "00:02:00,000"
+layout: "wide"
+permalink: "/talks/"
+title: "Talks"
 description: "Talks, keynotes and conference papers by Stavroula Sokoli on subtitling, audiovisual translation and AI, with recordings and slides."
+cue: "00:02:00,000"
+ui: "en"
+lang: "en"
+base: "/talks/"
+i18n: true
 ---
-<div class="page-content">
-  <p>Invited talks, keynotes, round tables and conference papers since 2000, in English, Greek and Spanish.</p>
-  <p>In the last few years most invitations have been about artificial intelligence in subtitling and translation. The earlier talks are about subtitling norms, multilingual films, and subtitling in language teaching.</p>
-  <p>Where a recording exists, you can watch it here. For the other talks you see the first slide of my presentation.</p>
-</div>
-
-<h2 id="invited">Invited talks</h2>
-<div class="grid">
-  {% for t in site.data.talks %}{% include talk-tile.html t=t %}{% endfor %}
-</div>
-
-<h2 id="presentations">Conference presentations</h2>
-<div class="grid">
-  {% for t in site.data.presentations %}{% include talk-tile.html t=t %}{% endfor %}
-</div>
-
-{% if site.data.recordings.size > 0 %}
-<h2 id="recordings">More recordings</h2>
-<div class="grid">
-  {% for t in site.data.recordings %}{% include talk-tile.html t=t %}{% endfor %}
-</div>
-{% endif %}
+{% include pages/talks.html %}

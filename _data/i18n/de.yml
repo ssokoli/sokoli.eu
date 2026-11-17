@@ -1,0 +1,111 @@
+name: Deutsch
+site_name: Stavroula Sokoli
+datefmt: "%-d.%-m.%Y"
+nav: {research: Forschung, talks: Vorträge, subtitles: Untertitel, journal: Journal, notes: Notizen, about: Über mich, contact: Kontakt, teaching: Lehre, projects: Projekte}
+ui:
+  films: Filme und Serien
+  all_titles: Alle Titel
+  all_pubs: Alle Veröffentlichungen
+  all_talks: Alle Vorträge
+  all_posts: Alle Beiträge
+  all_notes: Alle Notizen
+  watch: Neuesten Vortrag ansehen
+  about_me: Über mich
+  invited: Eingeladene Vorträge
+  presentations: Konferenzbeiträge
+  recordings: Weitere Aufzeichnungen
+  publications: Veröffentlichungen
+  coordinated: Projekte, die ich koordiniert habe
+  took_part: Projekte, an denen ich beteiligt war
+  institution: Einrichtung
+  elsewhere: Anderswo
+  by_year: Nach Jahr
+  newest: Neueste Notizen
+  notes_word: Notizen
+  search: Titel und Zusammenfassungen durchsuchen
+  year: Jahr
+  all_years: Alle Jahre
+  theme: Thema
+  all_themes: Alle Themen
+  th_screen: Audiovisuelle Übersetzung
+  th_ai: KI und Technologie
+  th_edu: Lehren und Lernen
+  th_work: Berufsleben
+  more: Weitere Beiträge anzeigen
+  find_pub: Veröffentlichung suchen
+  pub_type: Art der Veröffentlichung
+  all_formats: Alle Arten
+  citation: Vollständige Literaturangabe
+  attribution: "Filmplakate von TMDB. Diese Website nutzt TMDB und die TMDB-APIs, wird aber von TMDB weder unterstützt noch zertifiziert."
+  alt_portrait: Stavroula Sokoli lächelt im Freien
+  lang_label: Sprache
+h1a: Worte im Bild.
+h1b: Fragen aus dem Off.
+intro: "Ich erforsche die audiovisuelle Übersetzung, das Lernen und das Verhältnis zwischen Menschen, Sprache und Technologie, das sich ständig verändert. Filme und Serien übersetze ich ins Griechische."
+pages:
+  about: |
+    Ich bin Forscherin, Untertitlerin und Dozentin und lebe in Patras, Griechenland.
+
+    Am Computer Technology Institute and Press „Diophantus“ (CTI) arbeite ich als Senior Researcher und koordiniere dort seit 2011 Forschungsprojekte. Seit 2025 forsche ich außerdem als Postdoktorandin an der Hellenic Open University über künstliche Intelligenz in der Bildung und im audiovisuellen Schaffen. Mich interessiert, was diese Werkzeuge möglich machen, was sie ersetzen und was mit dem fachlichen Urteil geschieht, wenn man sie benutzt.
+
+    Meine erste Forschungsfrage kam aus dem Untertiteln. Wer untertitelt, lässt ständig Wörter weg, und ich wollte wissen, welche und warum. Daraus wurde meine Dissertation an der Universitat Autònoma de Barcelona (2011): ein Vergleich dessen, was Filmuntertitel in Griechenland und in Spanien auslassen. Was Untertitel weglassen, interessiert mich bis heute.
+
+    In denselben Jahren habe ich untersucht, wie man durch Untertiteln Sprachen lernt. Ich habe zwei europäische Projekte koordiniert, Learning via Subtitling und ClipFlair, in denen Lernende eine Fremdsprache üben, indem sie Videoclips untertiteln und neu vertonen. Später habe ich untersucht, wie Filme übersetzt werden, in denen mehr als eine Sprache gesprochen wird.
+
+    Mit dem Übersetzen habe ich 1995 begonnen, von 1998 bis 2008 war ich als Dolmetscherin tätig. Seit 2001 untertitle ich Filme und Serien ins Griechische, aus dem Englischen, Spanischen, Italienischen, Katalanischen und Deutschen. Seit 2016 bin ich bei Deluxe zudem Greek Language Lead für Untertitelung. Ich untertitle weiterhin, und in dieser Arbeit finde ich weiterhin Forschungsfragen.
+
+    An der Hellenic Open University unterrichte ich Spanisch. Untertitelung und Übersetzungstechnologie habe ich an der Universitat Pompeu Fabra, an der Universitat Autònoma de Barcelona und an anderen Universitäten gelehrt. In den 1990er-Jahren habe ich Psychologie studiert, und heute lese ich die aktuelle Forschung zu Kognition, Lernen und Aufmerksamkeit.
+
+    Promotion und Master in Übersetzen und Dolmetschen habe ich an der Universitat Autònoma de Barcelona abgeschlossen, den Bachelor in Englischer Sprache und Literatur an der Aristoteles-Universität Thessaloniki. Ich bin Vizepräsidentin der European Association for Studies in Screen Translation (ESIST) und Mitglied des AI Localization Think Tank.
+
+    Im Kino bleibe ich bis zum Ende des Abspanns sitzen, um den Namen der Untertitlerin oder des Untertitlers zu lesen.
+  subtitles: |
+    Eine Auswahl der Filme und Serien, die ich seit 2001 ins Griechische untertitelt oder geprüft habe. Die Liste ist nicht vollständig. Ich ergänze sie, sobald ich weitere Titel in meinen Unterlagen finde.
+
+    Ich arbeite aus dem Englischen, Spanischen, Italienischen, Katalanischen und Deutschen ins Griechische. Ich schreibe Untertitel, auch für gehörlose und schwerhörige Zuschauer (SDH), und prüfe die Arbeit anderer Untertitler.
+
+    Wenn im Film gesungen wird, versuche ich, Untertitel zu schreiben, die man mitsingen kann. Ob das griechische Publikum mitsingt, weiß ich nicht. Ich schon.
+
+    Das Jahr neben jedem Titel ist meist das Jahr des Films oder der Serie und liegt oft vor dem Jahr, in dem ich untertitelt habe.
+  talks: |
+    Eingeladene Vorträge, Keynotes, Podiumsdiskussionen und Konferenzbeiträge seit 2000, auf Englisch, Griechisch und Spanisch.
+
+    In den letzten Jahren ging es bei den meisten Einladungen um künstliche Intelligenz in der Untertitelung und Übersetzung. Die früheren Vorträge handeln von Untertitelungsnormen, mehrsprachigen Filmen und Untertitelung im Sprachunterricht.
+
+    Wo es eine Aufzeichnung gibt, können Sie sie hier ansehen. Bei den übrigen Vorträgen sehen Sie die erste Folie meiner Präsentation.
+  research: |
+    Meine Veröffentlichungen, die neuesten zuerst. Sie behandeln vier Themen:
+
+    - wie Untertitel geschrieben werden und was sie auslassen
+    - wie Filme übersetzt werden, in denen mehr als eine Sprache gesprochen wird
+    - Untertiteln und Neuvertonen als Übungen beim Sprachenlernen
+    - seit 2025: künstliche Intelligenz in der Bildung und im audiovisuellen Schaffen
+
+    Meine Dissertation, *Subtitling Norms in Greece and Spain* (Universitat Autònoma de Barcelona, 2011), vergleicht die beiden Länder in zwei Punkten: was Filmuntertitel auslassen und wie der Dialog auf Untertitel verteilt wird.
+
+    Jeder Titel führt zur Seite des Verlags oder zum Volltext, wenn er frei zugänglich ist.
+  journal: |
+    Längere Beiträge, die meisten zuerst auf LinkedIn erschienen. Ich bewahre sie hier auf, damit alle sie ohne Konto finden und lesen können.
+  notes: |
+    Kurze Beiträge von X und LinkedIn, von 2012 bis heute, die neuesten zuerst. Jeder hält fest, was ich an einem bestimmten Tag gedacht habe. Manche würde ich heute anders schreiben.
+  teaching: |
+    Ich unterrichte seit 2000. An der Hellenic Open University lehre ich Spanisch. In Masterstudiengängen und Fortbildungen in Griechenland, Spanien, Italien und Argentinien habe ich Untertitelung, audiovisuelle Übersetzung und Übersetzungstechnologie unterrichtet.
+
+    Mit Kolleginnen und Kollegen der UNED in Madrid habe ich außerdem an Projekten zur Lehrinnovation mitgearbeitet, in denen Studierende eine Sprache lernen, indem sie Videos untertiteln, synchronisieren und beschreiben.
+  projects: |
+    Forschungsprojekte, die ich seit 2003 koordiniert habe oder an denen ich beteiligt war. Die meisten wurden von der Europäischen Union gefördert.
+
+    Von 2003 bis 2008 habe ich Projekte an der Hellenic Open University geleitet. Seit 2011 koordiniere ich Projekte am CTI „Diophantus“.
+  contact: |
+    Schreiben Sie mir an [stavroula@sokoli.eu](mailto:stavroula@sokoli.eu), wenn es um Untertitelung, Vorträge, Forschung oder Lehre geht.
+
+    Sie können mir auf Englisch, Griechisch oder Spanisch schreiben.
+x:
+  "publisher": "Verlagsseite"
+  "doi": "DOI öffnen"
+  "read": "Veröffentlichung lesen"
+  "volume": "Band ansehen"
+  "in": "In:"
+  "skip": "Zum Inhalt springen"
+  "poster": "Plakat:"
+  "post_lang": "EN"

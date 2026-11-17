@@ -16,8 +16,8 @@
       if (visible) shown++;
     }
     if (count) count.textContent = shown === cards.length
-      ? `${cards.length} entries in the archive`
-      : `${shown} of ${cards.length} entries shown`;
+      ? `${cards.length}`
+      : `${shown} / ${cards.length}`;
   };
   search?.addEventListener('input', update);
   kind?.addEventListener('change', update);

@@ -1,20 +1,7 @@
----
-layout: wide
-permalink: /projects/
-title: Projects
-cue: "00:04:00,000"
-description: "Research projects coordinated by Stavroula Sokoli, among them ClipFlair and Learning via Subtitling."
----
-<div class="page-content" markdown="1">
+{%- include i18n.html -%}
+<div class="page-content">{{ T.pages.projects | markdownify }}</div>
 
-Research projects I have coordinated or taken part in since 2003. Most of them were funded by the European Union.
-
-From 2003 to 2008 I managed projects at the Hellenic Open University. Since 2011 I have coordinated projects at the Computer Technology Institute and Press "Diophantus" (CTI).
-
-</div>
-
-## Projects I coordinated
-
+<h2>{{ U.coordinated }}</h2>
 <ul class="project-list">
 {% for pr in site.data.projects %}
   <li class="project-item">
@@ -32,8 +19,7 @@ From 2003 to 2008 I managed projects at the Hellenic Open University. Since 2011
 {% endfor %}
 </ul>
 
-## Projects I took part in
-
+<h2>{{ U.took_part }}</h2>
 <ul class="pub-list">
 {% for pr in site.data.participation %}
   <li class="pub-item">

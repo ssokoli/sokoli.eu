@@ -1,0 +1,9 @@
+{%- include i18n.html -%}
+<div class="about-intro">
+<div class="page-content">
+{{ T.pages.about | markdownify }}
+<p class="page-links"><a href="{{ P | append: '/research/' | relative_url }}">{{ T.nav.research }}</a> <a href="{{ P | append: '/projects/' | relative_url }}">{{ T.nav.projects }}</a> <a href="{{ P | append: '/talks/' | relative_url }}">{{ T.nav.talks }}</a> <a href="{{ P | append: '/teaching/' | relative_url }}">{{ T.nav.teaching }}</a> <a href="{{ P | append: '/subtitles/' | relative_url }}">{{ T.nav.subtitles }}</a></p>
+</div>
+<img class="about-portrait" src="{{ '/assets/portrait-stavroula.jpg' | relative_url }}" alt="{{ U.alt_portrait }}" width="920" height="920" loading="lazy">
+</div>
+{% if L == 'en' %}{% include career-srt.html %}{% endif %}
