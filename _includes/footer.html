@@ -6,5 +6,13 @@
     <a href="{{ P | append: '/contact/' | relative_url }}">{{ T.nav.contact }}</a>
     <a href="https://www.linkedin.com/in/sokoli/">LinkedIn</a>
     <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    <nav class="lang-switch" aria-label="{{ U.lang_label }}">
+      {% assign codes = "en,el,es,ca,de,it" | split: "," %}
+      {% if page.i18n %}{% assign base = page.base | default: '/' %}{% else %}{% assign base = '/' %}{% endif %}
+      {% for code in codes %}
+      {% if code == 'en' %}{% assign href = base %}{% else %}{% assign href = '/' | append: code | append: base %}{% endif %}
+      <a href="{{ href | relative_url }}" lang="{{ code }}" hreflang="{{ code }}" title="{{ site.data.i18n[code].name }}"{% if code == L %} aria-current="true"{% endif %}>{{ code | upcase }}</a>
+      {% endfor %}
+    </nav>
   </div>
 </footer>

@@ -12,13 +12,5 @@
       <a href="{{ target | relative_url }}" class="{% if item.button %}nav-contact{% endif %}{% if active %} is-active{% endif %}"{% if active %} aria-current="page"{% endif %}>{{ T.nav[item.key] }}</a>
       {% endfor %}
     </nav>
-    <nav class="lang-switch" aria-label="{{ U.lang_label }}">
-      {% assign codes = "en,el,es,ca,de,it" | split: "," %}
-      {% if page.i18n %}{% assign base = page.base | default: '/' %}{% else %}{% assign base = '/' %}{% endif %}
-      {% for code in codes %}
-      {% if code == 'en' %}{% assign href = base %}{% else %}{% assign href = '/' | append: code | append: base %}{% endif %}
-      <a href="{{ href | relative_url }}" lang="{{ code }}" hreflang="{{ code }}" title="{{ site.data.i18n[code].name }}"{% if code == L %} aria-current="true"{% endif %}>{{ code | upcase }}</a>
-      {% endfor %}
-    </nav>
   </div>
 </header>
