@@ -31,12 +31,16 @@ layout: default
   <p class="archive-status" data-archive-status role="status" aria-live="polite"></p>
   <ul class="post-list" data-archive-list>
     {% for post in site.posts %}
-    <li class="post-list-item" data-archive-item data-year="{{ post.date | date: '%Y' }}" data-search="{{ post.title | append: ' ' | append: post.excerpt | strip_html | downcase | escape }}">
-      <a href="{{ post.url | relative_url }}">
+    {%- assign thumb = '' -%}
+    {%- if post.content contains '<img src="' -%}{%- assign bits = post.content | split: '<img src="' -%}{%- assign thumb = bits[1] | split: '"' | first -%}
+    {%- elsif post.content contains 'poster="' -%}{%- assign bits = post.content | split: 'poster="' -%}{%- assign thumb = bits[1] | split: '"' | first -%}{%- endif %}
+    <li class="post-list-item{% if thumb != '' %} has-thumb{% endif %}" data-archive-item data-year="{{ post.date | date: '%Y' }}" data-search="{{ post.title | append: ' ' | append: post.excerpt | strip_html | downcase | escape }}">
+      <a class="post-list-link" href="{{ post.url | relative_url }}">
         <span class="post-list-date">{{ post.date | date: T.datefmt }}</span>
         <span class="post-list-title">{{ post.title }}</span>
+        {% if post.excerpt %}<span class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords: 32 }}</span>{% endif %}
       </a>
-      {% if post.excerpt %}<p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>{% endif %}
+      {% if thumb != '' %}<a class="post-list-thumb" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ thumb }}" alt="" loading="lazy"></a>{% endif %}
     </li>
     {% endfor %}
   </ul>
