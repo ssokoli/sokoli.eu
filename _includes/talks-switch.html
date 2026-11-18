@@ -1,0 +1,5 @@
+{%- include i18n.html -%}
+<nav class="page-tabs" aria-label="{{ T.nav.talks }}">
+  <a href="{{ P | append: '/talks/' | relative_url }}"{% if include.current == 'invited' %} aria-current="page"{% endif %}>{{ U.invited }}</a>
+  <a href="{{ P | append: '/presentations/' | relative_url }}"{% if include.current == 'presentations' %} aria-current="page"{% endif %}>{{ U.presentations }}</a>
+</nav>

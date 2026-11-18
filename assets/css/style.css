@@ -38,6 +38,11 @@ em{font-style:italic}
 .site-footer .lang-switch a:hover{color:var(--text)}
 .site-footer .lang-switch a[aria-current]{color:var(--text);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:6px}
 .page-links{display:flex;flex-wrap:wrap;gap:4px 24px}
+.page-tabs{display:flex;flex-wrap:wrap;gap:0 32px;margin:56px 0 24px;border-bottom:1px solid var(--line)}
+.page-tabs:first-child{margin-top:8px}
+.page-tabs a{font-family:var(--display);font-weight:800;font-size:30px;line-height:1;text-transform:uppercase;letter-spacing:.01em;color:var(--muted);text-decoration:none;padding:0 0 14px;border-bottom:3px solid transparent;margin-bottom:-1px}
+.page-tabs a:hover{color:var(--text)}
+.page-tabs a[aria-current]{color:var(--text);border-bottom-color:var(--accent)}
 .site-footer-inner{display:flex;flex-wrap:wrap;gap:8px 32px;padding:40px var(--pad) 48px;margin-top:40px;border-top:1px solid var(--line)}
 .site-footer a{font-size:16px;font-weight:600;padding-block:12px;text-decoration:none}
 

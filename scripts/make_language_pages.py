@@ -12,6 +12,7 @@ LANGS = ["en", "el", "es", "ca", "de", "it"]
 PAGES = [  # key, layout, cue, extra front matter
     ("research", "wide", "00:01:00,000", {"publication_gallery": True}),
     ("talks", "wide", "00:02:00,000", {}),
+    ("presentations", "wide", "00:02:30,000", {}),
     ("subtitles", "filmography", "00:03:00,000", {}),
     ("projects", "wide", "00:04:00,000", {}),
     ("teaching", "page", "00:05:00,000", {}),
@@ -55,8 +56,14 @@ for lang in LANGS:
         home = keep_description(folder / "index.html", home)
     (folder / "index.html").write_text(front(home) + "{% include pages/home.html %}\n", encoding="utf-8")
     for key, layout, cue, extra in PAGES:
-        fm = {"layout": layout, "permalink": f"{prefix}/{key}/", "title": t["nav"][key],
-              "description": describe(t["pages"][key], t["site_name"]),
+        if key == "presentations":
+            # second Talks page: its own title, the Talks heading, no page text
+            title, text, extra = t["ui"]["presentations"], t["x"]["presentations_desc"], {"heading": t["nav"]["talks"]}
+            description = text
+        else:
+            title, description = t["nav"][key], describe(t["pages"][key], t["site_name"])
+        fm = {"layout": layout, "permalink": f"{prefix}/{key}/", "title": title,
+              "description": description,
               "cue": cue, "ui": lang, "lang": lang, "base": f"/{key}/", "i18n": True, **extra}
         if lang == "en":
             fm = keep_description(folder / f"{key}.html", fm)
