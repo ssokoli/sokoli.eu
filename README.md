@@ -41,6 +41,8 @@ The homepage and About page share the optimised portrait `assets/portrait-stavro
 
 The Talks page features two video embeds and a thumbnail gallery generated from video IDs already listed in `_data/talks.yml`, `_data/presentations.yml`, and `_data/recordings.yml`. To add another **confirmed** recording, add its YouTube video ID to the appropriate YAML item. Do not present conference videos featuring other speakers as the site owner's talks.
 
+Each talk tile shows one picture, chosen in this order: `photo:` (a photo of the event), then `slide:` (the first slide of the presentation), then the YouTube thumbnail of `video:`. Without any of these, the tile shows the city.
+
 Event photos on third-party sites are linked, not copied. Download and republish them only after confirming reuse permission.
 
 ## Languages
