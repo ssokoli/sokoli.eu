@@ -9,6 +9,7 @@
   title: "From Fluent Outputs to Situated Inquiry: Artistic Research as Evaluation of Generative AI in HCI–Arts"
   venue: "EAI ArtsIT 2026, 15th International Conference on ArtsIT, Interactivity & Game Creation, special track Collaborations between HCI and the Arts"
   place: "Bratislava, 2–4 December 2026"
+  slide: "/assets/visuals/slides/2026-artsit-fluent-outputs.webp"
 
 - year: 2026
   authors: "Sokoli, S., Laskari, I., Zotaki, M. & Mavrommati, I."
@@ -28,12 +29,14 @@
   title: "Designing With and Without AI: Students' Ownership, Agency, and Self-Efficacy in Distance Graphic Design Education"
   venue: "I-HE2026 Conference: From Innovation to Impact, EADTU"
   place: "The Hague, 28–30 October 2026"
+  slide: "/assets/visuals/slides/2026-i-he-designing.webp"
 
 - year: 2026
   authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
   title: "Making AI-assisted creative learning transparent"
   venue: "I-HE2026 Conference: From Innovation to Impact, EADTU"
   place: "The Hague, 28–30 October 2026"
+  slide: "/assets/visuals/slides/2026-i-he-transparent.webp"
 
 - year: 2026
   authors: "Sokoli, S. & Mavrommati, E."
@@ -47,6 +50,7 @@
   title: "From Isolation to Community: Collaborative XR Curation for Distance Education in Design"
   venue: "ICODL 2025, 13th International Conference in Open and Distance Learning"
   place: "Patras, 5–7 December 2025"
+  slide: "/assets/visuals/slides/2025-artsit-collaborative-curation.webp"
 
 - year: 2025
   authors: "Manias, D. & Sokoli, S."
@@ -59,12 +63,14 @@
   title: "Collaborative Curation in Distance Education for Design"
   venue: "EAI ArtsIT 2025, 14th International Conference on ArtsIT, Interactivity & Game Creation"
   place: "Dubai, 7–9 November 2025 (hybrid)"
+  slide: "/assets/visuals/slides/2025-artsit-collaborative-curation.webp"
 
 - year: 2025
   authors: "Zotaki, M., Manias, D., Mavrommati, I., Laskari, I. & Sokoli, S."
   title: "AI and Universities: Critical Thinking, Personalised Pathways, Recognised Skills"
   venue: "I-HE2025 Conference: Engage, Adapt, Include, EADTU"
   place: "Hagen, 8–10 October 2025"
+  slide: "/assets/visuals/slides/2025-i-he.webp"
 
 - year: 2022
   authors: "Sokoli, S. & Arnaiz, V."
