@@ -1,9 +1,10 @@
 ---
 title: "Lost in translation? Or maybe gained in translation?"
-date: 2026-10-23 12:00:00 +0300
+date: 2026-10-23 19:26:24 +0300
 lang: EN
 excerpt: "The Diary of a CEO's producer writes that \"Steven Bartlett wanted President Zelenskyy to speak Ukrainian, his native language\", so that nuance would not be \"lost in translation\". And that \"it was a great call\"*. This is…"
 source: linkedin
+linkedin_id: "7519434060138594304"
 ---
 {% raw %}
 <p>Lost in translation? Or maybe gained in translation?</p>
@@ -15,3 +16,7 @@ source: linkedin
 <p>Diary of a CEO's producer's post: <a href="https://lnkd.in/p/dC84_fCW">https://lnkd.in/p/dC84_fCW</a><br>
 Interview: <a href="https://lnkd.in/dSv4NFfU">https://lnkd.in/dSv4NFfU</a></p>
 {% endraw %}
+
+<div class="post-media">
+  <img src="{{ '/assets/journal/2026-10-23-7519434060138594304-1.jpg' | relative_url }}" alt="" loading="lazy">
+</div>

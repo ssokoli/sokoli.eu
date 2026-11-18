@@ -1,9 +1,10 @@
 ---
 title: "About cost savings: are they good news for everyone involved?"
-date: 2026-10-04 12:00:00 +0300
+date: 2026-10-04 11:50:38 +0300
 lang: EN
 excerpt: "In this interview, Ben Affleck describes InterPositive, the AI company he founded, which Netflix bought in March 2026 for $587 million. He describes shooting about eight months of his own footage to fine-tune open video…"
 source: linkedin
+linkedin_id: "7512433994064375809"
 ---
 {% raw %}
 <p>About cost savings: are they good news for everyone involved?</p>
@@ -19,4 +20,6 @@ c) new kind of work is required. More paid days could be dedicated to data prepa
 <p><a href="https://lnkd.in/d92Wx67K">https://lnkd.in/d92Wx67K</a></p>
 {% endraw %}
 
-<p class="post-link"><a href="https://lnkd.in/d92Wx67K">Ben Affleck on AI and Hollywood Economics</a></p>
+<div class="post-media">
+  <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0vK_pTVoIjM" title="Ben Affleck on AI and Hollywood Economics" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</div>

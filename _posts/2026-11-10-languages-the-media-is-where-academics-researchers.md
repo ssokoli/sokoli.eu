@@ -1,9 +1,10 @@
 ---
 title: "Languages & The Media is where academics, researchers, practitioners, language…"
-date: 2026-11-10 12:00:00 +0200
+date: 2026-11-10 21:20:54 +0200
 lang: EN
 excerpt: "…service providers, technology partners and content owners have met for thirty years. Many friendships started at this conference, mine included. This year was my busiest and most intense conference experience. It…"
 source: linkedin
+linkedin_id: "7526000956921225217"
 ---
 {% raw %}
 <p>Languages &amp; The Media is where academics, researchers, practitioners, language service providers, technology partners and content owners have met for thirty years. Many friendships started at this conference, mine included.</p>
@@ -13,3 +14,21 @@ source: linkedin
 <p>Ancient Greek in London, and then the big surprise: the next Languages &amp; The Media will be in Athens.</p>
 <p>See you there!</p>
 {% endraw %}
+
+<div class="post-media post-media-grid">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-1.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-2.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-3.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-4.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-5.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-6.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-7.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-8.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-9.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-10.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-11.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-12.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-13.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-14.jpg' | relative_url }}" alt="" loading="lazy">
+  <img src="{{ '/assets/journal/2026-11-10-7526000956921225217-15.jpg' | relative_url }}" alt="" loading="lazy">
+</div>
