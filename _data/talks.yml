@@ -7,6 +7,12 @@
   slide: "/assets/visuals/slides/2026-lam-jan-ivarsson-award.webp"
 
 - year: 2026
+  title: "Chair, session \"Workflows & Technology\""
+  venue: "Languages & The Media 2026"
+  place: "London"
+  date: "6 November 2026"
+
+- year: 2026
   title: "¿Dónde está mi subtítulo? El subtítulo cero y las expectativas del espectador"
   venue: "IV Congreso Hispanoamericano de Traducción Audiovisual (HispaTAV)"
   place: "Buenos Aires"
@@ -40,6 +46,12 @@
   place: "online"
   date: "18 March 2026"
   slide: "/assets/visuals/slides/2026-traduversia.webp"
+
+- year: 2026
+  title: "Η μετατόπιση της σκέψης: cognitive offloading και ατροφία της κρίσης στην εποχή της τεχνητής νοημοσύνης"
+  venue: "Invited talk, School of Applied Arts and Sustainable Design, Hellenic Open University"
+  place: "online"
+  date: "25 January 2026"
 
 - year: 2025
   title: "Atrophy is Not a Trophy: Sharpening Skills, Finding Human Value"
@@ -85,6 +97,12 @@
   place: "Thessaloniki"
   date: "23 December 2025"
   slide: "/assets/visuals/slides/2025-auth-fair-pay.webp"
+
+- year: 2024
+  title: "Chair, session \"English as a Foreign Language\"; member of the Scientific Committee"
+  venue: "Audiovisual Translation and Media Accessibility in Education: A Global Perspective, Sapienza University of Rome"
+  place: "Rome"
+  date: "5–6 December 2024"
 
 - year: 2024
   title: "Chair, panel on modern workflows"

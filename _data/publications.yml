@@ -1,3 +1,31 @@
+- authors: "Sokoli, S., Laskari, I., Zotaki, M. & Mavrommati, I."
+  year: "in press"
+  title: "Designing With and Without AI: Students' Ownership, Agency, and Self-Efficacy in Distance Graphic Design Education"
+  in: "From Innovation to Impact: Transforming Higher Education at Scale. Proceedings of the Innovating Higher Education Conference 2026"
+  detail: "EADTU"
+  kind: "Conference paper"
+
+- authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
+  year: "in press"
+  title: "Making AI-assisted creative learning transparent"
+  in: "From Innovation to Impact: Transforming Higher Education at Scale. Proceedings of the Innovating Higher Education Conference 2026"
+  detail: "EADTU"
+  kind: "Conference paper"
+
+- authors: "Sokoli, S., Laskari, I., Zotaki, M. & Mavrommati, I."
+  year: "forthcoming"
+  title: "Felt Ownership vs Expert-Judged Quality in AI-Assisted Graphic Design Education"
+  in: "EAI ArtsIT 2026 proceedings"
+  detail: "Springer, LNICST"
+  kind: "Conference paper"
+
+- authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
+  year: "forthcoming"
+  title: "From Fluent Outputs to Situated Inquiry: Artistic Research as Evaluation of Generative AI in HCI–Arts"
+  in: "EAI ArtsIT 2026 proceedings"
+  detail: "Special track Collaborations between HCI and the Arts, Springer, LNICST"
+  kind: "Conference paper"
+
 - authors: "Dore, M., Bolaños, A. & Sokoli, S."
   year: 2026
   title: "Audiovisual Translation and Media Accessibility in Language Education: Looking Back and Moving Forward"
@@ -7,11 +35,12 @@
   volume_url: "https://www.peterlang.com/document/1683120"
 
 - authors: "Sokoli, S., Laskari, I. & Mavrommati, I."
-  year: "forthcoming"
-  title: "Collaborative curation in distance education for design"
-  in: "EAI ArtsIT 2025 proceedings"
-  detail: "to be published in 2026"
+  year: 2026
+  title: "Collaborative Curation in Distance Education for Design"
+  in: "ArtsIT, Interactivity and Game Creation. ArtsIT 2025"
+  detail: "Brooks, A. L. (ed.), Springer, LNICST 695"
   kind: "Conference paper"
+  volume_url: "https://link.springer.com/book/9783032269959"
 
 - authors: "Sokoli, S. & Aleksandrowicz, P."
   year: 2026

@@ -1,4 +1,22 @@
 - year: 2026
+  authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
+  title: "Who Shapes the Creative Process? Negotiating Human Agency in Generative AI-Assisted Art and Design"
+  venue: "9th Computer Art Congress (CAC.9): Post-Intelligent Creative Agency"
+  place: "Athens, 12–14 December 2026"
+
+- year: 2026
+  authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
+  title: "From Fluent Outputs to Situated Inquiry: Artistic Research as Evaluation of Generative AI in HCI–Arts"
+  venue: "EAI ArtsIT 2026, 15th International Conference on ArtsIT, Interactivity & Game Creation, special track Collaborations between HCI and the Arts"
+  place: "Bratislava, 2–4 December 2026"
+
+- year: 2026
+  authors: "Sokoli, S., Laskari, I., Zotaki, M. & Mavrommati, I."
+  title: "Felt Ownership vs Expert-Judged Quality in AI-Assisted Graphic Design Education"
+  venue: "EAI ArtsIT 2026, 15th International Conference on ArtsIT, Interactivity & Game Creation"
+  place: "Bratislava, 2–4 December 2026"
+
+- year: 2026
   authors: "Sokoli, S."
   title: "Thirty Years of Languages & The Media: How the Conference Discourse Has Evolved (1996–2026)"
   venue: "Languages & The Media, 16th International Conference"
@@ -6,11 +24,47 @@
   slide: "/assets/visuals/slides/2026-lam-thirty-years.webp"
 
 - year: 2026
+  authors: "Sokoli, S., Laskari, I., Zotaki, M. & Mavrommati, I."
+  title: "Designing With and Without AI: Students' Ownership, Agency, and Self-Efficacy in Distance Graphic Design Education"
+  venue: "I-HE2026 Conference: From Innovation to Impact, EADTU"
+  place: "The Hague, 28–30 October 2026"
+
+- year: 2026
+  authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
+  title: "Making AI-assisted creative learning transparent"
+  venue: "I-HE2026 Conference: From Innovation to Impact, EADTU"
+  place: "The Hague, 28–30 October 2026"
+
+- year: 2026
   authors: "Sokoli, S. & Mavrommati, E."
   title: "Universities as Anchor Institutions in Times of Fragmentation: Participatory SDG Co-Creation and Institutional Inclusion in the Greek Context"
   venue: "IAIE & HOU International Conference: Migration, the Global Quest for Educational Equity and Intercultural Education"
   place: "Athens, 19–21 June 2026"
   slide: "/assets/visuals/slides/2026-iaie.webp"
+
+- year: 2025
+  authors: "Laskari, I., Sokoli, S. & Mavrommati, I."
+  title: "From Isolation to Community: Collaborative XR Curation for Distance Education in Design"
+  venue: "ICODL 2025, 13th International Conference in Open and Distance Learning"
+  place: "Patras, 5–7 December 2025"
+
+- year: 2025
+  authors: "Manias, D. & Sokoli, S."
+  title: "IdeasLand: Sculpting Creativity with Constraints in Human-AI Collaboration. An AI-first Approach"
+  venue: "ICODL 2025, 13th International Conference in Open and Distance Learning"
+  place: "Patras, 5–7 December 2025"
+
+- year: 2025
+  authors: "Sokoli, S., Laskari, I. & Mavrommati, I."
+  title: "Collaborative Curation in Distance Education for Design"
+  venue: "EAI ArtsIT 2025, 14th International Conference on ArtsIT, Interactivity & Game Creation"
+  place: "Dubai, 7–9 November 2025 (hybrid)"
+
+- year: 2025
+  authors: "Zotaki, M., Manias, D., Mavrommati, I., Laskari, I. & Sokoli, S."
+  title: "AI and Universities: Critical Thinking, Personalised Pathways, Recognised Skills"
+  venue: "I-HE2025 Conference: Engage, Adapt, Include, EADTU"
+  place: "Hagen, 8–10 October 2025"
 
 - year: 2022
   authors: "Sokoli, S. & Arnaiz, V."
