@@ -21,5 +21,5 @@ c) new kind of work is required. More paid days could be dedicated to data prepa
 {% endraw %}
 
 <div class="post-media">
-  <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0vK_pTVoIjM" title="Ben Affleck on AI and Hollywood Economics" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <a href="https://www.youtube.com/watch?v=0vK_pTVoIjM"><img src="{{ '/assets/journal/2026-10-04-7512433994064375809-1.jpg' | relative_url }}" alt="Ben Affleck on AI and Hollywood Economics, Bloomberg Television (video on YouTube)" width="634" height="361"></a>
 </div>
