@@ -6,8 +6,8 @@
   url: /subtitles/
 - key: journal
   url: /journal/
-- key: notes
-  url: /notes/
+- key: projects
+  url: /projects/
 - key: about
   url: /about/
 - key: contact

@@ -8,7 +8,7 @@
       {% assign active = false %}
       {% if page.url == target %}{% assign active = true %}{% endif %}
       {% if item.url == '/journal/' and page.url contains '/journal/' %}{% assign active = true %}{% endif %}
-      {% if item.url == '/notes/' and page.url contains '/notes/' %}{% assign active = true %}{% endif %}
+      {% if item.url == '/journal/' and page.url contains '/notes/' %}{% assign active = true %}{% endif %}
       {% if item.url == '/talks/' and page.url contains '/presentations/' %}{% assign active = true %}{% endif %}
       <a href="{{ target | relative_url }}" class="{% if item.button %}nav-contact{% endif %}{% if active %} is-active{% endif %}"{% if active %} aria-current="page"{% endif %}>{{ T.nav[item.key] }}</a>
       {% endfor %}

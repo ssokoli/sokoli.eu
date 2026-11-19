@@ -49,14 +49,3 @@
   </div>
 </section>
 
-<section class="row">
-  <div class="row-head"><h2>{{ T.nav.notes }}</h2><a href="{{ P | append: '/notes/' | relative_url }}">{{ U.all_notes }}</a></div>
-  <div class="rail">
-    {% for n in site.data.notes limit: 8 %}
-    <a class="tile tile-box tile-note" href="{{ P | append: '/notes/' | relative_url }}">
-      <span class="tile-text">{{ n.html | strip_html | truncate: 300 }}</span>
-      <span class="tile-meta">{{ n.date | date: T.datefmt }} <span class="sep" aria-hidden="true">|</span> {{ n.source | escape }}</span>
-    </a>
-    {% endfor %}
-  </div>
-</section>

@@ -6,6 +6,7 @@ layout: default
     <p class="cue"><a href="{{ '/notes/' | relative_url }}">All years</a></p>
     <h1>Notes {{ page.note_year }}</h1>
   </header>
+  {% include journal-switch.html current="notes" %}
   <div class="archive-controls" data-archive-controls>
     <label>Search this year
       <input type="search" data-archive-search placeholder="Filter these notes…" autocomplete="off">

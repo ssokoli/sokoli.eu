@@ -1,0 +1,5 @@
+{%- include i18n.html -%}
+<nav class="page-tabs" aria-label="{{ T.nav.journal }}">
+  <a href="{{ P | append: '/journal/' | relative_url }}"{% if include.current == 'posts' %} aria-current="page"{% endif %}>{{ U.posts_tab }}</a>
+  <a href="{{ P | append: '/notes/' | relative_url }}"{% if include.current == 'notes' %} aria-current="page"{% endif %}>{{ T.nav.notes }}</a>
+</nav>

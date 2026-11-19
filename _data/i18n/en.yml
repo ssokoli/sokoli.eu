@@ -9,6 +9,7 @@ ui:
   all_talks: All talks
   all_posts: All posts
   all_notes: All notes
+  posts_tab: Posts
   watch: Watch my talks
   about_me: About me
   invited: Invited talks
