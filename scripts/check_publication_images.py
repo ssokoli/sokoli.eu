@@ -16,7 +16,7 @@ for record in records:
     asset = ROOT / record['cover'].lstrip('/')
     assert asset.is_file(), asset
     assert record.get('cover_credit'), record['title']
-    assert record.get('cover_type') in ['Publisher cover', 'Presentation slide', 'Topic illustration']
+    assert record.get('cover_type') in ['Publisher cover', 'Presentation slide', 'Topic illustration', 'Conference image']
     assert record.get('publisher_url'), record['title']
     if record['cover_type'] == 'Publisher cover':
         assert record.get('cover_source', '').startswith('https://'), record['title']

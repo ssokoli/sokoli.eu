@@ -3,6 +3,7 @@ site_name: Stavroula Sokoli
 datefmt: "%-d/%-m/%Y"
 nav: {research: Ricerca, talks: Interventi, subtitles: Sottotitoli, journal: Diario, notes: Note, about: Chi sono, contact: Contatti, teaching: Didattica, projects: Progetti}
 ui:
+  image_conference: "Immagine del convegno"
   image_cover: "Copertina editoriale"
   image_slide: "Diapositiva della presentazione"
   image_illustration: "Illustrazione tematica"

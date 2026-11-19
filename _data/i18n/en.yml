@@ -3,6 +3,7 @@ site_name: Stavroula Sokoli
 datefmt: "%-d %B %Y"
 nav: {research: Research, talks: Talks, subtitles: Subtitles, journal: Journal, notes: Notes, about: About, contact: Contact, teaching: Teaching, projects: Projects}
 ui:
+  image_conference: "Conference image"
   image_cover: "Publisher cover"
   image_slide: "Presentation slide"
   image_illustration: "Topic illustration"

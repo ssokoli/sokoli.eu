@@ -1,7 +1,7 @@
 {%- assign image = include.publication -%}
 {% if image.cover_credit %}
 <p class="pub-image-credit">
-  <span class="pub-image-type">{% case image.cover_type %}{% when 'Publisher cover' %}{{ U.image_cover | default: image.cover_type }}{% when 'Presentation slide' %}{{ U.image_slide | default: image.cover_type }}{% else %}{{ U.image_illustration | default: image.cover_type }}{% endcase %}</span>
+  <span class="pub-image-type">{% case image.cover_type %}{% when 'Publisher cover' %}{{ U.image_cover | default: image.cover_type }}{% when 'Presentation slide' %}{{ U.image_slide | default: image.cover_type }}{% when 'Conference image' %}{{ U.image_conference | default: image.cover_type }}{% else %}{{ U.image_illustration | default: image.cover_type }}{% endcase %}</span>
   {% if image.cover_source %}<a href="{{ image.cover_source | escape }}" target="_blank" rel="noopener noreferrer">{{ image.cover_credit | escape }}</a>{% else %}{{ image.cover_credit | escape }}{% endif %}
   {% if image.cover_license %} · <a href="{{ image.cover_license | escape }}" rel="license noopener noreferrer" target="_blank">{{ U.image_license | default: 'Licence' }}</a>{% endif %}
   {% if image.publisher_url and image.publisher_url != image.cover_source and image.kind != 'Special issue' %} · <a href="{{ image.publisher_url | escape }}" target="_blank" rel="noopener noreferrer">{{ X.publisher }}</a>{% endif %}
