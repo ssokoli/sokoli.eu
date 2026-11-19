@@ -4,7 +4,7 @@
 {%- elsif t.read_url -%}{%- assign href = t.read_url -%}
 {%- elsif t.event_url -%}{%- assign href = t.event_url -%}{%- endif -%}
 {% if href != '' %}<a class="tile tile-wide" href="{{ href }}">{% else %}<div class="tile tile-wide">{% endif %}
-  <span class="tile-frame">
+  <span class="tile-frame{% if t.image_fit == 'contain' %} tile-frame-contain{% endif %}">
     {% if t.photo %}<img src="{{ t.photo | relative_url }}" alt="" loading="lazy">
     {% elsif t.slide %}<img src="{{ t.slide | relative_url }}" alt="" loading="lazy">
     {% elsif t.video %}<img src="https://i.ytimg.com/vi/{{ t.video }}/hqdefault.jpg" alt="" loading="lazy">

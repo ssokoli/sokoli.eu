@@ -40,6 +40,9 @@
   place: "online"
   date: "18 March 2026"
   slide: "/assets/visuals/slides/2026-traduversia.webp"
+  photo: "/assets/visuals/conferences/traduversia-2026-speakers.webp"
+  image_fit: "contain"
+  read_url: "/assets/visuals/conferences/traduversia-2026-speakers.webp"
 
 - year: 2026
   title: "Γνωστική εκφόρτωση και ατροφία της κρίσης στην εποχή της ΤΝ"
