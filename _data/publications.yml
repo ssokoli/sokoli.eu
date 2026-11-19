@@ -196,11 +196,11 @@
   in: "Repositori UPF"
   url: "http://hdl.handle.net/10230/28223"
   kind: "Research guide"
-  cover: "/assets/visuals/slides/2017-thessaloniki.webp"
-  cover_type: "Presentation slide"
-  cover_credit: "S. Sokoli and coauthors"
-  cover_source: "https://sokoli.eu/assets/visuals/slides/2017-thessaloniki.webp"
   publisher_url: "https://repositori.upf.edu"
+  cover: "/assets/visuals/publications/trafilm-guide.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Patrick Zabalbeascoa / Stavroula Sokoli · TRAFILM"
+  cover_source: "https://repositori.upf.edu"
 
 - authors: "Strani, K., Fountana, M., Sokoli, S. & Monteoliva, E."
   year: 2016
