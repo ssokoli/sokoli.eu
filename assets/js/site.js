@@ -22,3 +22,14 @@ document.querySelectorAll('a[data-u][data-d]').forEach((a) => {
   const row = a.closest('[hidden]');
   if (row) row.hidden = false;
 });
+
+/* Links to other sites, and documents such as PDFs, open in a new tab. */
+document.querySelectorAll('a[href]').forEach((a) => {
+  const url = new URL(a.getAttribute('href'), location.href);
+  const other = /^https?:$/.test(url.protocol) && url.hostname !== location.hostname;
+  const doc = /\.(pdf|docx?|pptx?|xlsx?|srt|zip)$/i.test(url.pathname);
+  if (other || doc) {
+    a.target = '_blank';
+    a.rel = (a.rel ? a.rel + ' ' : '') + 'noopener';
+  }
+});
