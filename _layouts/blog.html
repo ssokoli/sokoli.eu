@@ -32,7 +32,8 @@ layout: default
   <ul class="post-list" data-archive-list>
     {% for post in site.posts %}
     {%- assign thumb = '' -%}
-    {%- if post.content contains '<img src="' -%}{%- assign bits = post.content | split: '<img src="' -%}{%- assign thumb = bits[1] | split: '"' | first -%}
+    {%- if post.thumb -%}{%- assign thumb = post.thumb | relative_url -%}
+    {%- elsif post.content contains '<img src="' -%}{%- assign bits = post.content | split: '<img src="' -%}{%- assign thumb = bits[1] | split: '"' | first -%}
     {%- elsif post.content contains 'poster="' -%}{%- assign bits = post.content | split: 'poster="' -%}{%- assign thumb = bits[1] | split: '"' | first -%}{%- endif %}
     <li class="post-list-item{% if thumb != '' %} has-thumb{% endif %}" data-archive-item data-year="{{ post.date | date: '%Y' }}" data-search="{{ post.title | append: ' ' | append: post.excerpt | strip_html | downcase | escape }}">
       <a class="post-list-link" href="{{ post.url | relative_url }}">

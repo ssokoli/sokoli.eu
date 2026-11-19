@@ -5,6 +5,7 @@ lang: EN
 excerpt: "It's interesting that they offer such a level of transparency (apparently it's an option). They also say that voice actors are human. Translators too? Here's part of the article by NYT: \"Amazon Prime Video is using…"
 source: linkedin
 linkedin_id: "7505889940040413185"
+thumb: "/assets/journal/2026-09-16-7505889940040413185-thumb.jpg"
 ---
 {% raw %}
 <p>Anybody watched Maxton Hall with lip-sync English dub on Amazon Prime? It's interesting that they offer such a level of transparency (apparently it's an option). They also say that voice actors are human. Translators too?</p>
@@ -22,3 +23,7 @@ While A.I. was used to create the lip-syncing effect in “Maxton Hall,” Amazo
 {% endraw %}
 
 <p class="post-link"><a href="https://www.nytimes.com/2026/09/10/arts/television/amazon-prime-video-ai-translation-dub.html?unlocked_article_code=1.BlE.kfdl.F7ZBD4NE6RhQ&amp;smid=url-share">Amazon Prime Video Uses A.I. for Lip-Synced Translations</a></p>
+
+<div class="post-media">
+  <a href="https://www.nytimes.com/2026/09/10/arts/television/amazon-prime-video-ai-translation-dub.html?unlocked_article_code=1.BlE.kfdl.F7ZBD4NE6RhQ&amp;smid=url-share"><img src="{{ '/assets/journal/2026-09-16-7505889940040413185-1.jpg' | relative_url }}" alt="The New York Times: Amazon Prime Video Uses A.I. for Lip-Synced Translations" width="643" height="595"></a>
+</div>
