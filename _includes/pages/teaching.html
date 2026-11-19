@@ -2,6 +2,6 @@
 {{ T.pages.teaching | markdownify }}
 <ul class="record-list">
 {% for c in site.data.teaching %}
-<li class="record"><span class="record-title">{{ c.title | escape }}</span><span class="record-meta">{{ c.institution | escape }}{% if c.programme %}, {{ c.programme | escape }}{% endif %} · {{ c.years }}{% if c.level %} · {{ c.level | escape }}{% endif %}</span>{% if c.subjects %}<span class="record-meta">{{ c.subjects | join: ', ' | escape }}</span>{% endif %}</li>
+<li class="record"><span class="record-title">{{ c.title | escape }}</span><span class="record-meta">{{ c.institution | escape }}{% if c.programme %}, {{ c.programme | escape }}{% endif %} <span class="sep" aria-hidden="true">|</span> {{ c.years }}{% if c.level %} <span class="sep" aria-hidden="true">|</span> {{ c.level | escape }}{% endif %}</span>{% if c.subjects %}<span class="record-meta">{{ c.subjects | join: ', ' | escape }}</span>{% endif %}</li>
 {% endfor %}
 </ul>

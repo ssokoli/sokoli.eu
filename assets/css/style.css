@@ -104,6 +104,7 @@ a.tile:hover,a.tile:focus-visible{transform:translateY(-6px);outline-color:var(-
 .rail .tile-post{width:360px}
 .tile-poster img,.tile-poster .tile-blank{width:100%;aspect-ratio:2/3;object-fit:cover;display:block;background:var(--surface)}
 .tile-poster .tile-blank{display:flex;align-items:flex-end;padding:14px;border:1px solid var(--line);font-family:var(--display);font-weight:800;font-size:28px;line-height:.98;text-transform:uppercase;overflow-wrap:anywhere}
+.sep{color:#5b6370;font-weight:400}
 .tile-meta{font-size:14px;line-height:1.35;color:var(--muted)}
 .pair{white-space:nowrap}
 .pair-sep{font-family:var(--mono);font-size:1.08em;font-weight:700;margin:0 .12em}

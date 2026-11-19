@@ -53,7 +53,7 @@
           <div class="publication-visual-copy" aria-hidden="true">
             <span class="publication-visual-type">{{ p.kind | default: 'Publication' | upcase }}</span>
             <span class="publication-visual-name">{{ p.title | escape }}</span>
-            <span class="publication-visual-footer">{{ p.year }} · {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+            <span class="publication-visual-footer">{{ p.year }} <span class="sep" aria-hidden="true">|</span> {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
           </div>
           {% if p.cover %}
           <img src="{{ p.cover }}" alt="Cover of {{ p.in | escape }}, the volume containing this chapter" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="300" height="430">

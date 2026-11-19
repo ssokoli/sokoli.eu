@@ -12,7 +12,7 @@
     {% endif %}
     <div class="project-body">
       <h3 class="project-name">{% if pr.link %}<a href="{{ pr.link }}">{{ pr.name }}</a>{% else %}{{ pr.name }}{% endif %}</h3>
-      <p class="project-meta">{{ pr.years }} &middot; {{ pr.role }}<br>{{ pr.funder }}</p>
+      <p class="project-meta">{{ pr.years }} <span class="sep" aria-hidden="true">|</span> {{ pr.role }}<br>{{ pr.funder }}</p>
       <p class="project-desc">{{ pr.desc }}</p>
     </div>
   </li>
@@ -24,7 +24,7 @@
 {% for pr in site.data.participation %}
   <li class="pub-item">
     <span class="pub-title">{% if pr.link %}<a href="{{ pr.link }}">{{ pr.name }}</a>{% else %}{{ pr.name }}{% endif %}</span>
-    <span class="pub-detail">({{ pr.years }})</span> &middot; <span class="pub-authors">{{ pr.funder }}</span>
+    <span class="pub-detail">({{ pr.years }})</span> <span class="sep" aria-hidden="true">|</span> <span class="pub-authors">{{ pr.funder }}</span>
   </li>
 {% endfor %}
 </ul>

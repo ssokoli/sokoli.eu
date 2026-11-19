@@ -76,7 +76,7 @@
       "@type": "ProfilePage",
       "@id": {{ page.url | absolute_url | append: '#profilepage' | jsonify }},
       "url": {{ page.url | absolute_url | jsonify }},
-      "name": {% if page.url == '/' %}{{ site.title | jsonify }}{% else %}{{ page.title | append: ' · ' | append: site.title | jsonify }}{% endif %},
+      "name": {% if page.url == '/' %}{{ site.title | jsonify }}{% else %}{{ page.title | append: ' | ' | append: site.title | jsonify }}{% endif %},
       "mainEntity": { "@id": {{ person_id | jsonify }} }
     }
     {%- endif -%}

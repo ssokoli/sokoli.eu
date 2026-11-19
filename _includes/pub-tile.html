@@ -5,7 +5,7 @@
 {%- elsif p.volume_url -%}{%- assign href = p.volume_url -%}{%- endif -%}
 <a class="tile tile-box" href="{{ href }}">
   <span class="tile-top">
-    <span class="tile-label">{{ p.kind | default: 'Publication' | escape }} · {{ p.year }}</span>
+    <span class="tile-label">{{ p.kind | default: 'Publication' | escape }} <span class="sep" aria-hidden="true">|</span> {{ p.year }}</span>
     <span class="tile-title">{{ p.title | escape }}</span>
   </span>
   <span class="tile-meta">{{ p.in | escape }}</span>
