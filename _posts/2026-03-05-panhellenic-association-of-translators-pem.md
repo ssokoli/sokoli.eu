@@ -9,7 +9,7 @@ linkedin_id: "7435335566612844544"
 {% raw %}
 <p>Με ένα πολύ δυνατό πρόγραμμα, η Panhellenic Association of Translators (PEM) υπόσχεται και μια εξαιρετικά ενδιαφέρουσα συζήτηση στο τέλος της ημερίδας, τον συντονισμό της οποίας έχει αναλάβει η Emily Diamandopoulou.</p>
 <p>Εγώ έχω υλικό για κάνα εξάωρο, αλλά θα το περιορίσω στα λιγότερο γνωστά και αναμασημένα, σε εργαλεία συζήτησης και σκέψης, σε γνώσεις που χρειαζόμαστε για να απαντάμε σε ερωτήσεις και προκλήσεις - και στον μεγαλύτερό μας FOBO: Fear Of Becoming Obsolete.</p>
-<p>Περισσότερες πληροφορίες εδώ: <a href="https://lnkd.in/du-MhSMV">https://lnkd.in/du-MhSMV</a></p>
+<p>Περισσότερες πληροφορίες εδώ: <a href="https://www.linkedin.com/events/7426723849330679810/">https://www.linkedin.com/events/7426723849330679810/</a></p>
 {% endraw %}
 
 <div class="post-media">

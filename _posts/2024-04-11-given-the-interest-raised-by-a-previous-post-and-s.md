@@ -9,7 +9,7 @@ linkedin_id: "7184082789212835840"
 {% raw %}
 <p>Given the interest raised by a previous post, and since I haven't found this information elsewhere, I thought I'd write a longer post about the phenomenon of #dubtitles on Netflix. Flowchart included.</p>
 <p>"Dubtitles: the hidden subtitles on Netflix"</p>
-<p>Edit: It turns out that the Medium has more advantages than Notion, so I have added the post there: <a href="https://lnkd.in/gbFgBDzS">https://lnkd.in/gbFgBDzS</a></p>
+<p>Edit: It turns out that the Medium has more advantages than Notion, so I have added the post there: <a href="https://medium.com/@ssokoli/dubtitles-the-hidden-subtitles-on-netflix-9e62eb595b12">https://medium.com/@ssokoli/dubtitles-the-hidden-subtitles-on-netflix-9e62eb595b12</a></p>
 <p>Any feedback is more than welcome.</p>
 {% endraw %}
 

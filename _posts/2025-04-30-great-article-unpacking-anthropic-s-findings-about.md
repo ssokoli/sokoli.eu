@@ -10,7 +10,7 @@ linkedin_id: "7323246199665319937"
 <p>Great article, unpacking Anthropic's findings about how LLMs work, some of which are very relevant to translation - explaining what users interacting with them had already sensed:</p>
 <p>"Even when you input a prompt in Chinese natural language, the model might internally represent that meaning in a form closer to English, especially if its training data is disproportionately English.</p>
 <p>Already added to our picks at the AI Localization Think Tank resources page, under "Loc-relevant".</p>
-<p><a href="https://lnkd.in/d_mb8qXa">https://lnkd.in/d_mb8qXa</a></p>
+<p><a href="https://matthewharris.substack.com/p/peaking-inside-the-mind-of-ai">https://matthewharris.substack.com/p/peaking-inside-the-mind-of-ai</a></p>
 {% endraw %}
 
 <div class="post-media">

@@ -11,7 +11,7 @@ linkedin_id: "7126218760436277249"
 <p>BUT how are we supposed to discover it if it's not integrated in the actual platform? 😞</p>
 <p>If I didn't follow the AD writer Liz Gutman, I'd never find out about its existence and that it's hidden in Netflix Tudum.</p>
 <p>There are 4 teasers, 2 trailers and a featurette accompanying the film in the platform. Why not add the AD introduction there? The blind would benefit and the sighted would recognise what it is - some awareness-raising too.</p>
-<p><a href="https://lnkd.in/d_ZYgebt">https://lnkd.in/d_ZYgebt</a></p>
+<p><a href="https://www.netflix.com/tudum/articles/all-the-light-we-cannot-see-aria-mia-lorbeti-audio-introduction">https://www.netflix.com/tudum/articles/all-the-light-we-cannot-see-aria-mia-lorbeti-audio-introduction</a></p>
 {% endraw %}
 
 <div class="post-media">

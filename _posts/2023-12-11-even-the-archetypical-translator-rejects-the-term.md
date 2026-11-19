@@ -13,5 +13,5 @@ linkedin_id: "7139855630072283136"
 <p>“You have to find an equivalent language in English – yes with different sounds, vowels, consonants and syllables, but they must have the same effect. That is you must transfer, rather than translate, the original voice to the new language.”</p>
 <p>Sometimes I think there is no going back. Instead of explaining what translation really is, trying to expand the concept beyond that of a linguistic operation, we reject or avoid the term, thus reinforcing the misconceptions in the public's minds.</p>
 <p> #morethantranslation</p>
-<p><a href="https://lnkd.in/d8nw9_t7">https://lnkd.in/d8nw9_t7</a></p>
+<p><a href="https://www.theguardian.com/books/2023/dec/10/translator-may-brit-akerholt-australia-nobel-prize-literature-laureate-norwegian-jon-fosse-celebrates-win">https://www.theguardian.com/books/2023/dec/10/translator-may-brit-akerholt-australia-nobel-prize-literature-laureate-norwegian-jon-fosse-celebrates-win</a></p>
 {% endraw %}

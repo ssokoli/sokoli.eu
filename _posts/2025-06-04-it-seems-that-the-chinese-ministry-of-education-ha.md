@@ -13,7 +13,7 @@ linkedin_id: "7335923894198894592"
 -High schoolers are allowed to use the tech more broadly</p>
 <p>Information comes from a local report about the Ministry's newly published guidelines.<br>
  #AILiteracyFramework</p>
-<p><a href="https://lnkd.in/dr876nu2">https://lnkd.in/dr876nu2</a></p>
+<p><a href="https://www.cnbc.com/2025/05/15/key-ai-hub-china-restricts-schoolchildrens-use-of-the-tech.html">https://www.cnbc.com/2025/05/15/key-ai-hub-china-restricts-schoolchildrens-use-of-the-tech.html</a></p>
 {% endraw %}
 
 <p class="post-link"><a href="https://www.cnbc.com/2025/05/15/key-ai-hub-china-restricts-schoolchildrens-use-of-the-tech.html">Key AI hub China restricts schoolchildren&#x27;s use of the tech</a></p>

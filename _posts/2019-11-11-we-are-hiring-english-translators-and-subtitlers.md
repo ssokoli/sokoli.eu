@@ -30,7 +30,7 @@ linkedin_id: "6599697164920852480"
 • Being able to create subtitles from scratch<br>
 • Previous experience as a subtitler or audiovisual translator<br>
 • Passion for languages, series and films</p>
-<p>If you are interested, please go to the following link and fill out your data so that we can evaluate your profile: <a href="https://lnkd.in/dcFbvR8">https://lnkd.in/dcFbvR8</a></p>
+<p>If you are interested, please go to the following link and fill out your data so that we can evaluate your profile: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIpPJDGGvrJ55FD839gM0qXl_-HOWtGqZvnxt_6FAhtjKg1A/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdIpPJDGGvrJ55FD839gM0qXl_-HOWtGqZvnxt_6FAhtjKg1A/viewform</a></p>
 <p>Feel free to share! 😊</p>
 <p>Thanks!</p>
 <p>Kind regards,</p>

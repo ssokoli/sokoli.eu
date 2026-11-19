@@ -13,8 +13,8 @@ linkedin_id: "7519434060138594304"
 <p>Then the episode. On YouTube, by default, you hear the English translation spoken by an AI clone of his voice - which is disclosed in small print. The AI-dubbed track is labelled "English original". Zelenskyy's real voice, speaking Ukrainian, is labelled "English (US)". In this context, what is lost is his actual voice: many viewers will not distinguish the AI-generated voice from his real one, and one needs to make some effort to get it.</p>
 <p>The alternative is not complicated: an interpreter in the room, a human voice-over or subtitles, the original audio labelled as the original, and any synthetic voice clearly marked as synthetic, where viewers can see it. Scott McCarthy's labeling system would come in handy here.</p>
 <p>*Steven's call? Zelenskyy is the president of Ukraine and Ukrainian is the language of the state he represents. A head of state speaking the state language, with professional interpreters, is standard practice, not something a host grants. Why should English be the default and Ukrainian a concession?</p>
-<p>Diary of a CEO's producer's post: <a href="https://lnkd.in/p/dC84_fCW">https://lnkd.in/p/dC84_fCW</a><br>
-Interview: <a href="https://lnkd.in/dSv4NFfU">https://lnkd.in/dSv4NFfU</a></p>
+<p>Diary of a CEO's producer's post: <a href="https://www.linkedin.com/posts/winniedunbarnelson_today-we-welcome-ukrainian-president-volodymyr-ugcPost-7518985810977857536-oL2f/">https://www.linkedin.com/posts/winniedunbarnelson_today-we-welcome-ukrainian-president-volodymyr-ugcPost-7518985810977857536-oL2f/</a><br>
+Interview: <a href="https://www.youtube.com/watch?v=5x9dkYIRb58">https://www.youtube.com/watch?v=5x9dkYIRb58</a></p>
 {% endraw %}
 
 <div class="post-media">

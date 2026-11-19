@@ -27,7 +27,7 @@ MMag. Katarina Rohsmann, MA<br>
 Jonathan Downie<br>
 Kristijan Nikolić</p>
 <p>I’m sharing a Zotero link.</p>
-<p><a href="https://lnkd.in/dfAxk-UR">https://lnkd.in/dfAxk-UR</a></p>
+<p><a href="https://www.zotero.org/ssokoli/collections/U7463Z4H/item-list">https://www.zotero.org/ssokoli/collections/U7463Z4H/item-list</a></p>
 <p>Let's talk if we can take this forward - maybe a living research community resource? Hoosted by FIT or another association?</p>
 {% endraw %}
 

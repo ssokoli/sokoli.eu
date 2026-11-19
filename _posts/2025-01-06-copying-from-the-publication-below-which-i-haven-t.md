@@ -11,7 +11,7 @@ linkedin_id: "7281950533492371457"
 [...]<br>
 On the theoretical front, we proposed the inflection point conjecture that contrasts the effect of AI progress on workers in two distinct stages. Before AI capabilities cross the inflection point of an occupation, workers always benefit from AI progress, but after AI capabilities cross the inflection point, workers become worse off whenever AI improves."</p>
 <p>Here is the link to the publication<br>
-<a href="https://lnkd.in/dbrABsnr">https://lnkd.in/dbrABsnr</a></p>
+<a href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/4f39375d-59c2-4c4a-b394-f3eed7858c80/content">https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/4f39375d-59c2-4c4a-b394-f3eed7858c80/content</a></p>
 {% endraw %}
 
 <div class="post-media">

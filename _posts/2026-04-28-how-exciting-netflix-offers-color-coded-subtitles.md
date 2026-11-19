@@ -9,7 +9,7 @@ linkedin_id: "7454878361660710912"
 {% raw %}
 <p>How exciting! Netflix offers color-coded subtitles in multilingual shows to help viewers distinguish between languages. For the moment, I think it's only in Physical: Asia where at least eight languages are spoken.</p>
 <p>It's a bit of work for viewers to find out which colour corresponds to which language, but I guess once you get familiar with where each contestant comes from, it's easier to follow.</p>
-<p>PS: In the announcement, it was stated that it would be possible to disable the colour effect. I guess that's what triggered the "warning", and it's probably a technical thing. <a href="https://lnkd.in/d_dhjPWt">https://lnkd.in/d_dhjPWt</a></p>
+<p>PS: In the announcement, it was stated that it would be possible to disable the colour effect. I guess that's what triggered the "warning", and it's probably a technical thing. <a href="https://www.koreajoongangdaily.com/entertainment/netflix-to-color-code-subtitles-for-contestants-on-new-show-physical-asia/12095584">https://www.koreajoongangdaily.com/entertainment/netflix-to-color-code-subtitles-for-contestants-on-new-show-physical-asia/12095584</a></p>
 <p> #multilingualism #L34AVT</p>
 <p>29 April 2026</p>
 {% endraw %}
