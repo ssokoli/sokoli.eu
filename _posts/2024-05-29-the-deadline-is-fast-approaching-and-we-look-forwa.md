@@ -22,7 +22,7 @@ Matteo Testa (Sapienza University of Rome, Italy)<br>
 Marco Rendina (Cinecittà and EUscreen Foundation)<br>
 Gianluca Scatena (Independent IT expert, Italy)</p>
 <p> #AVT #AudiovisualTranslation #MediaAccessibility #ForeignLanguageLearning #FLL</p>
-<p><a href="https://lnkd.in/d7qq6MbG">https://lnkd.in/d7qq6MbG</a></p>
+<p><a href="https://web.uniroma1.it/seai/it/node/4522">https://web.uniroma1.it/seai/it/node/4522</a></p>
 {% endraw %}
 
 <div class="post-media">

@@ -16,7 +16,7 @@ Chapters include:<br>
 - How NMT works<br>
 - Custom NMT<br>
 - #MT for #LanguageLearners<br>
-<a href="https://lnkd.in/d4AvVfjF">https://lnkd.in/d4AvVfjF</a></p>
+<a href="https://langsci-press.org/catalog/book/342">https://langsci-press.org/catalog/book/342</a></p>
 {% endraw %}
 
 <div class="post-media">

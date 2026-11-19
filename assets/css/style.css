@@ -60,6 +60,7 @@ em{font-style:italic}
 .post-lang,.post-origin{color:var(--muted);font-size:16px;margin:16px 0 0}
 .post-origin a{color:var(--soft);text-decoration-color:var(--accent);text-underline-offset:4px}
 .post-footer{display:flex;flex-wrap:wrap;gap:8px 32px;margin:56px 0 0;padding-top:24px;border-top:1px solid var(--line);max-width:720px}
+.post-content a,.note-text a,.page-content a{overflow-wrap:anywhere}
 .post-content img,.post-content video{display:block;margin:24px 0;max-height:80vh;width:auto;max-width:100%}
 .post-body{display:grid;gap:32px}
 .post .post-content{font-size:19px;line-height:1.7;max-width:68ch}

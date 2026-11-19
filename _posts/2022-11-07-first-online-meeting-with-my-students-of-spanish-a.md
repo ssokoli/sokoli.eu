@@ -9,7 +9,7 @@ linkedin_id: "6995271354371457024"
 {% raw %}
 <p>First online meeting with my students of Spanish at the Hellenic Open University yesterday, and I think I spent a significant part discussing how watching films and series helps #LanguageLearning. There is a nice browser extension called #LanguageReactor that provides dual language #subtitles and easy access to a dictionary.<br>
 And I always recommend turning the Spanish #AudioDescription on.<br>
-<a href="https://lnkd.in/dN8gBbiP">https://lnkd.in/dN8gBbiP</a></p>
+<a href="https://www.languagereactor.com/">https://www.languagereactor.com/</a></p>
 {% endraw %}
 
 <p class="post-link"><a href="https://www.languagereactor.com/">Language Reactor</a></p>

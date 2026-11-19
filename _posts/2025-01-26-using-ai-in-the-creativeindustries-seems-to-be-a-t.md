@@ -18,7 +18,7 @@ He continued, “Judy Becker and her team did not use AI to create or render any
 Corbet finished his statement by saying “‘The Brutalist’ is a film about human complexity, and every aspect of its creation was driven by human effort, creativity, and collaboration. We are incredibly proud of our team and what they’ve accomplished here.”<br>
 The drama started after editor Dávid Jancsó revealed that AI was used to improve the authenticity of Brody and Jones’ Hungarian accents and to create a “series of architectural drawings and finished buildings” in the film’s final scene.<br>
 “We should be having a very open discussion about what tools AI can provide us with,” Jancsó said. “There’s nothing in the film using AI that hasn’t been done before. It just makes the process a lot faster. We use AI to create these tiny little details that we didn’t have the money or the time to shoot.”</p>
-<p><a href="https://lnkd.in/dAaVH7rJ">https://lnkd.in/dAaVH7rJ</a></p>
+<p><a href="https://variety.com/2025/film/news/director-brady-corbet-defends-ai-use-the-brutalist-adrien-brody-felicity-jones-1236279504/">https://variety.com/2025/film/news/director-brady-corbet-defends-ai-use-the-brutalist-adrien-brody-felicity-jones-1236279504/</a></p>
 {% endraw %}
 
 <p class="post-link"><a href="https://variety.com/2025/film/news/director-brady-corbet-defends-ai-use-the-brutalist-adrien-brody-felicity-jones-1236279504/">‘The Brutalist’ Director Brady Corbet Says Adrien Brody and Felicity Jones’ ‘Performances Are Completely Their Own’ Amid AI Dialogue Backlash</a></p>

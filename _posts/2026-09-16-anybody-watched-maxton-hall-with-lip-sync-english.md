@@ -17,7 +17,7 @@ Soltanovich’s statement said that Amazon hoped A.I. lip-syncing would allow cr
 Amazon has previously experimented with using A.I. to translate its film and television properties.<br>
 It began offering versions of some titles with A.I.-generated audio tracks last year. After users complained about the quality of the voices created by A.I., the company removed the feature from some titles, although it remains available on others.<br>
 While A.I. was used to create the lip-syncing effect in “Maxton Hall,” Amazon said the dubbed audio was created using human performers.</p>
-<p><a href="https://lnkd.in/dQddjz9V">https://lnkd.in/dQddjz9V</a></p>
+<p><a href="https://www.nytimes.com/2026/09/10/arts/television/amazon-prime-video-ai-translation-dub.html?unlocked_article_code=1.BlE.kfdl.F7ZBD4NE6RhQ&amp;smid=url-share">https://www.nytimes.com/2026/09/10/arts/television/amazon-prime-video-ai-translation-dub.html?unlocked_article_code=1.BlE.kfdl.F7ZBD4NE6RhQ&amp;smid=url-share</a></p>
 <p> #AIdubbing #lipsync</p>
 <p>16 September 2026</p>
 {% endraw %}

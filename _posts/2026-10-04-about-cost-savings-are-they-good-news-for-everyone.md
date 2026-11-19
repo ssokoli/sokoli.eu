@@ -16,8 +16,8 @@ b) they get a rate increase, (which would reduce the savings)<br>
 c) new kind of work is required. More paid days could be dedicated to data preparation or operating the AI tools. But we don't know whether the same people do that work, or whether it is paid at the same rate.</p>
 <p>If none of these makes up the difference, some people leave the profession. In that case, "the same number of people" is not true across the industry, even if it is true on each production.</p>
 <p>So, $587 million changed hands, in exchange for future savings. Who receives those savings?</p>
-<p>*<a href="https://lnkd.in/dBqU6u4f">https://lnkd.in/dBqU6u4f</a></p>
-<p><a href="https://lnkd.in/d92Wx67K">https://lnkd.in/d92Wx67K</a></p>
+<p>*<a href="https://deadline.com/2026/04/netflix-ben-affleck-ai-firm-interpositive-film-production-savings-1236770381/">https://deadline.com/2026/04/netflix-ben-affleck-ai-firm-interpositive-film-production-savings-1236770381/</a></p>
+<p><a href="https://www.youtube.com/watch?v=0vK_pTVoIjM">https://www.youtube.com/watch?v=0vK_pTVoIjM</a></p>
 {% endraw %}
 
 <div class="post-media">

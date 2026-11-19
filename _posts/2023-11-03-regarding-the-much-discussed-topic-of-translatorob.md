@@ -13,7 +13,7 @@ linkedin_id: "7126183686688940032"
 <p>👉 Despite advancements in #translation software and the potential for automation, the projected increase in #translationjobs suggests that human translators will still be needed in the foreseeable future.</p>
 <p>Panhellenic Association of Translators (PEM)</p>
 <p>Link:<br>
-<a href="https://lnkd.in/d79WS8Y8">https://lnkd.in/d79WS8Y8</a></p>
+<a href="https://www.bls.gov/opub/mlr/2022/article/growth-trends-for-selected-occupations-considered-at-risk-from-automation.htm">https://www.bls.gov/opub/mlr/2022/article/growth-trends-for-selected-occupations-considered-at-risk-from-automation.htm</a></p>
 {% endraw %}
 
 <div class="post-media">
