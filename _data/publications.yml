@@ -30,7 +30,7 @@
   kind: "Conference paper"
   cover: "/assets/visuals/publications/creative-agency-illustration.svg"
   cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_credit: "Original illustration · CC0"
   cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
   publisher_url: "https://link.springer.com"
 
@@ -105,11 +105,11 @@
   in: "International Conference for Open and Distance Education, 13(7)"
   doi: "10.12681/icodl.8629"
   kind: "Conference paper"
-  cover: "/assets/visuals/publications/collaborative-curation-illustration.svg"
-  cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
-  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
-  publisher_url: "https://eproceedings.epublishing.ekt.gr/index.php/openedu"
+  cover: "/assets/visuals/publications/icodl-2025-volume-7.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Hellenic Network of Open and Distance Education / Hellenic Open University"
+  publisher_url: "https://eproceedings.epublishing.ekt.gr/index.php/openedu/article/view/8629"
+  cover_source: "https://eproceedings.epublishing.ekt.gr/index.php/openedu/article/view/8629"
 
 - authors: "Zotaki, M., Manias, D., Mavrommati, I., Laskari, I. & Sokoli, S."
   year: 2025
@@ -132,11 +132,11 @@
   detail: "pp. 291–314"
   doi: "10.12681/icodl.8564"
   kind: "Conference paper"
-  cover: "/assets/visuals/publications/creative-agency-illustration.svg"
-  cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
-  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
-  publisher_url: "https://eproceedings.epublishing.ekt.gr/index.php/openedu"
+  cover: "/assets/visuals/publications/icodl-2025-volume-6.png"
+  cover_type: "Publisher cover"
+  cover_credit: "Hellenic Network of Open and Distance Education / Hellenic Open University"
+  publisher_url: "https://eproceedings.epublishing.ekt.gr/index.php/openedu/article/view/8564"
+  cover_source: "https://eproceedings.epublishing.ekt.gr/index.php/openedu/article/view/8564"
 
 - authors: "Agulló Garcia, B., Orrego-Carmona, D., Spiteri Miggiani, G., Menezes, R., Valdez, S., Sokoli, S. & Pięta, H."
   year: 2024
@@ -147,7 +147,7 @@
   kind: "Journal article"
   cover: "/assets/visuals/publications/multilingual-media-illustration.svg"
   cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_credit: "Original illustration · CC0"
   cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
   publisher_url: "https://www.tandfonline.com/toc/rmps20/32/5"
 
@@ -272,7 +272,7 @@
   kind: "Journal article"
   cover: "/assets/visuals/publications/software-evaluation-illustration.svg"
   cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_credit: "Original illustration · CC0"
   cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
   publisher_url: "https://www.emeraldgrouppublishing.com/journal/jsit"
 
@@ -334,7 +334,7 @@
   kind: "Conference paper"
   cover: "/assets/visuals/publications/captioning-learning-illustration.svg"
   cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_credit: "Original illustration · CC0"
   cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
   publisher_url: "https://www.aace.org"
 
@@ -346,7 +346,7 @@
   kind: "Journal article"
   cover: "/assets/visuals/publications/software-evaluation-illustration.svg"
   cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_credit: "Original illustration · CC0"
   cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
   publisher_url: "https://revistes.uab.cat/tradumatica"
 
@@ -358,6 +358,6 @@
   kind: "Conference paper"
   cover: "/assets/visuals/publications/questionnaire-illustration.svg"
   cover_type: "Topic illustration"
-  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_credit: "Original illustration · CC0"
   cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
   publisher_url: "https://www.eusal.es"
