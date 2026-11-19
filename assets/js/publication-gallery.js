@@ -15,9 +15,7 @@
       card.hidden = !visible;
       if (visible) shown++;
     }
-    if (count) count.textContent = shown === cards.length
-      ? `${cards.length}`
-      : `${shown} / ${cards.length}`;
+    if (count) count.textContent = shown === cards.length ? '' : `${shown} / ${cards.length}`;
   };
   search?.addEventListener('input', update);
   kind?.addEventListener('change', update);

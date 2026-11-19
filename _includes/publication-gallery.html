@@ -1,8 +1,5 @@
-<section class="publications-showcase" id="publications" aria-labelledby="publications-heading">
-  <header class="publication-section-heading">
-    <h2 id="publications-heading">{{ U.publications }}</h2>
-  </header>
-
+<section class="publications-showcase" id="publications" aria-label="{{ U.publications }}">
+  <div class="publication-toolbar">
   <div class="publication-controls" role="search" aria-label="{{ U.find_pub }}">
     <label for="publication-search">{{ U.find_pub }}
       <input id="publication-search" data-publication-search type="search" autocomplete="off">
@@ -18,6 +15,8 @@
         <option value="Research guide">Research guides</option>
       </select>
     </label>
+  </div>
+  <p class="publication-links"><a href="https://scholar.google.com/citations?user=Q5VrkMAAAAAJ&hl=en">Google Scholar</a> <a href="https://orcid.org/0000-0002-2970-8729">ORCID</a></p>
   </div>
   <p class="publication-count" data-publication-count role="status" aria-live="polite"></p>
 
