@@ -3,7 +3,7 @@ site_name: Stavroula Sokoli
 datefmt: "%-d/%-m/%Y"
 nav: {research: Recerca, talks: Xerrades, subtitles: Subtítols, journal: Diari, notes: Notes, about: Sobre mi, contact: Contacte, teaching: Docència, projects: Projectes}
 ui:
-  films: Treballs de subtitulació
+  films: Subtitulació de pel·lícules i sèries
   all_titles: Tots els títols
   all_pubs: Totes les publicacions
   all_talks: Totes les xerrades
