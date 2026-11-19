@@ -2,29 +2,35 @@
 <div class="page-content">{{ T.pages.projects | markdownify }}</div>
 
 <h2>{{ U.coordinated }}</h2>
-<ul class="project-list">
+<div class="project-gallery">
 {% for pr in site.data.projects %}
-  <li class="project-item">
-    {% if pr.image %}
-    <div class="project-image"><img src="{{ pr.image | relative_url }}" alt="{{ pr.name }}" loading="lazy"></div>
-    {% else %}
-    <div class="project-image project-image-card"><p>{{ pr.name | split: " — " | first }}</p></div>
-    {% endif %}
+  {%- assign parts = pr.name | split: " — " -%}
+  <article class="project">
+    {% if pr.link %}<a class="project-image" href="{{ pr.link }}" tabindex="-1" aria-hidden="true">{% else %}<div class="project-image" aria-hidden="true">{% endif %}
+      {% if pr.image %}<img src="{{ pr.image | relative_url }}" alt="" loading="lazy" width="1280" height="800">{% endif %}
+    {% if pr.link %}</a>{% else %}</div>{% endif %}
     <div class="project-body">
-      <h3 class="project-name">{% if pr.link %}<a href="{{ pr.link }}">{{ pr.name }}</a>{% else %}{{ pr.name }}{% endif %}</h3>
-      <p class="project-meta">{{ pr.years }} <span class="sep" aria-hidden="true">|</span> {{ pr.role }}<br>{{ pr.funder }}</p>
+      <p class="project-meta">{{ pr.years }} <span class="sep" aria-hidden="true">|</span> {{ pr.role }}</p>
+      <h3 class="project-name">{{ parts[0] }}{% if parts.size > 1 %}<span class="project-subtitle">{{ parts[1] }}</span>{% endif %}</h3>
+      <p class="project-funder">{{ pr.funder }}</p>
       <p class="project-desc">{{ pr.desc }}</p>
+      {% if pr.link %}<p class="project-actions"><a class="publication-action" href="{{ pr.link }}">{{ X.website }} <span aria-hidden="true">↗</span></a></p>{% endif %}
     </div>
-  </li>
+  </article>
 {% endfor %}
-</ul>
+</div>
 
 <h2>{{ U.took_part }}</h2>
-<ul class="pub-list">
+<ul class="participation-list">
 {% for pr in site.data.participation %}
-  <li class="pub-item">
-    <span class="pub-title">{% if pr.link %}<a href="{{ pr.link }}">{{ pr.name }}</a>{% else %}{{ pr.name }}{% endif %}</span>
-    <span class="pub-detail">({{ pr.years }})</span> <span class="sep" aria-hidden="true">|</span> <span class="pub-authors">{{ pr.funder }}</span>
+  {%- assign parts = pr.name | split: " — " -%}
+  <li class="participation">
+    <span class="participation-years">{{ pr.years }}</span>
+    <span class="participation-body">
+      <span class="participation-name">{% if pr.link %}<a href="{{ pr.link }}">{{ parts[0] }}</a>{% else %}{{ parts[0] }}{% endif %}</span>
+      {% if parts.size > 1 %}<span class="participation-subtitle">{{ parts[1] }}</span>{% endif %}
+      <span class="participation-funder">{{ pr.funder }}</span>
+    </span>
   </li>
 {% endfor %}
 </ul>
