@@ -28,7 +28,6 @@ Everything in this file also appears on the pages it links to.
 
 ## Contact and profiles
 
-- Email: stavroula@sokoli.eu
 - [ORCID](https://orcid.org/0000-0002-2970-8729)
 - [Google Scholar](https://scholar.google.com/citations?user=Q5VrkMAAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/sokoli/)

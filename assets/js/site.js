@@ -13,3 +13,12 @@
       pad(Math.floor(ms / 1000) % 60, 2) + ',' + pad(ms % 1000, 3);
   }, 120);
 })();
+
+/* Email address assembled in the browser, so it is not in the page source. */
+document.querySelectorAll('a[data-u][data-d]').forEach((a) => {
+  const addr = a.dataset.u + '@' + a.dataset.d;
+  a.href = 'mailto:' + addr;
+  a.textContent = addr;
+  const row = a.closest('[hidden]');
+  if (row) row.hidden = false;
+});
