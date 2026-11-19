@@ -1,7 +1,6 @@
 {%- include i18n.html -%}
-<div class="page-content">
+<div class="page-content research-intro">
 {{ T.pages.research | markdownify }}
-<p class="page-links"><a href="https://scholar.google.com/citations?user=Q5VrkMAAAAAJ&hl=en">Google Scholar</a> <a href="https://orcid.org/0000-0002-2970-8729">ORCID</a> <a href="{{ P | append: '/projects/' | relative_url }}">{{ T.nav.projects }}</a></p>
 </div>
 
 {% include publication-gallery.html %}
