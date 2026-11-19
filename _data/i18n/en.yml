@@ -3,7 +3,7 @@ site_name: Stavroula Sokoli
 datefmt: "%-d %B %Y"
 nav: {research: Research, talks: Talks, subtitles: Subtitles, journal: Journal, notes: Notes, about: About, contact: Contact, teaching: Teaching, projects: Projects}
 ui:
-  films: Films and series
+  films: My subtitles
   all_titles: All titles
   all_pubs: All publications
   all_talks: All talks

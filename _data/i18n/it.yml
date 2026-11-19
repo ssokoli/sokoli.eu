@@ -3,7 +3,7 @@ site_name: Stavroula Sokoli
 datefmt: "%-d/%-m/%Y"
 nav: {research: Ricerca, talks: Interventi, subtitles: Sottotitoli, journal: Diario, notes: Note, about: Chi sono, contact: Contatti, teaching: Didattica, projects: Progetti}
 ui:
-  films: Film e serie
+  films: I miei sottotitoli
   all_titles: Tutti i titoli
   all_pubs: Tutte le pubblicazioni
   all_talks: Tutti gli interventi

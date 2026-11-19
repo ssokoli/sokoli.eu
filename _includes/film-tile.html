@@ -3,5 +3,5 @@
   {% if w.poster %}<img src="{{ w.poster | relative_url }}" alt="{{ X.poster }} {{ w.title | escape }}" loading="lazy" width="500" height="750">
   {% else %}<span class="tile-blank">{{ w.title | escape }}</span>{% endif %}
   {% if include.name %}<span class="tile-name">{{ w.title | escape }}</span>{% endif %}
-  <span class="tile-meta">{{ w.year }}{% if w.season %} · {{ w.season }}{% endif %}{% if w.pair %} · {{ w.pair | replace: '>', '›' }}{% endif %}{% if w.role %} · {{ w.role | escape }}{% endif %}</span>
+  <span class="tile-meta">{{ w.year }}{% if w.season %} · {{ w.season }}{% endif %}{% if w.pair %} · {{ w.pair | replace: '>', '<svg class="pair-arrow" viewBox="0 0 16 10" width="16" height="10" aria-hidden="true" focusable="false"><path d="M1.5 5h12.5M10 1.5 13.8 5 10 8.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="visually-hidden">→</span>' }}{% endif %}{% if w.role %} · {{ w.role | escape }}{% endif %}</span>
 </div>
