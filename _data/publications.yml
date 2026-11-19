@@ -332,11 +332,12 @@
   in: "Proceedings of E-Learn 2004"
   detail: "Richards, G. (ed.), AACE, pp. 680–685"
   kind: "Conference paper"
-  cover: "/assets/visuals/publications/captioning-learning-illustration.svg"
-  cover_type: "Topic illustration"
-  cover_credit: "Original illustration · CC0"
-  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
-  publisher_url: "https://www.aace.org"
+  cover: "/assets/visuals/publications/elearn-2004-learntechlib.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "LearnTechLib / Association for the Advancement of Computing in Education (AACE)"
+  cover_source: "https://www.learntechlib.org/j/ELEARN/v/2004/n/1/?page=7"
+  publisher_url: "https://www.learntechlib.org/j/ELEARN/v/2004/n/1/?page=7"
+  url: "https://www.learntechlib.org/j/ELEARN/v/2004/n/1/?page=7"
 
 - authors: "Sokoli, S."
   year: 2002

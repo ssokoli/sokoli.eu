@@ -417,17 +417,19 @@
   },
   {
     "title": "Learner's Version of a Professional Environment: Film Subtitling as an ICTE Tool for Foreign Language Learning",
-    "file": "/assets/visuals/publications/captioning-learning-illustration.svg",
-    "type": "Topic illustration",
-    "credit": "Original illustration · CC0",
-    "source": null,
-    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "/assets/visuals/publications/elearn-2004-learntechlib.webp",
+    "type": "Publisher cover",
+    "credit": "LearnTechLib / AACE",
+    "source": "https://www.learntechlib.org/j/ELEARN/v/2004/n/1/?page=7",
+    "license": null,
     "verified_on": "2026-11-19",
-    "rights_status": "Original vector illustration; dedicated to CC0",
-    "publisher_url": "https://www.aace.org",
-    "sha256": "dc42bb0b68bcc65b40eb34747d1e1bb3fc0ec56cc68314414debabd70c1a82f9",
+    "rights_status": "Image supplied by site owner for website use on 2026-11-19. Publisher permission previously confirmed, conditional on publisher link.",
+    "publisher_url": "https://www.learntechlib.org/j/ELEARN/v/2004/n/1/?page=7",
+    "sha256": "4def697503f1761d7c5d8a761c7138f42559b73da4439ee3d8eec89029030c0b",
     "download_url": null,
-    "selection_note": "Original subject illustration; an exact publication cover could not be verified from accessible publisher sources"
+    "selection_note": "Screenshot of the E-Learn 2004 proceedings listing supplied by site owner, with the exact LearnTechLib page-7 URL requested by the owner.",
+    "width": 833,
+    "height": 516
   },
   {
     "title": "Catálogo de herramientas para la localización de software y páginas web",
