@@ -4,6 +4,11 @@
   in: "From Innovation to Impact: Transforming Higher Education at Scale. Proceedings of the Innovating Higher Education Conference 2026"
   detail: "EADTU"
   kind: "Conference paper"
+  cover: "/assets/visuals/slides/2026-i-he-designing.webp"
+  cover_type: "Presentation slide"
+  cover_credit: "S. Sokoli and coauthors"
+  cover_source: "https://sokoli.eu/assets/visuals/slides/2026-i-he-designing.webp"
+  publisher_url: "https://eadtu.eu"
 
 - authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
   year: "in press"
@@ -11,6 +16,11 @@
   in: "From Innovation to Impact: Transforming Higher Education at Scale. Proceedings of the Innovating Higher Education Conference 2026"
   detail: "EADTU"
   kind: "Conference paper"
+  cover: "/assets/visuals/slides/2026-i-he-transparent.webp"
+  cover_type: "Presentation slide"
+  cover_credit: "S. Sokoli and coauthors"
+  cover_source: "https://sokoli.eu/assets/visuals/slides/2026-i-he-transparent.webp"
+  publisher_url: "https://eadtu.eu"
 
 - authors: "Sokoli, S., Laskari, I., Zotaki, M. & Mavrommati, I."
   year: "forthcoming"
@@ -18,6 +28,11 @@
   in: "EAI ArtsIT 2026 proceedings"
   detail: "Springer, LNICST"
   kind: "Conference paper"
+  cover: "/assets/visuals/publications/creative-agency-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://link.springer.com"
 
 - authors: "Zotaki, M., Sokoli, S., Laskari, I. & Mavrommati, I."
   year: "forthcoming"
@@ -25,6 +40,11 @@
   in: "EAI ArtsIT 2026 proceedings"
   detail: "Special track Collaborations between HCI and the Arts, Springer, LNICST"
   kind: "Conference paper"
+  cover: "/assets/visuals/slides/2026-artsit-fluent-outputs.webp"
+  cover_type: "Presentation slide"
+  cover_credit: "S. Sokoli and coauthors"
+  cover_source: "https://sokoli.eu/assets/visuals/slides/2026-artsit-fluent-outputs.webp"
+  publisher_url: "https://link.springer.com"
 
 - authors: "Dore, M., Bolaños, A. & Sokoli, S."
   year: 2026
@@ -33,6 +53,12 @@
   detail: "Peter Lang, open access"
   kind: "Book chapter"
   volume_url: "https://www.peterlang.com/document/1683120"
+  cover: "/assets/visuals/publications/avt-education-2026.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Dore, Bolaños García-Escribano & Sokoli (eds), Peter Lang · CC BY"
+  cover_source: "https://www.peterlang.com/document/1683120"
+  cover_license: "https://creativecommons.org/licenses/by/4.0/"
+  publisher_url: "https://www.peterlang.com/document/1683120"
 
 - authors: "Sokoli, S., Laskari, I. & Mavrommati, I."
   year: 2026
@@ -41,6 +67,11 @@
   detail: "Brooks, A. L. (ed.), Springer, LNICST 695, pp. 142–158"
   doi: "10.1007/978-3-032-26996-6_9"
   kind: "Conference paper"
+  cover: "/assets/visuals/publications/artsit-2025.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Springer Nature"
+  cover_source: "https://link.springer.com/book/10.1007/978-3-032-26996-6"
+  publisher_url: "https://link.springer.com/book/10.1007/978-3-032-26996-6"
 
 - authors: "Sokoli, S. & Aleksandrowicz, P."
   year: 2026
@@ -50,6 +81,10 @@
   doi: "10.4324/9781003381303-8"
   kind: "Book chapter"
   cover: "/assets/visuals/publications/routledge-handbook-translation-industry-2026.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Routledge"
+  cover_source: "https://www.routledge.com"
+  publisher_url: "https://www.routledge.com"
 
 - authors: "Sokoli, S."
   year: 2026
@@ -58,6 +93,11 @@
   detail: "Ávila Cabrera, J. et al. (eds), Editorial UNED"
   kind: "Book chapter"
   volume_url: "https://www.une.es/presente-y-futuro-de-la-traduccion-audiovisual-y-a"
+  cover: "/assets/visuals/publications/uned-2026.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Editorial UNED"
+  cover_source: "https://www.une.es/presente-y-futuro-de-la-traduccion-audiovisual-y-a"
+  publisher_url: "https://www.uned.es"
 
 - authors: "Laskari, I., Sokoli, S. & Mavrommati, I."
   year: 2026
@@ -65,6 +105,11 @@
   in: "International Conference for Open and Distance Education, 13(7)"
   doi: "10.12681/icodl.8629"
   kind: "Conference paper"
+  cover: "/assets/visuals/publications/collaborative-curation-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://eproceedings.epublishing.ekt.gr/index.php/openedu"
 
 - authors: "Zotaki, M., Manias, D., Mavrommati, I., Laskari, I. & Sokoli, S."
   year: 2025
@@ -73,6 +118,12 @@
   detail: "EADTU"
   doi: "10.5281/zenodo.17813119"
   kind: "Conference paper"
+  cover: "/assets/visuals/publications/ihe-proceedings-2025.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "European Association of Distance Teaching Universities · CC BY 4.0"
+  cover_source: "https://zenodo.org/records/17813119"
+  cover_license: "https://creativecommons.org/licenses/by/4.0/"
+  publisher_url: "https://eadtu.eu"
 
 - authors: "Manias, D. & Sokoli, S."
   year: 2025
@@ -81,6 +132,11 @@
   detail: "pp. 291–314"
   doi: "10.12681/icodl.8564"
   kind: "Conference paper"
+  cover: "/assets/visuals/publications/creative-agency-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://eproceedings.epublishing.ekt.gr/index.php/openedu"
 
 - authors: "Agulló Garcia, B., Orrego-Carmona, D., Spiteri Miggiani, G., Menezes, R., Valdez, S., Sokoli, S. & Pięta, H."
   year: 2024
@@ -89,6 +145,11 @@
   detail: "pp. 849–866"
   doi: "10.1080/0907676X.2024.2374643"
   kind: "Journal article"
+  cover: "/assets/visuals/publications/multilingual-media-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://www.tandfonline.com/toc/rmps20/32/5"
 
 - authors: "Sokoli, S. & Zabalbeascoa, P."
   year: 2019
@@ -98,6 +159,10 @@
   doi: "10.21832/9781788924498-015"
   kind: "Book chapter"
   cover: "/assets/visuals/publications/using-film-and-media-language-classroom-2019.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Multilingual Matters"
+  cover_source: "https://www.multilingual-matters.com"
+  publisher_url: "https://www.multilingual-matters.com"
 
 - authors: "Sokoli, S., Pujol, M. & Santamaría, L."
   year: 2019
@@ -106,6 +171,11 @@
   detail: "Corrius, M. et al. (eds), Peter Lang, pp. 69–87"
   kind: "Book chapter"
   volume_url: "https://www.peterlang.com/document/1059177"
+  cover: "/assets/visuals/publications/kaleidoscope-2019.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Peter Lang"
+  cover_source: "https://www.peterlang.com/document/1059177"
+  publisher_url: "https://www.peterlang.com/document/1059177"
 
 - authors: "Sokoli, S."
   year: 2018
@@ -114,6 +184,11 @@
   detail: "pp. 78–101"
   doi: "10.1075/ttmc.00005.sok"
   kind: "Journal article"
+  cover: "/assets/visuals/publications/ttmc-4-1-2018.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "John Benjamins Publishing Company"
+  cover_source: "https://benjamins.com/catalog/ttmc.4.1"
+  publisher_url: "https://benjamins.com/catalog/ttmc.4.1"
 
 - authors: "Zabalbeascoa, P. & Sokoli, S."
   year: 2018
@@ -121,6 +196,11 @@
   in: "Repositori UPF"
   url: "http://hdl.handle.net/10230/28223"
   kind: "Research guide"
+  cover: "/assets/visuals/slides/2017-thessaloniki.webp"
+  cover_type: "Presentation slide"
+  cover_credit: "S. Sokoli and coauthors"
+  cover_source: "https://sokoli.eu/assets/visuals/slides/2017-thessaloniki.webp"
+  publisher_url: "https://repositori.upf.edu"
 
 - authors: "Strani, K., Fountana, M., Sokoli, S. & Monteoliva, E."
   year: 2016
@@ -128,6 +208,11 @@
   in: "Rivista VOCI, XIII"
   detail: "pp. 148–170"
   kind: "Journal article"
+  cover: "/assets/visuals/publications/voci-xiii-2016.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "VOCI / Pellegrini Editore"
+  cover_source: "https://voci.info/anno-xiii-2016.html"
+  publisher_url: "https://voci.info/anno-xiii-2016.html"
 
 - authors: "Sokoli, S."
   year: 2015
@@ -135,6 +220,11 @@
   in: "Subtitles and Language Learning"
   detail: "Gambier, Y., Caimi, A. & Mariotti, C. (eds), Peter Lang, pp. 127–147"
   kind: "Book chapter"
+  cover: "/assets/visuals/publications/subtitles-language-learning-2015.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Peter Lang"
+  cover_source: "https://www.peterlang.com/document/1053134"
+  publisher_url: "https://www.peterlang.com/document/1053134"
 
 - authors: "Baños, R. & Sokoli, S."
   year: 2015
@@ -143,6 +233,11 @@
   detail: "Research-publishing.net, pp. 203–213"
   doi: "10.14705/rpnet.2015.000280"
   kind: "Book chapter"
+  cover: "/assets/visuals/publications/llas-elearning-2015.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Research-publishing.net; cover: Raphaël Savina, birthday illustration: © Hermin / Shutterstock"
+  cover_source: "https://research-publishing.net"
+  publisher_url: "https://research-publishing.net"
 
 - authors: "Sokoli, S., Zabalbeascoa, P. & Fountana, M."
   year: 2011
@@ -151,6 +246,10 @@
   detail: "Incalcaterra McLoughlin, L., Biscio, M. & Ní Mhainnín, M.Á. (eds), Peter Lang, pp. 219–242"
   kind: "Book chapter"
   cover: "/assets/visuals/publications/subtitles-and-subtitling-theory-practice-2011.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Peter Lang"
+  cover_source: "https://www.peterlang.com"
+  publisher_url: "https://www.peterlang.com"
 
 - authors: "Romero, L., Torres-Hostench, O. & Sokoli, S."
   year: 2011
@@ -158,6 +257,11 @@
   in: "Babel: Revue Internationale de la Traduction, 57(3)"
   doi: "10.1075/babel.57.3.04rom"
   kind: "Journal article"
+  cover: "/assets/visuals/publications/babel-57-3-2011.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "John Benjamins / Fédération Internationale des Traducteurs"
+  cover_source: "https://benjamins.com/catalog/babel.57.3"
+  publisher_url: "https://benjamins.com/catalog/babel.57.3"
 
 - authors: "Kostaras, N., Stavrinoudis, D., Sokoli, S. & Xenos, M."
   year: 2010
@@ -166,6 +270,11 @@
   detail: "pp. 120–139"
   doi: "10.1108/13287261011042921"
   kind: "Journal article"
+  cover: "/assets/visuals/publications/software-evaluation-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://www.emeraldgrouppublishing.com/journal/jsit"
 
 - authors: "Sokoli, S."
   year: 2009
@@ -175,6 +284,10 @@
   doi: "10.1057/9780230234581_3"
   kind: "Book chapter"
   cover: "/assets/visuals/publications/audiovisual-translation-language-transfer-on-screen-2009.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Palgrave Macmillan / Springer Nature"
+  cover_source: "https://link.springer.com/book/10.1057/9780230234581"
+  publisher_url: "https://link.springer.com/book/10.1057/9780230234581"
 
 - authors: "Sokoli, S."
   year: 2006
@@ -183,6 +296,11 @@
   detail: "Carroll, M. & Gerzymisch-Arbogast, H. (eds)"
   url: "http://www.euroconferences.info/proceedings/2006_Proceedings/2006_Sokoli_Stravoula.pdf"
   kind: "Conference paper"
+  cover: "/assets/visuals/slides/2006-copenhagen.webp"
+  cover_type: "Presentation slide"
+  cover_credit: "S. Sokoli and coauthors"
+  cover_source: "https://sokoli.eu/assets/visuals/slides/2006-copenhagen.webp"
+  publisher_url: "http://www.euroconferences.info"
 
 - authors: "Sokoli, S."
   year: 2005
@@ -190,6 +308,11 @@
   in: "Trasvases Culturales 4: Literatura, Cine y Traducción"
   detail: "Merino, R. et al. (eds), Universidad del País Vasco, pp. 271–283"
   kind: "Book chapter"
+  cover: "/assets/visuals/publications/trasvases-culturales-4-2005.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Universidad del País Vasco"
+  cover_source: "https://web-argitalpena.adm.ehu.es/listaproductos.asp?IdProducts=UHF00057078"
+  publisher_url: "https://web-argitalpena.adm.ehu.es/listaproductos.asp?IdProducts=UHF00057078"
 
 - authors: "Sokoli, S."
   year: 2005
@@ -197,6 +320,11 @@
   in: "La Traducción Audiovisual: Investigación, Enseñanza y Profesión"
   detail: "Zabalbeascoa, P. et al. (eds), Editorial Comares, pp. 177–185"
   kind: "Book chapter"
+  cover: "/assets/visuals/publications/traduccion-audiovisual-comares-2005.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Editorial Comares"
+  cover_source: "https://www.comares.com/libro/la-traduccion-audiovisual-investigacion-ensenanza-y-profesion_77219/"
+  publisher_url: "https://www.comares.com/libro/la-traduccion-audiovisual-investigacion-ensenanza-y-profesion_77219/"
 
 - authors: "Hadzilacos, T., Papadakis, S. & Sokoli, S."
   year: 2004
@@ -204,6 +332,11 @@
   in: "Proceedings of E-Learn 2004"
   detail: "Richards, G. (ed.), AACE, pp. 680–685"
   kind: "Conference paper"
+  cover: "/assets/visuals/publications/captioning-learning-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://www.aace.org"
 
 - authors: "Sokoli, S."
   year: 2002
@@ -211,6 +344,11 @@
   in: "Revista Tradumàtica: Traducció i Tecnologies de la Informació i la Comunicació"
   detail: "Universitat Autònoma de Barcelona"
   kind: "Journal article"
+  cover: "/assets/visuals/publications/software-evaluation-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://revistes.uab.cat/tradumatica"
 
 - authors: "Sokoli, S."
   year: 2001
@@ -218,3 +356,8 @@
   in: "Últimas corrientes teóricas en los estudios de traducción y sus aplicaciones"
   detail: "Barr, A., Martín Ruano, M.R. & Torres del Rey, J. (eds), Universidad de Salamanca, pp. 772–775"
   kind: "Conference paper"
+  cover: "/assets/visuals/publications/questionnaire-illustration.svg"
+  cover_type: "Topic illustration"
+  cover_credit: "Original illustration created for sokoli.eu · CC0"
+  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
+  publisher_url: "https://www.eusal.es"

@@ -3,6 +3,10 @@ site_name: Stavroula Sokoli
 datefmt: "%-d.%-m.%Y"
 nav: {research: Forschung, talks: Vorträge, subtitles: Untertitel, journal: Journal, notes: Notizen, about: Über mich, contact: Kontakt, teaching: Lehre, projects: Projekte}
 ui:
+  image_cover: "Verlagscover"
+  image_slide: "Präsentationsfolie"
+  image_illustration: "Thematische Illustration"
+  image_license: "Lizenz"
   films: Untertitelung von Filmen und Serien
   all_titles: Weitere Titel
   all_pubs: Alle Veröffentlichungen

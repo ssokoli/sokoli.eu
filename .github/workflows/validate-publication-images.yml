@@ -1,0 +1,26 @@
+name: Validate publication images
+on:
+  pull_request:
+    paths:
+      - '_data/**'
+      - '_includes/**'
+      - '_layouts/**'
+      - 'assets/**'
+      - 'scripts/check_publication_images.py'
+      - '.github/workflows/validate-publication-images.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install PyYAML
+      - run: python scripts/check_publication_images.py
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site

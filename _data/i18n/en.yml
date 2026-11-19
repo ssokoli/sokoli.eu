@@ -3,6 +3,10 @@ site_name: Stavroula Sokoli
 datefmt: "%-d %B %Y"
 nav: {research: Research, talks: Talks, subtitles: Subtitles, journal: Journal, notes: Notes, about: About, contact: Contact, teaching: Teaching, projects: Projects}
 ui:
+  image_cover: "Publisher cover"
+  image_slide: "Presentation slide"
+  image_illustration: "Topic illustration"
+  image_license: "Licence"
   films: Subtitling work
   all_titles: More titles
   all_pubs: All publications
