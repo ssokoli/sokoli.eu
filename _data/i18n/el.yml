@@ -4,7 +4,7 @@ datefmt: "%-d/%-m/%Y"
 nav: {research: Έρευνα, talks: Ομιλίες, subtitles: Υπότιτλοι, journal: Ημερολόγιο, notes: Σημειώσεις, about: Σχετικά, contact: Επικοινωνία, teaching: Διδασκαλία, projects: Έργα}
 ui:
   films: Υποτιτλισμός ταινιών και σειρών
-  all_titles: Όλοι οι τίτλοι
+  all_titles: Περισσότεροι τίτλοι
   all_pubs: Όλες οι δημοσιεύσεις
   all_talks: Όλες οι ομιλίες
   all_posts: Όλα τα κείμενα

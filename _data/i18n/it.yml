@@ -4,7 +4,7 @@ datefmt: "%-d/%-m/%Y"
 nav: {research: Ricerca, talks: Interventi, subtitles: Sottotitoli, journal: Diario, notes: Note, about: Chi sono, contact: Contatti, teaching: Didattica, projects: Progetti}
 ui:
   films: Sottotitolazione di film e serie
-  all_titles: Tutti i titoli
+  all_titles: Altri titoli
   all_pubs: Tutte le pubblicazioni
   all_talks: Tutti gli interventi
   all_posts: Tutti i post

@@ -4,7 +4,7 @@ datefmt: "%-d %B %Y"
 nav: {research: Research, talks: Talks, subtitles: Subtitles, journal: Journal, notes: Notes, about: About, contact: Contact, teaching: Teaching, projects: Projects}
 ui:
   films: Subtitling work
-  all_titles: All titles
+  all_titles: More titles
   all_pubs: All publications
   all_talks: All talks
   all_posts: All posts
