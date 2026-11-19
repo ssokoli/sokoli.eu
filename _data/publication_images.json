@@ -431,17 +431,19 @@
   },
   {
     "title": "Catálogo de herramientas para la localización de software y páginas web",
-    "file": "/assets/visuals/publications/software-evaluation-illustration.svg",
-    "type": "Topic illustration",
-    "credit": "Original illustration · CC0",
-    "source": null,
-    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "/assets/visuals/publications/tradumatica-2002.webp",
+    "type": "Publisher cover",
+    "credit": "Revista Tradumàtica / Universitat Autònoma de Barcelona",
+    "source": "https://revistes.uab.cat/tradumatica",
+    "license": null,
     "verified_on": "2026-11-19",
-    "rights_status": "Original vector illustration; dedicated to CC0",
+    "rights_status": "Image supplied by site owner for website use on 2026-11-19. Publisher permission previously confirmed, conditional on publisher link.",
     "publisher_url": "https://revistes.uab.cat/tradumatica",
-    "sha256": "3aeb588a5ab95de5225e411031cc53ee1f9ac8a0c1e80c788b1f6e13484e4159",
+    "sha256": "16af642838abdf1cf509cc60696fd554bc80bd2ad4ac1ffbcb9277fbf5986a85",
     "download_url": null,
-    "selection_note": "Original subject illustration; an exact publication cover could not be verified from accessible publisher sources"
+    "selection_note": "Image of Revista Tradumàtica issue 1, La localització, October 2002, supplied by site owner; journal website header, not a simulated book cover.",
+    "width": 635,
+    "height": 360
   },
   {
     "title": "El uso de cuestionarios como método para la búsqueda de normas de traducción",

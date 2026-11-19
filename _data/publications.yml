@@ -344,11 +344,11 @@
   in: "Revista Tradumàtica: Traducció i Tecnologies de la Informació i la Comunicació"
   detail: "Universitat Autònoma de Barcelona"
   kind: "Journal article"
-  cover: "/assets/visuals/publications/software-evaluation-illustration.svg"
-  cover_type: "Topic illustration"
-  cover_credit: "Original illustration · CC0"
-  cover_license: "https://creativecommons.org/publicdomain/zero/1.0/"
   publisher_url: "https://revistes.uab.cat/tradumatica"
+  cover: "/assets/visuals/publications/tradumatica-2002.webp"
+  cover_type: "Publisher cover"
+  cover_credit: "Revista Tradumàtica / Universitat Autònoma de Barcelona"
+  cover_source: "https://revistes.uab.cat/tradumatica"
 
 - authors: "Sokoli, S."
   year: 2001
