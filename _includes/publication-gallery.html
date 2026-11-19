@@ -34,7 +34,6 @@
           <p class="pub-authors">{{ v.authors | escape }}</p>
           <p class="pub-venue"><em>{{ v.in | escape }}</em>{% if v.detail %}<span class="pub-detail">{{ v.detail | escape }}</span>{% endif %}</p>
           {% if v.note %}<p class="pub-detail">{{ v.note | escape }}</p>{% endif %}
-          {% include publication-image-credit.html publication=v %}
           {% if href %}<div class="pub-actions"><a class="publication-action" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ X.publisher }} <span aria-hidden="true">↗</span></a></div>{% endif %}
         </div>
       </article>
@@ -56,8 +55,8 @@
           <h3 class="pub-title">{{ p.title | escape }}</h3>
           <p class="pub-authors">{{ p.authors | escape }}</p>
           <p class="pub-venue">{{ X.in }} <em>{{ p.in | escape }}</em>{% if p.detail %}<span class="pub-detail">{{ p.detail | escape }}</span>{% endif %}</p>
-          {% include publication-image-credit.html publication=p %}
           <div class="pub-actions">
+            {% if p.publisher_url and p.publisher_url != href %}<a class="publication-action" href="{{ p.publisher_url | escape }}" target="_blank" rel="noopener noreferrer">{{ X.publisher }}</a>{% endif %}
             {% if href %}<a class="publication-action" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ label }} <span aria-hidden="true">↗</span></a>{% endif %}
             <details class="publication-citation">
               <summary>{{ U.citation }}</summary>
