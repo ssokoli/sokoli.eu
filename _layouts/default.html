@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Sofia+Sans+Condensed:wght@800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=14">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=15">
 </head>
 <body class="{{ page.page_class | default: '' | escape }}">
   <a class="skip-link" href="#main-content">{{ X.skip }}</a>
@@ -29,6 +29,6 @@
   {% include footer.html %}
   {% if page.archive %}<script src="{{ '/assets/js/archive.js' | relative_url }}" defer></script>{% endif %}
   <script src="{{ '/assets/js/site.js' | relative_url }}?v=2" defer></script>
-  {% if page.publication_gallery %}<script src="{{ '/assets/js/publication-gallery.js' | relative_url }}" defer></script>{% endif %}
+  {% if page.publication_gallery %}<script src="{{ '/assets/js/publication-gallery.js' | relative_url }}?v=2" defer></script>{% endif %}
 </body>
 </html>

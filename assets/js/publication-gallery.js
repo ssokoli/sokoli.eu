@@ -21,7 +21,7 @@
   };
   search?.addEventListener('input', update);
   kind?.addEventListener('change', update);
-  document.querySelectorAll('.publication-visual img').forEach(img => {
+  document.querySelectorAll('.pub-cover img').forEach(img => {
     img.addEventListener('error', () => { img.hidden = true; });
     if (img.complete && img.naturalWidth === 0) img.hidden = true;
   });

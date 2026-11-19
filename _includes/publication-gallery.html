@@ -23,56 +23,44 @@
 
   <div class="publication-gallery" data-publication-grid>
     {% for v in site.data.edited_volumes %}
-      {% assign tint = forloop.index0 | modulo: 5 %}
-      <article class="publication-card" data-publication-card data-kind="{{ v.kind | escape }}" data-search="{{ v.title | append: ' ' | append: v.authors | append: ' ' | append: v.in | downcase | escape }}">
-        <div class="publication-visual publication-visual--{{ tint }}">
-          <div class="publication-visual-copy" aria-hidden="true">
-            <span class="publication-visual-type">{{ v.kind | upcase }}</span>
-            <span class="publication-visual-name">{{ v.title | escape }}</span>
-            <span class="publication-visual-footer">{{ v.year }} </span>
-          </div>
-          {% if v.cover %}
-          <img src="{{ v.cover }}" alt="Cover of {{ v.title | escape }}" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="300" height="430">
-          {% endif %}
-        </div>
-        <div class="publication-card-body">
-          <p class="publication-meta">{{ v.year }} <span aria-hidden="true">/</span> {{ v.kind }}</p>
-          <h3 class="publication-card-title">{{ v.title | escape }}</h3>
-          <p class="publication-authors">{{ v.authors | escape }}</p>
-          <p class="publication-venue">{{ v.in | escape }}</p>
-          {% if v.note %}<p class="publication-note">{{ v.note | escape }}</p>{% endif %}
-          {% if v.url %}<a class="publication-action" href="{{ v.url }}" target="_blank" rel="noopener noreferrer">{{ X.publisher }} <span aria-hidden="true">↗</span></a>{% endif %}
+      {%- assign href = v.url -%}
+      <article class="pub" data-publication-card data-kind="{{ v.kind | escape }}" data-search="{{ v.title | append: ' ' | append: v.authors | append: ' ' | append: v.in | downcase | escape }}">
+        {% if href %}<a class="pub-cover" href="{{ href }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">{% else %}<div class="pub-cover" aria-hidden="true">{% endif %}
+          <span class="pub-cover-text">{{ v.in | escape }}</span>
+          {% if v.cover %}<img src="{{ v.cover | relative_url }}" alt="" loading="lazy" decoding="async" width="300" height="450">{% endif %}
+        {% if href %}</a>{% else %}</div>{% endif %}
+        <div class="pub-body">
+          <p class="pub-meta">{{ v.year }} <span class="sep" aria-hidden="true">|</span> {{ v.kind }}</p>
+          <h3 class="pub-title">{{ v.title | escape }}</h3>
+          <p class="pub-authors">{{ v.authors | escape }}</p>
+          <p class="pub-venue"><em>{{ v.in | escape }}</em>{% if v.detail %}<span class="pub-detail">{{ v.detail | escape }}</span>{% endif %}</p>
+          {% if v.note %}<p class="pub-detail">{{ v.note | escape }}</p>{% endif %}
+          {% if href %}<div class="pub-actions"><a class="publication-action" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ X.publisher }} <span aria-hidden="true">↗</span></a></div>{% endif %}
         </div>
       </article>
     {% endfor %}
 
     {% for p in site.data.publications %}
-      {% assign tint = forloop.index0 | plus: 2 | modulo: 5 %}
-      <article class="publication-card" data-publication-card data-kind="{{ p.kind | default: 'Other' | escape }}" data-search="{{ p.title | append: ' ' | append: p.authors | append: ' ' | append: p.in | append: ' ' | append: p.year | downcase | escape }}">
-        <div class="publication-visual publication-visual--{{ tint }}">
-          <div class="publication-visual-copy" aria-hidden="true">
-            <span class="publication-visual-type">{{ p.kind | default: 'Publication' | upcase }}</span>
-            <span class="publication-visual-name">{{ p.title | escape }}</span>
-            <span class="publication-visual-footer">{{ p.year }} <span class="sep" aria-hidden="true">|</span> {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
-          </div>
-          {% if p.cover %}
-          <img src="{{ p.cover }}" alt="Cover of {{ p.in | escape }}, the volume containing this chapter" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="300" height="430">
-          {% endif %}
-        </div>
-        <div class="publication-card-body">
-          <p class="publication-meta">{{ p.year }} <span aria-hidden="true">/</span> {{ p.kind | default: 'Publication' }}</p>
-          <h3 class="publication-card-title">{{ p.title | escape }}</h3>
-          <p class="publication-authors">{{ p.authors | escape }}</p>
-          <p class="publication-venue">{{ X.in }} <em>{{ p.in | escape }}</em></p>
-          <details class="publication-citation">
-            <summary>{{ U.citation }}</summary>
-            <p>{{ p.authors | escape }} ({{ p.year }}). {{ p.title | escape }}. <em>{{ p.in | escape }}</em>{% if p.detail %}, {{ p.detail | escape }}{% endif %}.</p>
-          </details>
-          <div class="publication-links">
-            {% if p.doi %}<a class="publication-action" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">{{ X.doi }} <span aria-hidden="true">↗</span></a>
-            {% elsif p.url %}<a class="publication-action" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ X.read }} <span aria-hidden="true">↗</span></a>
-            {% elsif p.volume_url %}<a class="publication-action" href="{{ p.volume_url }}" target="_blank" rel="noopener noreferrer">{{ X.volume }} <span aria-hidden="true">↗</span></a>{% endif %}
-            
+      {%- assign href = nil -%}{%- assign label = nil -%}
+      {%- if p.doi -%}{%- assign href = 'https://doi.org/' | append: p.doi -%}{%- assign label = X.doi -%}
+      {%- elsif p.url -%}{%- assign href = p.url -%}{%- assign label = X.read -%}
+      {%- elsif p.volume_url -%}{%- assign href = p.volume_url -%}{%- assign label = X.volume -%}{%- endif -%}
+      <article class="pub" data-publication-card data-kind="{{ p.kind | default: 'Other' | escape }}" data-search="{{ p.title | append: ' ' | append: p.authors | append: ' ' | append: p.in | append: ' ' | append: p.year | downcase | escape }}">
+        {% if href %}<a class="pub-cover" href="{{ href }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">{% else %}<div class="pub-cover" aria-hidden="true">{% endif %}
+          <span class="pub-cover-text">{{ p.in | escape }}</span>
+          {% if p.cover %}<img src="{{ p.cover | relative_url }}" alt="" loading="lazy" decoding="async" width="300" height="450">{% endif %}
+        {% if href %}</a>{% else %}</div>{% endif %}
+        <div class="pub-body">
+          <p class="pub-meta">{{ p.year }} <span class="sep" aria-hidden="true">|</span> {{ p.kind | default: 'Publication' }}</p>
+          <h3 class="pub-title">{{ p.title | escape }}</h3>
+          <p class="pub-authors">{{ p.authors | escape }}</p>
+          <p class="pub-venue">{{ X.in }} <em>{{ p.in | escape }}</em>{% if p.detail %}<span class="pub-detail">{{ p.detail | escape }}</span>{% endif %}</p>
+          <div class="pub-actions">
+            {% if href %}<a class="publication-action" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ label }} <span aria-hidden="true">↗</span></a>{% endif %}
+            <details class="publication-citation">
+              <summary>{{ U.citation }}</summary>
+              <p>{{ p.authors | escape }} ({{ p.year }}). {{ p.title | escape }}. <em>{{ p.in | escape }}</em>{% if p.detail %}, {{ p.detail | escape }}{% endif %}.{% if p.doi %} https://doi.org/{{ p.doi }}{% endif %}</p>
+            </details>
           </div>
         </div>
       </article>
