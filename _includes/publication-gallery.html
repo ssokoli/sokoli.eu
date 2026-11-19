@@ -25,7 +25,7 @@
     {% for v in site.data.edited_volumes %}
       {%- assign href = v.url -%}
       <article class="pub" data-publication-card data-kind="{{ v.kind | escape }}" data-search="{{ v.title | append: ' ' | append: v.authors | append: ' ' | append: v.in | downcase | escape }}">
-        {% if href %}<a class="pub-cover" href="{{ href }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">{% else %}<div class="pub-cover" aria-hidden="true">{% endif %}
+        {% if href %}<a class="pub-cover" href="{{ v.publisher_url | default: href | escape }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">{% else %}<div class="pub-cover" aria-hidden="true">{% endif %}
           <span class="pub-cover-text">{{ v.in | escape }}</span>
           {% if v.cover %}<img src="{{ v.cover | relative_url }}" alt="" loading="lazy" decoding="async" width="300" height="450">{% endif %}
         {% if href %}</a>{% else %}</div>{% endif %}
@@ -35,6 +35,7 @@
           <p class="pub-authors">{{ v.authors | escape }}</p>
           <p class="pub-venue"><em>{{ v.in | escape }}</em>{% if v.detail %}<span class="pub-detail">{{ v.detail | escape }}</span>{% endif %}</p>
           {% if v.note %}<p class="pub-detail">{{ v.note | escape }}</p>{% endif %}
+          {% include publication-image-credit.html publication=v %}
           {% if href %}<div class="pub-actions"><a class="publication-action" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ X.publisher }} <span aria-hidden="true">↗</span></a></div>{% endif %}
         </div>
       </article>
@@ -46,15 +47,17 @@
       {%- elsif p.url -%}{%- assign href = p.url -%}{%- assign label = X.read -%}
       {%- elsif p.volume_url -%}{%- assign href = p.volume_url -%}{%- assign label = X.volume -%}{%- endif -%}
       <article class="pub" data-publication-card data-kind="{{ p.kind | default: 'Other' | escape }}" data-search="{{ p.title | append: ' ' | append: p.authors | append: ' ' | append: p.in | append: ' ' | append: p.year | downcase | escape }}">
-        {% if href %}<a class="pub-cover" href="{{ href }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">{% else %}<div class="pub-cover" aria-hidden="true">{% endif %}
+        {% assign cover_href = p.publisher_url | default: href %}
+        {% if cover_href %}<a class="pub-cover" href="{{ cover_href | escape }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">{% else %}<div class="pub-cover" aria-hidden="true">{% endif %}
           <span class="pub-cover-text">{{ p.in | escape }}</span>
           {% if p.cover %}<img src="{{ p.cover | relative_url }}" alt="" loading="lazy" decoding="async" width="300" height="450">{% endif %}
-        {% if href %}</a>{% else %}</div>{% endif %}
+        {% if cover_href %}</a>{% else %}</div>{% endif %}
         <div class="pub-body">
           <p class="pub-meta">{{ p.year }} <span class="sep" aria-hidden="true">|</span> {{ p.kind | default: 'Publication' }}</p>
           <h3 class="pub-title">{{ p.title | escape }}</h3>
           <p class="pub-authors">{{ p.authors | escape }}</p>
           <p class="pub-venue">{{ X.in }} <em>{{ p.in | escape }}</em>{% if p.detail %}<span class="pub-detail">{{ p.detail | escape }}</span>{% endif %}</p>
+          {% include publication-image-credit.html publication=p %}
           <div class="pub-actions">
             {% if href %}<a class="publication-action" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ label }} <span aria-hidden="true">↗</span></a>{% endif %}
             <details class="publication-citation">
