@@ -11,16 +11,26 @@
   season: "S1"
   pair: "ES > EL"
 
+- title: "Soul Mate"
+  year: "2026"
+  type: series
+  pair: "JA > EL"
+
+- title: "Mo Gilligan: In the Moment"
+  year: "2026"
+  type: special
+  pair: "EN > EL"
+
 - title: "Medusa"
   poster: "/assets/posters/medusa.jpg"
   year: "2025–26"
   type: series
   season: "S1–S2"
-  pair: "EN > EL"
+  pair: "ES > EL"
 
 - title: "Rebel Royals: An Unlikely Love Story"
   year: "2025"
-  type: film
+  type: documentary
   pair: "EN > EL"
 
 - title: "The Leopard"
@@ -29,6 +39,31 @@
   type: series
   season: "S1"
   pair: "IT > EL"
+
+- title: "Buen Camino"
+  year: "2025"
+  type: film
+  pair: "IT > EL"
+
+- title: "The Bombing of Pan Am 103"
+  year: "2025"
+  type: series
+  pair: "EN > EL"
+
+- title: "Jim Jefferies: Two Limb Policy"
+  year: "2025"
+  type: special
+  pair: "EN > EL"
+
+- title: "The Monster of Florence"
+  year: "2025"
+  type: series
+  pair: "IT > EL"
+
+- title: "Test"
+  year: "2025"
+  type: film
+  pair: "TA > EL"
 
 - title: "The Six Triple Eight"
   poster: "/assets/posters/the-six-triple-eight.jpg"
@@ -59,6 +94,16 @@
   year: "2024"
   type: series
   pair: "IT > EL"
+
+- title: "The Final: Attack on Wembley"
+  year: "2024"
+  type: documentary
+  pair: "EN > EL"
+
+- title: "It’s All Over: The Kiss That Changed Spanish Football"
+  year: "2024"
+  type: documentary
+  pair: "ES > EL"
 
 - title: "Rebel Moon — Part One & Two"
   poster: "/assets/posters/rebel-moon-part-one-two.jpg"
@@ -111,13 +156,22 @@
   type: series
   pair: "ES > EL"
 
+- title: "Everybody Loves Diamonds"
+  year: "2023"
+  type: series
+  pair: "EN, IT, DE > EL"
+
+- title: "Rana Naidu"
+  year: "2023"
+  type: series
+  pair: "HI, EN > EL"
+
 - title: "The Mighty Ducks: Game Changers"
   poster: "/assets/posters/the-mighty-ducks-game-changers.jpg"
   year: "2021"
   type: series
   season: "S1"
   pair: "EN > EL"
-  role: "Subtitle QC"
 
 - title: "Kate"
   poster: "/assets/posters/kate.jpg"
@@ -190,6 +244,23 @@
   type: film
   pair: "EN > EL"
 
+- title: "Saudi Women’s Driving School"
+  year: "2019"
+  type: documentary
+  pair: "EN, AR > EL"
+
+- title: "Cable Girls"
+  year: "2017–20"
+  type: series
+  pair: "ES > EL"
+  role: "Subtitle QC"
+
+- title: "Vis a vis"
+  year: "2015–19"
+  type: series
+  pair: "ES > EL"
+  role: "Subtitle QC"
+
 - title: "Daredevil"
   poster: "/assets/posters/daredevil.jpg"
   year: "2015–18"
@@ -233,7 +304,7 @@
   poster: "/assets/posters/pokemon.jpg"
   year: "2020"
   type: series
-  pair: "EN > EL"
+  pair: "EL > EL"
   role: "SDH authoring"
 
 - title: "Ocean's Thirteen"
