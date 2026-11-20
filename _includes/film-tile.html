@@ -1,6 +1,6 @@
 {%- assign w = include.w -%}
 <div class="tile tile-poster">
-  {% if w.poster %}<img src="{% if w.poster contains '://' %}{{ w.poster | escape }}{% else %}{{ w.poster | relative_url | escape }}{% endif %}" alt="Poster for {{ w.title | escape }}" loading="lazy" width="500" height="750">
+  {% if w.poster %}<img src="{% if w.poster contains '://' %}{{ w.poster | escape }}{% else %}{{ w.poster | relative_url | escape }}{% endif %}" alt="{{ X.poster | escape }} {{ w.title | escape }}" loading="lazy" width="500" height="750">
   {% else %}<span class="tile-blank">{{ w.title | escape }}</span>{% endif %}
   {% if include.name %}<span class="tile-name">{{ w.title | escape }}</span>{% endif %}
   <span class="tile-meta">{{ w.year }}{% if w.season %} <span class="sep" aria-hidden="true">|</span> {{ w.season }}{% endif %}{% if w.pair %} <span class="sep" aria-hidden="true">|</span> <span class="pair">{{ w.pair | replace: '>', '<span class="pair-sep">&gt;</span>' }}</span>{% endif %}{% if w.role %} <span class="sep" aria-hidden="true">|</span> {{ w.role | escape }}{% endif %}</span>
