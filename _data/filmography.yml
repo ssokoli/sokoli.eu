@@ -289,6 +289,11 @@
   type: film
   pair: "EN > EL"
 
+- title: "Bugs"
+  year: "2003"
+  type: film
+  pair: "EN > EL"
+
 - title: "The Scorpion King"
   poster: "/assets/posters/the-scorpion-king.jpg"
   year: "2002"
@@ -330,6 +335,11 @@
   type: film
   pair: "EN > EL"
 
+- title: "Sea of Love"
+  year: "1989"
+  type: film
+  pair: "EN > EL"
+
 - title: "*batteries not included"
   year: "1987"
   type: film
@@ -344,5 +354,10 @@
 - title: "Back to the Future"
   poster: "/assets/posters/back-to-the-future.jpg"
   year: "1985"
+  type: film
+  pair: "EN > EL"
+
+- title: "The Treasure of the Sierra Madre"
+  year: "1948"
   type: film
   pair: "EN > EL"
