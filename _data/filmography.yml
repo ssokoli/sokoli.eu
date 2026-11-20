@@ -5,11 +5,22 @@
   season: "S2"
   pair: "EN > EL"
 
+- title: "Oasis"
+  year: "2026"
+  type: series
+  season: "S1"
+  pair: "ES > EL"
+
 - title: "Medusa"
   poster: "/assets/posters/medusa.jpg"
   year: "2025–26"
   type: series
   season: "S1–S2"
+  pair: "EN > EL"
+
+- title: "Rebel Royals: An Unlikely Love Story"
+  year: "2025"
+  type: film
   pair: "EN > EL"
 
 - title: "The Leopard"
