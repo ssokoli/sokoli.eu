@@ -186,6 +186,18 @@
   season: "S1–S3"
   pair: "EN > EL"
 
+- title: "Jessica Jones"
+  year: "2015–19"
+  type: series
+  pair: "EN > EL"
+  role: "Subtitle review"
+
+- title: "The Punisher"
+  year: "2017–19"
+  type: series
+  pair: "EN > EL"
+  role: "Subtitle review"
+
 - title: "The Grinch"
   poster: "/assets/posters/the-grinch.jpg"
   year: "2018"
