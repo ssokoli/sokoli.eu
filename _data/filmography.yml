@@ -21,6 +21,11 @@
   type: special
   pair: "EN > EL"
 
+- title: "Mourinho"
+  year: "2026"
+  type: documentary
+  pair: "EN > EL"
+
 - title: "Medusa"
   poster: "/assets/posters/medusa.jpg"
   year: "2025–26"
