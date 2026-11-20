@@ -6,22 +6,26 @@
   pair: "EN > EL"
 
 - title: "Oasis"
+  poster: "https://pbs.twimg.com/media/HJ3sC_uXsAAoWyr.jpg"
   year: "2026"
   type: series
   season: "S1"
   pair: "ES > EL"
 
 - title: "Soul Mate"
+  poster: "https://images.ctfassets.net/4cd45et68cgf/43iVsHS8nMf9rCqxD7x6Is/7d975993c6545db916e30b6bba5b857c/EN-GB_SMLS_Main_Vertical_27x40_RGB_PREDATE.jpg?w=1200"
   year: "2026"
   type: series
   pair: "JA > EL"
 
 - title: "Mo Gilligan: In the Moment"
+  poster: "https://m.media-amazon.com/images/M/MV5BZmJiYmNjODQtODE0Yy00YWFkLWFjOWMtNzZiZWFhNWRlOTM4XkEyXkFqcGc%40._V1_.jpg"
   year: "2026"
   type: special
   pair: "EN > EL"
 
 - title: "Mourinho"
+  poster: "https://kinogoflix-tmdb.b-cdn.net/t/p/w780/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg"
   year: "2026"
   type: documentary
   pair: "EN > EL"
@@ -34,6 +38,7 @@
   pair: "ES > EL"
 
 - title: "Rebel Royals: An Unlikely Love Story"
+  poster: "https://m.media-amazon.com/images/M/MV5BNWMwZDY4OWEtZDg2OS00NTAyLWIwMGEtNjlkZGNmMDdhOGE1XkEyXkFqcGc%40._V1_.jpg"
   year: "2025"
   type: documentary
   pair: "EN > EL"
@@ -46,26 +51,31 @@
   pair: "IT > EL"
 
 - title: "Buen Camino"
+  poster: "https://www.cinemadiroma.it/wp-content/uploads/2025/11/Buen-Camino_MANIFESTO-new.jpg"
   year: "2025"
   type: film
   pair: "IT > EL"
 
 - title: "The Bombing of Pan Am 103"
+  poster: "https://fr.web.img4.acsta.net/img/7c/32/7c321cdf7a07cda85ed440bace320503.jpg"
   year: "2025"
   type: series
   pair: "EN > EL"
 
 - title: "Jim Jefferies: Two Limb Policy"
+  poster: "https://storage.googleapis.com/msgsndr/adYvisMXk053PGXOhuUN/media/68c99d137505d3dbc193f0e9.jpeg"
   year: "2025"
   type: special
   pair: "EN > EL"
 
 - title: "The Monster of Florence"
+  poster: "https://resizing.flixster.com/Si0oSLqkbaBZjE33Ly53TlKEL8o%3D/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNTY4OTc1NzgtMmVmNi00NDc0LWFjYTUtYTZiM2I5MTQwODVjLmpwZw%3D%3D"
   year: "2025"
   type: series
   pair: "IT > EL"
 
 - title: "Test"
+  poster: "https://downloads.ctfassets.net/4cd45et68cgf/wJ8pqAElhBdagucLwCcIE/68d908d7badff5f4c6087530e6676dee/EN_IN_TEST_KA01_4x5_sRGB_PRE__1_.jpg"
   year: "2025"
   type: film
   pair: "TA > EL"
@@ -101,11 +111,13 @@
   pair: "IT > EL"
 
 - title: "The Final: Attack on Wembley"
+  poster: "https://m.media-amazon.com/images/M/MV5BZmRhOTEwMWQtMzIwNi00YjYyLThkMDMtZGZiYjIzNzA4MjI4XkEyXkFqcGc%40._V1_.jpg"
   year: "2024"
   type: documentary
   pair: "EN > EL"
 
 - title: "It’s All Over: The Kiss That Changed Spanish Football"
+  poster: "https://pics.filmaffinity.com/It_s_All_Over_The_Kiss_That_Changed_Spanish_Football-106583077-large.jpg"
   year: "2024"
   type: documentary
   pair: "ES > EL"
@@ -162,11 +174,13 @@
   pair: "ES > EL"
 
 - title: "Everybody Loves Diamonds"
+  poster: "https://fr.web.img4.acsta.net/pictures/23/09/14/10/59/4044761.jpg"
   year: "2023"
   type: series
   pair: "EN, IT, DE > EL"
 
 - title: "Rana Naidu"
+  poster: "https://m.media-amazon.com/images/M/MV5BOGRjMmQzMjQtMzViYi00YjIxLTkwYWMtOTJjNDFhMzA3NzNmXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
   year: "2023"
   type: series
   pair: "HI, EN > EL"
@@ -250,17 +264,20 @@
   pair: "EN > EL"
 
 - title: "Saudi Women’s Driving School"
+  poster: "https://m.media-amazon.com/images/S/pv-target-images/d008176464bc8a906278d8e39e302ef84da12c28fdd0714c0acf50962f1dd5b9.jpg"
   year: "2019"
   type: documentary
   pair: "EN, AR > EL"
 
 - title: "Cable Girls"
+  poster: "https://m.media-amazon.com/images/M/MV5BMmQ3YWRjODgtNTNjYS00YTkwLWI4YWItZDdkZDAwMDdmYTNkXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
   year: "2017–20"
   type: series
   pair: "ES > EL"
   role: "Subtitle QC"
 
 - title: "Vis a vis"
+  poster: "https://mr.comingsoon.it/rsz/serietv/serie/3157/3157_hd.jpg?preset=sqrMax"
   year: "2015–19"
   type: series
   pair: "ES > EL"
@@ -274,6 +291,7 @@
   pair: "EN > EL"
 
 - title: "Jessica Jones"
+  poster: "https://image.tmdb.org/t/p/original/xDqpd3tMr6Jw9AsgQhRhI1gDjhy.jpg"
   year: "2015–19"
   type: series
   season: "S1–S3"
@@ -281,6 +299,7 @@
   role: "Subtitle review"
 
 - title: "The Punisher"
+  poster: "https://m.media-amazon.com/images/M/MV5BMzU1NzEyYmEtOGQyYy00Mzg1LTkwMDMtNWVmNTQ1N2ExOTY1XkEyXkFqcGc%40._V1_.jpg"
   year: "2017–19"
   type: series
   season: "S1–S2"
@@ -391,6 +410,7 @@
   pair: "EN > EL"
 
 - title: "Bugs"
+  poster: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak%3D/v3/t/assets/p32797_v_v7_ab.jpg"
   year: "2003"
   type: film
   pair: "EN > EL"
@@ -408,6 +428,7 @@
   pair: "EN > EL"
 
 - title: "The Land Before Time VIII: The Big Freeze"
+  poster: "https://m.media-amazon.com/images/M/MV5BMjUxNzU4NTM0NF5BMl5BanBnXkFtZTgwODU3NTAwNzE%40._V1_FMjpg_UX1000_.jpg"
   year: "2001"
   type: film
   pair: "EN > EL"
@@ -437,11 +458,13 @@
   pair: "EN > EL"
 
 - title: "Sea of Love"
+  poster: "https://m.media-amazon.com/images/M/MV5BYjk5MTY0NTYtZTgzMi00NjVlLTk5ZWUtZWNmODUyYTkyNTQ0XkEyXkFqcGdeQXVyNTc1NTQxODI%40._V1_FMjpg_UX1000_.jpg"
   year: "1989"
   type: film
   pair: "EN > EL"
 
 - title: "*batteries not included"
+  poster: "https://artofthemovies.co.uk/cdn/shop/products/IMG_9575-853312.jpg?v=1637648030&width=1445"
   year: "1987"
   type: film
   pair: "EN > EL"
@@ -459,6 +482,7 @@
   pair: "EN > EL"
 
 - title: "The Treasure of the Sierra Madre"
+  poster: "https://all.web.img.acsta.net/img/3e/2e/3e2edba360538d900aa2198b6b9f179c.jpg"
   year: "1948"
   type: film
   pair: "EN > EL"
