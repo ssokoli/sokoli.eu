@@ -2,7 +2,8 @@
 <header class="site-header">
   <div class="site-header-inner">
     <a class="site-title" href="{{ P | append: '/' | relative_url }}">{{ T.site_name }}</a>
-    <nav class="site-nav" aria-label="Main">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{{ U.menu }}"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path class="nav-toggle-open" d="M3 6h18M3 12h18M3 18h18"/><path class="nav-toggle-close" d="M5 5l14 14M19 5L5 19"/></svg></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
       {% for item in site.data.navigation %}
       {% assign target = P | append: item.url %}
       {% assign active = false %}
@@ -10,7 +11,7 @@
       {% if item.url == '/journal/' and page.url contains '/journal/' %}{% assign active = true %}{% endif %}
       {% if item.url == '/journal/' and page.url contains '/notes/' %}{% assign active = true %}{% endif %}
       {% if item.url == '/talks/' and page.url contains '/presentations/' %}{% assign active = true %}{% endif %}
-      <a href="{{ target | relative_url }}" class="{% if item.button %}nav-contact{% endif %}{% if active %} is-active{% endif %}"{% if active %} aria-current="page"{% endif %}>{{ T.nav[item.key] }}</a>
+      <a href="{{ target | relative_url }}"{% if active %} class="is-active" aria-current="page"{% endif %}>{{ T.nav[item.key] }}</a>
       {% endfor %}
     </nav>
   </div>

@@ -31,8 +31,18 @@ em{font-style:italic}
 .site-nav{display:flex;flex-wrap:wrap;align-items:center;gap:4px 24px}
 .site-nav a{font-size:16px;font-weight:600;text-decoration:none;padding:14px 4px}
 .site-nav a.is-active{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:8px}
-.site-nav a.nav-contact{background:var(--accent);color:var(--bg);font-weight:700;padding:12px 20px}
-.site-nav a.nav-contact:hover{color:var(--bg);background:#f04f52}
+.nav-toggle{display:none;align-items:center;justify-content:center;width:48px;height:48px;margin-right:-10px;padding:0;background:none;border:0;color:var(--text);cursor:pointer}
+.nav-toggle svg{fill:none;stroke:currentColor;stroke-width:2.2}
+.nav-toggle .nav-toggle-close,.nav-toggle[aria-expanded="true"] .nav-toggle-open{display:none}
+.nav-toggle[aria-expanded="true"] .nav-toggle-close{display:inline}
+@media (max-width:760px){
+  .js .site-header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:16px}
+  .js .site-title{justify-self:start}
+  .js .nav-toggle{display:inline-flex}
+  .js .site-nav{display:none;grid-column:1/-1;flex-direction:column;align-items:flex-start;gap:0;padding-bottom:12px}
+  .js .site-header.nav-open .site-nav{display:flex}
+  .js .site-nav a{font-size:20px;padding:10px 0}
+}
 
 /* footer */
 .lang-switch{display:flex;flex-wrap:wrap;gap:0 4px;margin-left:auto}
@@ -49,7 +59,7 @@ em{font-style:italic}
 .site-footer a{font-size:16px;font-weight:600;padding-block:12px;text-decoration:none}
 
 /* cue line and page header */
-.cue{display:block;font-family:var(--mono);font-size:18px;line-height:1.5;letter-spacing:.04em;font-variant-numeric:tabular-nums;color:var(--muted);margin:0 0 20px}
+.cue{display:block;font-family:var(--mono);font-size:clamp(14px,4.2vw,18px);line-height:1.5;letter-spacing:.04em;font-variant-numeric:tabular-nums;color:var(--muted);margin:0 0 20px}
 .cue b{font-weight:400;color:var(--text)}
 .page,.post{padding:40px var(--pad) 0}
 .page-header h1,.post-header h1{font-size:clamp(48px,9vw,120px);line-height:.88}

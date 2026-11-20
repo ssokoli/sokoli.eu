@@ -1,3 +1,18 @@
+/* Menu button on small screens: shows and hides the main menu. */
+(() => {
+  const header = document.querySelector('.site-header');
+  const btn = header && header.querySelector('.nav-toggle');
+  if (!btn) return;
+  const set = (open) => {
+    header.classList.toggle('nav-open', open);
+    btn.setAttribute('aria-expanded', String(open));
+  };
+  btn.addEventListener('click', () => set(btn.getAttribute('aria-expanded') !== 'true'));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && header.classList.contains('nav-open')) { set(false); btn.focus(); }
+  });
+})();
+
 /* Running timecode: the cue's end time counts up while the page is open. */
 (() => {
   const el = document.querySelector('[data-timecode]');

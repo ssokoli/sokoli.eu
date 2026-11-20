@@ -17,6 +17,7 @@ ui:
   posts_tab: Posts
   watch: Watch my talks
   about_me: About me
+  menu: Menu
   invited: Invited talks
   presentations: Conference presentations
   recordings: More recordings
