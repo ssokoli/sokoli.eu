@@ -34,8 +34,8 @@ def cache(match):
     try:
         res = session.get(url, timeout=40)
         res.raise_for_status()
-        if len(res.content) > 20_000_000:
-            raise ValueError("image over 20 MB")
+        if len(res.content) > 100_000_000:
+            raise ValueError("image over 100 MB")
         with Image.open(BytesIO(res.content)) as original:
             im = ImageOps.exif_transpose(original)
             if im.width < 150 or im.height < 200:
