@@ -152,6 +152,11 @@
   type: series
   pair: "EN > EL"
 
+- title: "Da 5 Bloods"
+  year: "2020"
+  type: film
+  pair: "EN > EL"
+
 - title: "Goliath"
   poster: "/assets/posters/goliath.jpg"
   year: "2019"
