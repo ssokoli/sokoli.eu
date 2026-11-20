@@ -325,6 +325,11 @@
   type: film
   pair: "EN > EL"
 
+- title: "*batteries not included"
+  year: "1987"
+  type: film
+  pair: "EN > EL"
+
 - title: "Into the Night"
   poster: "/assets/posters/into-the-night.jpg"
   year: "1985"
