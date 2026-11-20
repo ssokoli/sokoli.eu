@@ -17,7 +17,7 @@ if DATA is None:
     raise SystemExit("No filmography file found")
 OUT = Path("assets/posters")
 OUT.mkdir(parents=True, exist_ok=True)
-PATTERN = re.compile(r'(?m)^- title: "([^"\\n]+)"\\n  poster: "(https?://[^"\\n]+)"\\n')
+PATTERN = re.compile(r'(?m)^- title: "([^"\n]+)"\n  poster: "(https?://[^"\n]+)"\n')
 session = requests.Session()
 session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; SokoliPosterImporter/1.0)", "Accept": "image/avif,image/webp,image/png,image/jpeg,image/*;q=0.8"})
 downloaded = []
@@ -45,7 +45,7 @@ def cache(match):
             im.save(path, "JPEG", quality=85, optimize=True, progressive=True)
         downloaded.append(title)
         print(f"Saved {title}: {path} ({path.stat().st_size} bytes)")
-        return f'- title: "{title}"\\n  poster: "/assets/posters/{name}"\\n'
+        return f'- title: "{title}"\n  poster: "/assets/posters/{name}"\n'
     except Exception as error:
         failed.append((title, str(error)))
         print(f"Kept external URL for {title}: {error}")
