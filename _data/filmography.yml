@@ -301,6 +301,11 @@
   type: film
   pair: "EN > EL"
 
+- title: "The Land Before Time VIII: The Big Freeze"
+  year: "2001"
+  type: film
+  pair: "EN > EL"
+
 - title: "How High"
   poster: "/assets/posters/how-high.jpg"
   year: "2001"
