@@ -24,7 +24,13 @@
   <div class="row-head"><h2>{{ T.nav.research }}</h2><a href="{{ P | append: '/research/' | relative_url }}">{{ U.all_pubs }}</a></div>
   <div class="rail">
     {% for v in site.data.edited_volumes %}{% include pub-tile.html p=v %}{% endfor %}
-    {% for p in site.data.publications limit: 8 %}{% include pub-tile.html p=p %}{% endfor %}
+    {% assign volume_covers = site.data.edited_volumes | map: "cover" %}
+    {% assign shown = 0 %}
+    {% for p in site.data.publications %}
+      {% if shown >= 8 %}{% break %}{% endif %}
+      {% if p.cover and volume_covers contains p.cover %}{% continue %}{% endif %}
+      {% include pub-tile.html p=p %}{% assign shown = shown | plus: 1 %}
+    {% endfor %}
   </div>
 </section>
 

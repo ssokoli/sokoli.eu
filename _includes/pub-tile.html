@@ -3,10 +3,8 @@
 {%- if p.doi -%}{%- assign href = 'https://doi.org/' | append: p.doi -%}
 {%- elsif p.url -%}{%- assign href = p.url -%}
 {%- elsif p.volume_url -%}{%- assign href = p.volume_url -%}{%- endif -%}
-<a class="tile tile-box" href="{{ href }}">
-  <span class="tile-top">
-    <span class="tile-label">{{ p.kind | default: 'Publication' | escape }} <span class="sep" aria-hidden="true">|</span> {{ p.year }}</span>
-    <span class="tile-title">{{ p.title | escape }}</span>
-  </span>
-  <span class="tile-meta">{{ p.in | escape }}</span>
+<a class="tile tile-pub" href="{{ href }}">
+  <span class="tile-cover">{% if p.cover %}<img src="{{ p.cover | relative_url }}" alt="" loading="lazy" decoding="async" width="300" height="450">{% else %}<span class="tile-cover-text">{{ p.in | escape }}</span>{% endif %}</span>
+  <span class="tile-label">{{ p.kind | default: 'Publication' | escape }} <span class="sep" aria-hidden="true">|</span> {{ p.year }}</span>
+  <span class="tile-title">{{ p.title | escape }}</span>
 </a>
